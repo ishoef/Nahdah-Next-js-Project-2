@@ -28,7 +28,7 @@ const Hero = () => {
 
             {/* Title */}
             <h1
-              className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-6xl 
+              className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-5xl 
               font-bold text-gray-900 dark:text-white mb-6 
               leading-snug sm:leading-tight text-center lg:text-left"
             >
@@ -40,7 +40,7 @@ const Hero = () => {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-base sm:text-lg md:text-2xl text-gray-700 dark:text-gray-300 mb-8 leading-relaxed max-w-2xl text-center lg:text-left mx-auto lg:mx-0">
+            <p className="text-base sm:text-lg md:text-2xl lg:text-xl text-gray-700 dark:text-gray-300 mb-8 leading-relaxed max-w-2xl text-center lg:text-left mx-auto lg:mx-0">
               An-Nahdah Online Institute blends authentic Islamic education with
               practical skill development. Learn from qualified scholars and
               expert instructors, anytime, anywhere.
