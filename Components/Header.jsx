@@ -1,7 +1,7 @@
 "use client";
 
 import ThemeToggle from "@/app/theme-toggle";
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -16,6 +16,15 @@ const navItems = [
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+  const [menuHeight, setMenuHeight] = useState(0);
+
+  // Dynamically calculate height for smooth animation
+  useEffect(() => {
+    if (menuRef.current) {
+      setMenuHeight(menuRef.current.scrollHeight);
+    }
+  }, [menuOpen]);
 
   return (
     <header className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-300">
@@ -40,6 +49,7 @@ const Header = () => {
 
         {/* CTA + Theme Toggle */}
         <div className="flex items-center gap-4">
+          <ThemeToggle />
           <div className="hidden md:block">
             <Link
               href="/login"
@@ -48,8 +58,7 @@ const Header = () => {
               Login
             </Link>
           </div>
-          <ThemeToggle />
-          
+
           {/* Mobile Menu Button */}
           <button
             className="md:hidden text-gray-700 dark:text-gray-200 text-2xl relative w-8 h-8 flex items-center justify-center"
@@ -74,13 +83,20 @@ const Header = () => {
       </div>
 
       {/* Mobile Menu (Dropdown) */}
-      {menuOpen && (
-        <div className="md:hidden bg-white dark:bg-gray-900 shadow-md px-6 py-4 space-y-4">
+      <div
+        ref={menuRef}
+        className={`md:hidden overflow-hidden transition-[max-height,opacity] duration-500 ease-in-out bg-white dark:bg-gray-900 shadow-md px-6`}
+        style={{
+          maxHeight: menuOpen ? `${menuHeight}px` : "0px",
+          opacity: menuOpen ? 1 : 0,
+        }}
+      >
+        <div className="py-4 space-y-4">
           {navItems.map((item) => (
             <Link
               key={item.name}
               href={item.href}
-              className="block text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400"
+              className="block text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition"
             >
               {item.name}
             </Link>
@@ -92,7 +108,7 @@ const Header = () => {
             Login
           </Link>
         </div>
-      )}
+      </div>
     </header>
   );
 };

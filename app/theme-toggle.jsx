@@ -17,7 +17,7 @@ const ThemeToggle = () => {
     <Button
       variant="outline"
       size="icon"
-      className="rounded-full relative overflow-hidden"
+      className="rounded-full relative overflow-hidden cursor-pointer"
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
     >
       {/* Sun Icon */}
