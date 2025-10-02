@@ -4,12 +4,13 @@ import ThemeToggle from "@/app/theme-toggle";
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Button } from "./ui/button";
 
 const navItems = [
   { name: "Home", href: "/" },
   { name: "Islamic Knowledge", href: "/islamic-knowledge" },
   { name: "Skills", href: "/skills" },
-  { name: "Donations", href: "/donations" },
+  { name: "Instructors", href: "/instructors" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
@@ -30,9 +31,7 @@ const Header = () => {
     <header className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-300">
       <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
-        <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-          An-Nahdah
-        </div>
+        <div className="text-2xl font-bold">An-Nahdah</div>
 
         {/* Navigation (Desktop) */}
         <nav className="hidden md:flex space-x-6 font-medium">
@@ -50,14 +49,9 @@ const Header = () => {
         {/* CTA + Theme Toggle */}
         <div className="flex items-center gap-4">
           <ThemeToggle />
-          <div className="hidden md:block">
-            <Link
-              href="/login"
-              className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 transition"
-            >
-              Login
-            </Link>
-          </div>
+          <Button className="hidden md:block">
+            <Link href="/login">Login</Link>
+          </Button>
 
           {/* Mobile Menu Button */}
           <button
