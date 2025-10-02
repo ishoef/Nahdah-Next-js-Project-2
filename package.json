@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "tailwindcss": "^4"
   }
 }
