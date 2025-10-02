@@ -1,5 +1,5 @@
-import Hero from "@/components/Homecomponents/Hero";
-import CourseCategory from "@/components/Homecomponents/CourseCategory";
+import Hero from "@/components/home-components/hero";
+import CourseCategory from "@/components/home-components/course-category";
 
 export default function Home() {
   return (
