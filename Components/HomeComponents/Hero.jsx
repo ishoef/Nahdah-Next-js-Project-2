@@ -81,7 +81,7 @@ const Hero = () => {
           <div className="order-1 lg:order-2 relative">
             <div className="relative h-64 sm:h-80 md:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/hero.png"
+                src="/images/hero.png"
                 alt="Students learning online"
                 fill
                 className="object-cover"
