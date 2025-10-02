@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/Components/ui/button";
+import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 import React, { useEffect, useState } from "react";
 import { FaSun, FaMoon } from "react-icons/fa6";

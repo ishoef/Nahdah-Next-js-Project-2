@@ -3,14 +3,14 @@ import withPWA from "next-pwa";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Force Next.js to use Webpack (needed for next-pwa)
+  // Remove experimental.turbo or set it correctly
   experimental: {
-    turbo: false,
+    // Option 1: Omit turbo entirely to use Webpack (recommended for next-pwa)
+    // turbo: false, // Remove this line
   },
 };
 
-export default withPWA({
-  ...nextConfig,
+const pwaConfig = withPWA({
   pwa: {
     dest: "public",
     register: true,
@@ -18,3 +18,8 @@ export default withPWA({
     disable: process.env.NODE_ENV === "development",
   },
 });
+
+export default {
+  ...nextConfig,
+  ...pwaConfig,
+};
