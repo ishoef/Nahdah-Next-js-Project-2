@@ -52,7 +52,7 @@ const courses = [
       "Leadership & Communication",
       "Entrepreneurship & Business",
     ],
-    link: "/skill-development",
+    link: "/skills",
     accent: "blue-500",
   },
 ];
