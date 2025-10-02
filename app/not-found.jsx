@@ -8,9 +8,6 @@ export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 dark:bg-gray-900 px-6 text-center transition-colors duration-300">
       {/* Error Code */}
-      {/* <h1 className="text-9xl font-bold text-blue-500 dark:text-blue-400">
-        404
-      </h1> */}
       {/* Lottie Animation */}
       <div className="mt-10 w-72 h-72">
         <Lottie animationData={animationData} loop={true} />
