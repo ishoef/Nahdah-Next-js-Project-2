@@ -5,8 +5,8 @@ export default function Footer() {
   const [email, setEmail] = useState("");
 
   return (
-    <footer className="bg-white border-t border-gray-300 dark:border-gray-700 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+    <footer className="bg-gray-800 border-t border-gray-300 dark:border-gray-700 dark:bg-gray-900 text-gray-50 dark:text-gray-200 transition-colors duration-300">
+      <div className="max-w-6xl mx-auto py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 px-4 sm:px-6 lg:px-8">
         {/* Logo and About */}
         <div>
           <div className="flex items-center mb-4">
@@ -14,10 +14,10 @@ export default function Footer() {
               📖
             </div>
             <div className="ml-3">
-              <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
+              <h1 className="text-xl font-bold text-gray-50 dark:text-gray-100">
                 An-Nahdah
               </h1>
-              <p className="text-sm text-gray-600 dark:text-gray-300">
+              <p className="text-sm text-gray-50 dark:text-gray-300">
                 Online Institute
               </p>
             </div>
@@ -60,7 +60,7 @@ export default function Footer() {
 
         {/* Courses */}
         <div>
-          <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">
+          <h3 className="text-lg font-semibold mb-4 text-gray-50 dark:text-gray-100">
             Courses
           </h3>
           <ul className="space-y-2 text-sm">
@@ -101,7 +101,7 @@ export default function Footer() {
 
         {/* Institute */}
         <div>
-          <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">
+          <h3 className="text-lg font-semibold mb-4 text-gray-50 dark:text-gray-100">
             Institute
           </h3>
           <ul className="space-y-2 text-sm">
@@ -150,7 +150,7 @@ export default function Footer() {
 
         {/* Subscribe */}
         <div>
-          <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">
+          <h3 className="text-lg font-semibold mb-4 text-gray-50 dark:text-gray-100">
             Stay Updated
           </h3>
           <p className="text-sm mb-4">
@@ -159,7 +159,7 @@ export default function Footer() {
           <input
             type="email"
             id="email"
-            className="border-2 w-full px-4 py-2 mb-3 rounded text-gray-900 dark:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-gray-400 text-sm dark:placeholder:text-gray-500"
+            className="border-2 w-full px-4 py-2 mb-3 rounded text-gray-50 dark:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-gray-400 text-sm dark:placeholder:text-gray-500"
             placeholder="Your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -171,7 +171,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-gray-300 dark:border-gray-700 mt-8 py-4 text-center text-sm text-gray-700 dark:text-gray-300 px-4">
+      <div className="border-t border-gray-50 dark:border-gray-700 mt-8 py-4 text-center text-sm text-gray-50 dark:text-gray-300 px-4">
         © 2025 An-Nahdah Online Institute. All rights reserved.
         <p className="mt-1">Empowering Muslims through knowledge and skills.</p>
       </div>

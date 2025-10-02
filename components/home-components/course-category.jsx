@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "../ui/card";
+import { Card, CardContent, CardDescription, CardTitle } from "../ui/card";
 import Image from "next/image";
 import {
   BookOpen,
@@ -25,7 +19,7 @@ const courses = [
       "Learn from qualified scholars in Quran, Hadith, Fiqh, and more",
     icon: BookOpen,
     iconBg: "bg-blue-500/10 dark:bg-blue-500/30",
-    iconColor: "text-blue-500 dark:text-blue-500-foreground",
+    iconColor: "text-blue-600 dark:text-blue-400",
     badge: "150+ Courses",
     image: "/images/islamic.png",
     highlights: [
@@ -35,7 +29,8 @@ const courses = [
       "Islamic History & Aqeedah",
     ],
     link: "/islamic-knowledge",
-    accent: "blue-500",
+    accent:
+      "bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600",
   },
   {
     id: 2,
@@ -43,7 +38,7 @@ const courses = [
     description: "Master modern skills for career growth and entrepreneurship",
     icon: GraduationCap,
     iconBg: "bg-blue-500/20 dark:bg-gray-500/30",
-    iconColor: "text-blue-500 dark:text-gray-800-foreground",
+    iconColor: "text-blue-600 dark:text-blue-400",
     badge: "80+ Courses",
     image: "/images/skill.png",
     highlights: [
@@ -53,14 +48,15 @@ const courses = [
       "Entrepreneurship & Business",
     ],
     link: "/skills",
-    accent: "blue-500",
+    accent:
+      "bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600",
   },
 ];
 
 const CourseCategory = () => {
   return (
-    <section className="py-16 lg:py-24 bg-background dark:bg-gray-900 transition-colors duration-500">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-16 lg:py-20 border-b bg-background dark:bg-gray-900 transition-colors duration-500">
+      <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -73,7 +69,7 @@ const CourseCategory = () => {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 max-w-6xl mx-auto">
           {courses.map((course) => {
             const Icon = course.icon;
             return (
@@ -82,7 +78,7 @@ const CourseCategory = () => {
                 className="group relative border-0 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 bg-white dark:bg-gray-800"
               >
                 {/* Image */}
-                <div className="relative h-56  md:h-76 w-full">
+                <div className="relative h-52 sm:h-64 md:h-72 lg:h-80 w-full">
                   <Image
                     src={course.image}
                     alt={course.title}
@@ -91,40 +87,48 @@ const CourseCategory = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
                 </div>
-                <CardContent className="p-6">
+
+                <CardContent className="p-6 sm:p-7 md:p-8">
+                  {/* Icon + Badge */}
                   <div className="flex items-center justify-between mb-4">
                     <div
-                      className={`${course.iconBg} flex items-center justify-center h-12 w-12 rounded-lg group-hover:bg-${course.accent} group-hover:text-white transition-colors`}
+                      className={`${course.iconBg} flex items-center justify-center h-12 w-12 rounded-lg transition-colors `}
                     >
-                      <Icon className={`h-6 w-6 ${course.iconColor} `} />
+                      <Icon className={`h-6 w-6 ${course.iconColor}`} />
                     </div>
-                    <Badge variant="secondary" className="text-sm">
+                    <Badge variant="secondary" className="text-xs sm:text-sm">
                       {course.badge}
                     </Badge>
                   </div>
-                  <CardTitle className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
+
+                  {/* Title & Description */}
+                  <CardTitle className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                     {course.title}
                   </CardTitle>
-                  <CardDescription className="text-gray-700 dark:text-gray-300 mb-4">
+                  <CardDescription className="text-gray-700 dark:text-gray-300 mb-4 text-sm sm:text-base">
                     {course.description}
                   </CardDescription>
+
+                  {/* Highlights */}
                   <ul className="space-y-2 mb-6 text-gray-700 dark:text-gray-300">
                     {course.highlights.map((item, idx) => (
                       <li key={idx} className="flex items-center gap-2">
                         <CheckCircle2
                           className={`h-5 w-5 ${course.iconColor} flex-shrink-0`}
                         />
-                        <span className="text-sm">{item}</span>
+                        <span className="text-sm sm:text-base">{item}</span>
                       </li>
                     ))}
                   </ul>
+
+                  {/* CTA */}
                   <Button
-                    className={`w-full bg-${course.accent} dark:bg-${course.accent}-foreground hover:bg-${course.accent}/90 dark:hover:bg-${course.accent} transition-colors text-white`}
+                    className={`w-full ${course.accent} text-white transition-colors`}
                     asChild
                   >
                     <Link
                       href={course.link}
-                      className="flex items-center justify-center"
+                      className="flex items-center justify-center text-sm sm:text-base"
                     >
                       Explore {course.title}{" "}
                       <ArrowRight className="ml-2 h-4 w-4" />
