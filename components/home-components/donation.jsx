@@ -10,6 +10,7 @@ const Donation = () => {
         <span className="text-8xl">
           <FaHeart className="animate-pulse text-red-500" />
         </span>
+
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#153151] dark:text-gray-100 mt-4">
           Support Islamic Education
         </h1>

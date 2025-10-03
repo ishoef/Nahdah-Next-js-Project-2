@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { FaBookOpen } from "react-icons/fa";
+import Title from "../ui/title";
 
 const courses = [
   {
@@ -104,15 +105,7 @@ const FeaturedCourses = () => {
         <div className="flex w-fit mx-auto">
           <FaBookOpen className="text-blue-600 dark:text-gray-300 text-6xl mb-6" />
         </div>
-        <div className="text-center mb-12">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-600 dark:text-gray-100">
-            Featured Courses
-          </h1>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-700 dark:text-gray-300">
-            Explore our most popular and highly-rated courses, handpicked for
-            you.
-          </p>
-        </div>
+        <Title title1={"Featured"} title2={"Courses"} subTitle={"Explore our most popular and highly-rated courses, handpicked for you."} />
 
         {/* Courses Grid */}
         <div className="grid grid-cols-1 border sm:grid-cols-2 lg:grid-cols-3 gap-8">

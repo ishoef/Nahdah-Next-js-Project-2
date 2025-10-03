@@ -10,6 +10,7 @@ import {
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import Title from "../ui/title";
 
 const courses = [
   {
@@ -58,15 +59,13 @@ const CourseCategory = () => {
     <section className="py-16 lg:py-20 border-b bg-background dark:bg-gray-900 transition-colors duration-500">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Explore Our Learning Paths
-          </h2>
-          <p className="text-lg max-w-2xl mx-auto text-gray-700 dark:text-gray-300">
-            Choose from authentic Islamic knowledge or modern skill development
-            courses
-          </p>
-        </div>
+        <Title
+          title1={"Explore Our"}
+          title2={"Learning Paths"}
+          subTitle={
+            "Choose from a variety of courses tailored to your learning needs."
+          }
+        />
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 max-w-6xl mx-auto">

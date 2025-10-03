@@ -28,26 +28,29 @@ const CooSection = () => {
           </h2>
 
           <p className="text-gray-700 text-end dark:text-gray-300 leading-relaxed mb-4">
-            Ismail Nayef is a passionate technology entrepreneur. With a strong
-            background in Computer Science and Engineering, he founded one of
-            the first digital learning platforms in 2010. His dedication and
-            vision have impacted thousands of learners across the globe.
+            Tanjil Tanim is the Chief Operating Officer of An-Nahdah Online
+            Academy, bringing vision and leadership to our educational
+            initiatives. With a strong background in Computer Science and
+            Engineering, he has been instrumental in shaping the academy's
+            digital learning platform and expanding its reach.
           </p>
 
           <p className="text-gray-700 text-end dark:text-gray-300 leading-relaxed mb-4">
-            Today, this platform has grown into a thriving global community with
-            500+ online courses and millions of learners. His mission is to make
-            quality education free and accessible to all, while building a
-            culture of innovation and collaboration.
+            Under his guidance, An-Nahdah Online Academy has grown into a
+            thriving online community offering numerous courses and programs
+            that benefit learners globally. Tanjil is dedicated to making
+            quality Islamic and academic education accessible to all, while
+            fostering innovation, collaboration, and excellence in every aspect
+            of the academy.
           </p>
 
           {/* Founder Name & Role */}
           <div className="mt-6 text-end">
             <h3 className="font-semibold text-gray-900 dark:text-gray-100">
-              Ismail Nayef
+              Tanjil Tanim
             </h3>
             <p className="text-gray-600 dark:text-gray-400 text-sm">
-              Founder & CEO — An-Nahdah Online Academy - AOI
+              COO (Chief Operating Officer) — An-Nahdah Online Academy - AOI
             </p>
           </div>
 

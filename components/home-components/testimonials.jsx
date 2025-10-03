@@ -82,17 +82,16 @@ export default function TestimonialsSlider() {
     <section className="py-20 relative bg-gradient-to-r from-blue-200 via-blue-100 to-blue-200 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="max-w-7xl mx-auto text-center mb-12 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#153151] dark:text-white">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#153151] dark:text-white">
             Students{" "}
-            <span className="text-blue-600 dark:text-blue-400">Success Story</span>
+            <span className="text-blue-600 dark:text-blue-400">
+              Success Story
+            </span>
           </h2>
-          <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Common questions about learning at An-Nahdah
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-700 dark:text-gray-300">
+            Hear from our community of learners
           </p>
         </div>
-        <p className="text-gray-700 dark:text-gray-300 mt-2">
-          Hear from our community of learners
-        </p>
       </div>
 
       <div className="space-y-10 px-4 sm:px-6 lg:px-8">

@@ -7,6 +7,7 @@ import FAQ from "@/components/home-components/faq";
 import NewsSection from "@/components/home-components/news";
 import FounderSection from "@/components/home-components/founder";
 import CooSection from "@/components/home-components/coo";
+import CourseFeatures from "@/components/home-components/course-feature";
 
 export default function Home() {
   return (
@@ -14,12 +15,13 @@ export default function Home() {
       <Hero />
       <CourseCategory />
       <FeaturedCourses />
+      <CourseFeatures />
       <FounderSection />
       <CooSection />
-      <Donation />
       <TestimonialsSlider />
-      <FAQ />
       <NewsSection />
+      <Donation />
+      <FAQ />
     </>
   );
 }
