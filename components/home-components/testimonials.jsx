@@ -68,9 +68,7 @@ function MarqueeRow({ reverse }) {
               <h4 className="font-semibold text-gray-900 dark:text-white">
                 {t.name}
               </h4>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                {t.role}
-              </p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">{t.role}</p>
             </div>
           </div>
         ))}
@@ -83,9 +81,15 @@ export default function TestimonialsSlider() {
   return (
     <section className="py-20 relative bg-gradient-to-r from-blue-200 via-blue-100 to-blue-200 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="max-w-7xl mx-auto text-center mb-12 px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
-          Student Success Stories
-        </h2>
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#153151] dark:text-white">
+            Students{" "}
+            <span className="text-blue-600 dark:text-blue-400">Success Story</span>
+          </h2>
+          <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            Common questions about learning at An-Nahdah
+          </p>
+        </div>
         <p className="text-gray-700 dark:text-gray-300 mt-2">
           Hear from our community of learners
         </p>
