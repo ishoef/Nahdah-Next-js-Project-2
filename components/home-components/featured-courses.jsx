@@ -111,11 +111,11 @@ const FeaturedCourses = () => {
         </div>
 
         {/* Courses Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 border sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {courses.map((course) => (
             <div
               key={course.id}
-              className="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden border border-gray-200 dark:border-gray-700 max-w-sm hover:shadow-xl transition-shadow duration-300 flex flex-col"
+              className="bg-white w-full dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow duration-300 flex flex-col"
             >
               {/* Image with badges */}
               <div className="relative h-44 sm:h-52 bg-gray-100 dark:bg-gray-700">

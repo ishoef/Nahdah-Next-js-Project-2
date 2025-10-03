@@ -29,9 +29,9 @@ const Header = () => {
 
   return (
     <header className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-300">
-      <div className="max-w-7xl mx-auto flex justify-between items-center py-3 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto flex justify-between items-center py-5 px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-600 dark:text-gray-100">
+        <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#153151] dark:text-gray-100">
           An-Nahdah
         </div>
 

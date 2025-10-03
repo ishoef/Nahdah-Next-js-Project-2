@@ -11,7 +11,7 @@ const Hero = () => {
       className="relative overflow-hidden 
       bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 
       dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 
-      py-14 sm:py-10 md:py-12 lg:py-14 transition-colors duration-500"
+      py-14 sm:py-10 md:py-12 lg:py-14 h-screen transition-colors duration-500"
     >
       {/* Decorative Pattern */}
       <div className="absolute inset-0 islamic-pattern opacity-20 dark:opacity-10"></div>
