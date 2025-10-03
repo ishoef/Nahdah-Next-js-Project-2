@@ -5,6 +5,7 @@ import Donation from "@/components/home-components/donation";
 import TestimonialsSlider from "@/components/home-components/testimonials";
 import FAQ from "@/components/home-components/faq";
 import NewsSection from "@/components/home-components/news";
+import FounderSection from "@/components/home-components/founder";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <TestimonialsSlider />
       <FAQ />
       <NewsSection />
+      <FounderSection />
     </>
   );
 }
