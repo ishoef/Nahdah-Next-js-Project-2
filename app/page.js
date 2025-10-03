@@ -6,6 +6,7 @@ import TestimonialsSlider from "@/components/home-components/testimonials";
 import FAQ from "@/components/home-components/faq";
 import NewsSection from "@/components/home-components/news";
 import FounderSection from "@/components/home-components/founder";
+import CooSection from "@/components/home-components/coo";
 
 export default function Home() {
   return (
@@ -13,11 +14,12 @@ export default function Home() {
       <Hero />
       <CourseCategory />
       <FeaturedCourses />
+      <FounderSection />
+      <CooSection />
       <Donation />
       <TestimonialsSlider />
       <FAQ />
       <NewsSection />
-      <FounderSection />
     </>
   );
 }

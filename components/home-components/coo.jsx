@@ -2,10 +2,10 @@
 import React from "react";
 import { FaBookOpen } from "react-icons/fa"; // Dummy logo icon
 
-const FounderSection = () => {
+const CooSection = () => {
   return (
-    <section className="bg-white dark:bg-gray-900 px-6">
-      <div className="max-w-6xl  py-16 border-b-3 border-b-blue-500 mx-auto flex flex-col md:flex-row items-center gap-12">
+    <section className="bg-white dark:bg-gray-900 py-16 px-6">
+      <div className=" max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center gap-12">
         {/* Left Image with Background */}
         <div className="relative w-full md:w-1/3 flex justify-center basis-1/2">
           {/* Background Accent */}
@@ -22,19 +22,19 @@ const FounderSection = () => {
         </div>
 
         {/* Right Text Section */}
-        <div className="w-full basis-1/2 md:w-2/3 border-l-4 border-blue-600 pl-6 ">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#153151] dark:text-gray-100 mb-6">
-            A Few Words About Our Founder
+        <div className="w-full basis-1/2 md:w-2/3 border-r-4 border-blue-600 pr-6 ">
+          <h2 className="text-2xl md:text-3xl text-end font-bold text-[#153151] dark:text-gray-100 mb-6">
+            A Few Words About Our COO
           </h2>
 
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+          <p className="text-gray-700 text-end dark:text-gray-300 leading-relaxed mb-4">
             Ismail Nayef is a passionate technology entrepreneur. With a strong
             background in Computer Science and Engineering, he founded one of
             the first digital learning platforms in 2010. His dedication and
             vision have impacted thousands of learners across the globe.
           </p>
 
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+          <p className="text-gray-700 text-end dark:text-gray-300 leading-relaxed mb-4">
             Today, this platform has grown into a thriving global community with
             500+ online courses and millions of learners. His mission is to make
             quality education free and accessible to all, while building a
@@ -42,7 +42,7 @@ const FounderSection = () => {
           </p>
 
           {/* Founder Name & Role */}
-          <div className="mt-6">
+          <div className="mt-6 text-end">
             <h3 className="font-semibold text-gray-900 dark:text-gray-100">
               Ismail Nayef
             </h3>
@@ -52,7 +52,7 @@ const FounderSection = () => {
           </div>
 
           {/* Logo + License */}
-          <div className="mt-6 flex items-center gap-3">
+          <div className="mt-6 flex justify-end items-center gap-3">
             <div className="p-2 rounded-full bg-gray-200 dark:bg-gray-800">
               <FaBookOpen className="text-blue-600 dark:text-gray-300 text-xl" />
             </div>
@@ -71,4 +71,4 @@ const FounderSection = () => {
   );
 };
 
-export default FounderSection;
+export default CooSection;

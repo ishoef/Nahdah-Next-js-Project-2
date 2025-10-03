@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import { FaBookOpen } from "react-icons/fa";
 
 const courses = [
   {
@@ -97,9 +98,12 @@ const courses = [
 
 const FeaturedCourses = () => {
   return (
-    <section className="py-16 lg:py-20 bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-500">
+    <section className="py-16 lg:py-18 bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-500">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
+        <div className="flex w-fit mx-auto">
+          <FaBookOpen className="text-blue-600 dark:text-gray-300 text-6xl mb-6" />
+        </div>
         <div className="text-center mb-12">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-600 dark:text-gray-100">
             Featured Courses
