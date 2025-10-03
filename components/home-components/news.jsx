@@ -119,7 +119,6 @@ export default function NewsSection() {
     <section className="py-16 bg-gradient-to-r from-blue-50 to-blue-100 dark:from-gray-800 dark:to-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
-
         <Title
           title1={"Latest"}
           title2={"News"}

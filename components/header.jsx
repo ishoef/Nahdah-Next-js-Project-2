@@ -5,6 +5,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from "./ui/button";
+import CustomLink from "./CustomLink";
 
 const navItems = [
   { name: "Home", href: "/" },
@@ -38,13 +39,12 @@ const Header = () => {
         {/* Desktop / Tablet Navigation */}
         <nav className="hidden md:flex space-x-4 lg:space-x-6 font-medium">
           {navItems.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 text-sm sm:text-base lg:text-lg"
+            <CustomLink
+              path={item.href}
+              
             >
               {item.name}
-            </Link>
+            </CustomLink>
           ))}
         </nav>
 
