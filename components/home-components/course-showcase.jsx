@@ -43,10 +43,10 @@ export default function CourseShowcase() {
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
               {[
-                { title: "Class 6,7,8", img: "/icons/icon-192x192.png" },
-                { title: "Class 9,10", img: "/icons/icon-192x192.png" },
-                { title: "HSC 25,26", img: "/icons/icon-192x192.png" },
-                { title: "HSC 27", img: "/icons/icon-192x192.png" },
+                { title: "Aqidah", img: "/icons/icon-192x192.png" },
+                { title: "Tafsir", img: "/icons/icon-192x192.png" },
+                { title: "Hadith", img: "/icons/icon-192x192.png" },
+                { title: "Fiqh", img: "/icons/icon-192x192.png" },
               ].map((item, i) => (
                 <div
                   key={i}
@@ -90,10 +90,10 @@ export default function CourseShowcase() {
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
               {[
-                { title: "Spoken English", img: "/images/hero.png" },
-                { title: "IELTS", img: "/images/hero.png" },
-                { title: "IELTS Live", img: "/images/hero.png" },
-                { title: "English Grammar", img: "/images/hero.png" },
+                { title: "Web Development", img: "/images/hero.png" },
+                { title: "Artificial Intelligence", img: "/images/hero.png" },
+                { title: "Digital Marketing", img: "/images/hero.png" },
+                { title: "Graphics Design", img: "/images/hero.png" },
               ].map((item, i) => (
                 <div
                   key={i}
