@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Title = ({subTitle, title1, title2}) => {
+const Title = ({subTitle = "", title1, title2}) => {
     return (
       <div className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#153151] dark:text-white">

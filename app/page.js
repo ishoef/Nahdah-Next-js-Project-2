@@ -8,6 +8,7 @@ import NewsSection from "@/components/home-components/news";
 import FounderSection from "@/components/home-components/founder";
 import CooSection from "@/components/home-components/coo";
 import CourseFeatures from "@/components/home-components/course-feature";
+import CourseShowcase from "@/components/home-components/course-showcase";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <CourseCategory />
       <FeaturedCourses />
       <CourseFeatures />
+      <CourseShowcase />
       <FounderSection />
       <CooSection />
       <TestimonialsSlider />

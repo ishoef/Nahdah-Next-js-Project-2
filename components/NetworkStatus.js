@@ -62,6 +62,7 @@ export default function NetworkStatus() {
         ${visible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"}
       `}
     >
+      <span></span>
       <span>
         {status === "offline"
           ? "🚫 No Internet Connection – Please check your connection"

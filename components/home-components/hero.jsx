@@ -20,6 +20,15 @@ const Hero = () => {
       {/* Decorative Pattern */}
       <div className="absolute inset-0 islamic-pattern opacity-20 dark:opacity-10"></div>
 
+      <div
+        className="absolute inset-0 opacity-20 dark:opacity-10"
+        style={{
+          backgroundImage: "radial-gradient(currentColor 1px, transparent 1px)",
+          backgroundSize: "20px 20px",
+          color: "#3b82f6",
+        }}
+      ></div>
+
       <div className="container mx-auto relative z-10 max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* LEFT SIDE */}
