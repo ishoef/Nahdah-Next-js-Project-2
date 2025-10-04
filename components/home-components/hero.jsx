@@ -1,11 +1,15 @@
+"use client";
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import { Download, ArrowRight, CheckCircle2 } from "lucide-react";
 import { Badge } from "../ui/badge";
+import usePwaMode from "@/hooks/usePwaMode/usePwaMode"; // ✅ lowercase 'use'
 
 const Hero = () => {
+  const isStandalone = usePwaMode(); // ✅ hook called properly inside component
   return (
     <section
       className="relative overflow-hidden 
@@ -21,10 +25,14 @@ const Hero = () => {
           {/* LEFT SIDE */}
           <div className="order-2 lg:order-1">
             {/* Badge */}
-            <Badge className="mb-6 bg-blue-600 text-white dark:bg-blue-400 dark:text-gray-900 shadow text-xs sm:text-sm md:text-base">
-              <Download className="mr-2 h-4 w-4" />
-              Install Our App for Offline Learning
-            </Badge>
+            {isStandalone ? (
+              ""
+            ) : (
+              <Badge className="mb-6 bg-blue-600 text-white dark:bg-blue-400 dark:text-gray-900 shadow text-xs sm:text-sm md:text-base">
+                <Download className="mr-2 h-4 w-4" />
+                Install Our App for Offline Learning
+              </Badge>
+            )}
 
             {/* Title */}
             <h1
