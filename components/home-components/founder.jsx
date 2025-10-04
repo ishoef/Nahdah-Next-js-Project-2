@@ -47,6 +47,9 @@ const FounderSection = () => {
               Ismail Nayef
             </h3>
             <p className="text-gray-600 dark:text-gray-400 text-sm">
+              Student, Al-Azhar University, Cairo, Egypt (3rd Year)
+            </p>
+            <p className="text-gray-600 dark:text-gray-400 text-sm">
               Founder & CEO — An-Nahdah Online Academy - AOI
             </p>
           </div>

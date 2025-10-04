@@ -9,6 +9,7 @@ import FounderSection from "@/components/home-components/founder";
 import CooSection from "@/components/home-components/coo";
 import CourseFeatures from "@/components/home-components/course-feature";
 import CourseShowcase from "@/components/home-components/course-showcase";
+import TeachersSection from "@/components/home-components/our-teachers";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <FounderSection />
       <CooSection />
       <TestimonialsSlider />
+      <TeachersSection />
       <NewsSection />
       <Donation />
       <FAQ />

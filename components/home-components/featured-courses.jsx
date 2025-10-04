@@ -108,7 +108,7 @@ const FeaturedCourses = () => {
         <Title title1={"Featured"} title2={"Courses"} subTitle={"Explore our most popular and highly-rated courses, handpicked for you."} />
 
         {/* Courses Grid */}
-        <div className="grid grid-cols-1 border sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {courses.map((course) => (
             <div
               key={course.id}

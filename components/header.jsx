@@ -9,11 +9,11 @@ import CustomLink from "./CustomLink";
 import NetworkStatus from "./NetworkStatus";
 
 const navItems = [
-  { name: "Home", href: "/" },
+  // { name: "Home", href: "/" },
   { name: "Islamic Knowledge", href: "/islamic-knowledge" },
   { name: "Skills", href: "/skills" },
+  { name: "Courses", href: "/courses" },
   { name: "Instructors", href: "/instructors" },
-  { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -36,7 +36,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto flex justify-between items-center py-5 px-4 sm:px-6 lg:px-8">
           {/* Logo */}
           <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#153151] dark:text-gray-100">
-            An-Nahdah
+            <Link href="/">An-Nahdah</Link>
           </div>
 
           {/* Desktop / Tablet Navigation */}

@@ -21,7 +21,11 @@ export default function CourseShowcase() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-900 dark:text-gray-100">
         {/* Title */}
-        <Title title1={"Your Learning Journey Starts"} title2={"Here"} />
+        <Title
+          title1={"Your Learning Journey Starts"}
+          title2={"Here"}
+          subTitle="Enrich your mind and soul with authentic Islamic knowledge and practical life skills — all in one learning journey."
+        />
 
         {/* Two-column layout */}
         <div className="grid md:grid-cols-2 gap-10">
@@ -34,7 +38,7 @@ export default function CourseShowcase() {
             </div>
 
             <h3 className="text-xl font-semibold text-center mb-8">
-              Enroll Now for All 2025 Online Batch Courses!
+              Enrich your soul with authentic Islamic knowledge
             </h3>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
@@ -93,7 +97,7 @@ export default function CourseShowcase() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="flex flex-col items-center bg-gray-200/40 dark:bg-gray-700/40 rounded-xl p-4 hover:bg-blue-100 dark:hover:bg-gray-600/50 transition-all duration-300"
+                  className="flex flex-col items-center bg-blue-500/20 backdrop-blur-sm rounded-xl p-4 hover:bg-blue-400/30 transition-all duration-300"
                 >
                   <div className="w-12 h-12 mb-2">
                     <Image
