@@ -1,4 +1,4 @@
-for Createing PWA (Prograssive Web App): 
+## for Createing PWA (Prograssive Web App): 
 ---------------------------------------
 
 1. Install the npm package
@@ -34,7 +34,7 @@ Create public/manifest.json:
 }
 
 
-Make sure to put your app icons in public/icons/.
+* Make sure to put your app icons in public/icons/.
 
 
 3. Update next.config.mjs for ESM
