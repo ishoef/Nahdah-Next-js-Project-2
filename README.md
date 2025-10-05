@@ -14,6 +14,7 @@ With **PWA (Progressive Web App)** capabilities, users can:
 - Receive **push notifications** for updates and events.  
 Perfect for users in regions with **limited internet access**.
 
+![App Preview](./public/Screenshot_10.png)
 ---
 
 ## 🧩 Core Modules
