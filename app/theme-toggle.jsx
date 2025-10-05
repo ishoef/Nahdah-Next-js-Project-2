@@ -8,7 +8,7 @@ import { FaSun, FaMoon } from "react-icons/fa6";
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-
+   
   // Prevent hydration mismatch
   useEffect(() => setMounted(true), []);
   if (!mounted) return null;

@@ -8,6 +8,7 @@ import { Button } from "./ui/button";
 import CustomLink from "./CustomLink";
 import NetworkStatus from "./NetworkStatus";
 import { usePathname } from "next/navigation";
+import LanguageToggle from "./ui/lan";
 
 const navItems = [
   // { name: "Home", href: "/" },
@@ -61,9 +62,10 @@ const Header = () => {
             {/* Theme Toggle + CTA */}
             <div className="flex items-center gap-2 sm:gap-3 lg:gap-4">
               <ThemeToggle />
+              <LanguageToggle />
               <Button
                 asChild
-                className="hidden md:inline-flex bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-sm sm:text-base"
+                className="hidden md:inline-flex text-white bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-sm sm:text-base px-4 py-2"
               >
                 <Link href="/login">Login</Link>
               </Button>

@@ -4,6 +4,9 @@ import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import GoogleLogin from "@/components/ui/GoogleLogin";
 import Link from "next/link";
+import GoBackButton from "@/components/ui/GoBackButton";
+import ThemeToggle from "@/app/theme-toggle";
+import LanguageToggle from "@/components/ui/lan";
 
 export default function LoginPage() {
   const [showPassword, setShowPassword] = useState(false);
@@ -29,7 +32,11 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 px-4">
+    <div className="min-h-screen flex-col flex items-center justify-center bg-gray-50 dark:bg-gray-900 px-4">
+      <div className="mb-5 flex items-center space-x-5 justify-center">
+        <GoBackButton />
+        <ThemeToggle />
+      </div>
       <div className="bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-6 sm:p-10 w-full max-w-md">
         <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center">
           Login
@@ -112,7 +119,7 @@ export default function LoginPage() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 rounded-lg transition-all duration-300"
+            className="cursor-pointer w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 rounded-lg transition-all duration-300"
           >
             {loading ? "Logging in..." : "Login"}
           </button>

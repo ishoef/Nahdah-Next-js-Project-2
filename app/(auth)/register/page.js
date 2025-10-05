@@ -1,4 +1,6 @@
 "use client";
+import ThemeToggle from "@/app/theme-toggle";
+import GoBackButton from "@/components/ui/GoBackButton";
 import Link from "next/link";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
@@ -30,7 +32,11 @@ export default function RegisterPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 px-4">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 dark:bg-gray-900 px-4">
+      <div className="mb-5 flex items-center space-x-5 justify-center">
+        <GoBackButton />
+        <ThemeToggle />
+      </div>
       <div className="bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-6 sm:p-10 w-full max-w-md">
         <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center">
           Register
