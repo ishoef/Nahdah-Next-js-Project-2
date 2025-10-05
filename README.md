@@ -1,6 +1,8 @@
 # 🕌 An-Nahdah Online Institute  
 ### Progressive Islamic E-Learning Platform (Next.js + Node.js + PWA)
 
+![App Preview](./public/Screenshot_10.png)
+
 ---
 
 ## 📘 Project Summary
@@ -14,7 +16,6 @@ With **PWA (Progressive Web App)** capabilities, users can:
 - Receive **push notifications** for updates and events.  
 Perfect for users in regions with **limited internet access**.
 
-![App Preview](./public/Screenshot_10.png)
 ---
 
 ## 🧩 Core Modules
@@ -22,13 +23,33 @@ Perfect for users in regions with **limited internet access**.
 ### 2.1 Public Website Pages
 
 #### 🏠 Home Page
-- Dynamic Hero Section with academy intro and CTAs (“Start Learning Now”, “Install App”).
-- Featured Courses & Categories (Islamic Knowledge / Skill Development).
-- About An-Nahdah section with mission and vision.
-- Featured Instructors & Testimonials.
-- FAQ (includes “How to install the app?”).
-- Donation Banner & Newsletter Signup.
-- Footer with navigation, contact, and PWA install prompt.
+
+Your Home Page currently includes the following components:
+
+| #  | Component | Description |
+|----|------------|--------------|
+| 1️⃣ | `<Hero />` | Main banner introducing the academy with CTAs (“Start Learning Now”, “Install App”). |
+| 2️⃣ | `<CourseCategory />` | Displays categorized Islamic and modern skill-based courses. |
+| 3️⃣ | `<FeaturedCourses />` | Highlights popular and trending courses. |
+| 4️⃣ | `<CourseFeatures />` | Lists course benefits and unique learning features. |
+| 5️⃣ | `<CourseShowcase />` | Displays highlighted or upcoming courses. |
+| 6️⃣ | `<FounderSection />` | Introduces the founder and vision of the academy. |
+| 7️⃣ | `<CooSection />` | Introduces the Chief Operating Officer (COO) section. |
+| 8️⃣ | `<TestimonialsSlider />` | Carousel showing student reviews and testimonials. |
+| 9️⃣ | `<TeachersSection />` | Lists certified and qualified instructors. |
+| 🔟 | `<NewsSection />` | Latest updates, announcements, and academy news. |
+| 11️⃣ | `<Donation />` | Donation section for institute support and campaigns. |
+| 12️⃣ | `<FAQ />` | Frequently Asked Questions and help section. |
+
+Other Home Page highlights:
+- Dynamic hero section with intro and CTAs.
+- Featured categories (Islamic Knowledge / Skill Development).
+- Mission & Vision highlights.
+- Testimonials & instructors.
+- Newsletter & donation prompts.
+- Footer with navigation, contact info, and install prompt.
+
+---
 
 #### 📖 Islamic Knowledge Page
 - Categories: Quran, Tafsir, Hadith, Fiqh, Aqeedah, Arabic Grammar, History.
@@ -127,41 +148,41 @@ Perfect for users in regions with **limited internet access**.
 
 ---
 
-### 📲 PWA-Specific Features
+## 📲 PWA-Specific Features
 
 - Installable as a native-like app (Android, iOS, Desktop).  
 - Offline caching for videos, PDFs, and materials.  
 - Push notifications for:
-  - Course updates
-  - Prayer times
-  - Islamic events (e.g., Ramadan reminders)
+  - Course updates  
+  - Prayer times  
+  - Islamic events (e.g., Ramadan reminders)  
   - Donation campaigns  
-- Background sync for progress uploads.
-- Custom “Add to Home Screen” prompt.
-- Service Worker for caching and offline mode.
+- Background sync for progress uploads.  
+- Custom “Add to Home Screen” prompt.  
+- Service Worker for caching and offline mode.  
 
 ---
 
 ## 🧭 User Journey Flow
 
 ### 👨‍🎓 Students
-1. Visit Home Page → Browse courses.
-2. Register → Enroll.
-3. Pay (if needed) → Access Dashboard.
-4. Learn offline → Track progress.
-5. Earn certificates → Receive notifications.
+1. Visit Home Page → Browse courses.  
+2. Register → Enroll.  
+3. Pay (if needed) → Access Dashboard.  
+4. Learn offline → Track progress.  
+5. Earn certificates → Receive notifications.  
 6. Donate optionally.
 
 ### 👨‍🏫 Instructors
-1. Register & get approval.
-2. Create & publish courses.
-3. Manage students and analytics.
+1. Register & get approval.  
+2. Create & publish courses.  
+3. Manage students and analytics.  
 4. Receive earnings reports.
 
 ### 🧑‍💼 Admins
-1. Manage users and courses.
-2. Moderate content.
-3. Track finances and campaigns.
+1. Manage users and courses.  
+2. Moderate content.  
+3. Track finances and campaigns.  
 4. Monitor PWA usage (installs, offline metrics).
 
 ---
@@ -188,65 +209,6 @@ Perfect for users in regions with **limited internet access**.
 
 ## 🧠 PWA Implementation (Next.js + next-pwa)
 
-- Install `next-pwa` package.
-- Configure **`next.config.mjs`** for service worker and caching.
-- Add **`manifest.json`** to `/public` with app name, icons, and theme color.
-- Register the service worker for offline caching.
-- Use **Firebase Cloud Messaging** for push notifications.
-- Test with **Lighthouse** to achieve a 100/100 PWA score.
-- Handle offline mode using IndexedDB/local storage for syncing.
-
----
-
-## 🔒 Non-Functional Requirements
-
-- **Scalability:** 10,000+ users.  
-- **Security:** Bcrypt, SSL/TLS, RBAC, 2FA.  
-- **Performance:** <2s page loads (with CDN).  
-- **Backup:** Daily DB backups.  
-- **Accessibility:** WCAG 2.1 compliance.  
-- **Reliability:** 99.9% uptime.  
-- **Data Privacy:** GDPR/CCPA compliance.  
-- **Offline Fallback:** Custom “Offline Mode” UI.  
-
----
-
-## 🌟 Advanced Islamic Academy Features
-
-- 📱 Mobile App extension (via Capacitor).  
-- 🕋 Islamic Calendar Integration (prayer times, Hijri dates).  
-- 📚 Virtual Library (offline eBooks/fatwas).  
-- 💵 Multi-Currency: USD, BDT, SAR.  
-- 📤 Social Sharing for certificates.  
-- 👨‍👩‍👧 Parental Controls for young learners.  
-- 🔗 API Integrations for LMS/CRM.  
-- 🤖 AI Moderation for forums.  
-- 🌍 Localized Content (region-specific).  
-- 🧕 Mentorship: 1-on-1 chat.  
-- 💖 Charity Dashboard: Real-time donation impact.
-
----
-
-## 📊 Success Metrics
-
-| Metric | Target |
-|--------|---------|
-| User Engagement | 70% course completion |
-| Donation Goal | $100,000 first year |
-| User Growth | 10,000 active users (12 months) |
-| PWA Adoption | 50% install rate |
-| Course Ratings | 4+ stars average |
-| Accessibility & PWA | 100% compliance |
-
----
-
-## 🧾 Summary
-
-**An-Nahdah Online Institute** will serve as a **comprehensive digital academy**, combining **Islamic scholarship**, **modern skills**, and **technology excellence**.  
-By leveraging **Next.js**, **Node.js**, **MongoDB**, and **PWA capabilities**, it ensures:
-- Speed ⚡  
-- Security 🔒  
-- Accessibility ♿  
-- Community Impact 💞  
-
-> _If you need sample code snippets, wireframes, or Next.js configurations (like `next.config.mjs`), feel free to request them!_
+1. Install `next-pwa` package:
+   ```bash
+   npm install next-pwa
