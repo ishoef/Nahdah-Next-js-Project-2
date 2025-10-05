@@ -10,6 +10,7 @@ import CooSection from "@/components/home-components/coo";
 import CourseFeatures from "@/components/home-components/course-feature";
 import CourseShowcase from "@/components/home-components/course-showcase";
 import TeachersSection from "@/components/home-components/our-teachers";
+import JoinOurCommunity from "@/components/home-components/JoinOurCommunity";
 
 export default function Home() {
   return (
@@ -24,8 +25,9 @@ export default function Home() {
       <TestimonialsSlider />
       <TeachersSection />
       <NewsSection />
-      <Donation />
+      <JoinOurCommunity />
       <FAQ />
+      <Donation />
     </>
   );
 }

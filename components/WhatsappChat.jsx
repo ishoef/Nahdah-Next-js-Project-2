@@ -24,7 +24,7 @@ export default function WhatsAppChat() {
       {/* Floating Button */}
       <button
         onClick={() => setOpen(true)}
-        className="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50"
+        className="cursor-pointer fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50"
       >
         <FaWhatsapp size={28} />
       </button>
