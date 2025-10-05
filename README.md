@@ -209,6 +209,4 @@ Other Home Page highlights:
 
 ## 🧠 PWA Implementation (Next.js + next-pwa)
 
-1. Install `next-pwa` package:
-   ```bash
-   npm install next-pwa
+1. Follow the documentation/PWA-Guide.md
