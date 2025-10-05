@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/next";
+import WhatsAppChat from "@/components/WhatsappChat";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,7 +36,10 @@ export default function RootLayout({ children }) {
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />
-          <div className="min-h-screen">{children}</div>
+          <div className="min-h-screen">
+            {" "}
+            <WhatsAppChat /> {children}
+          </div>
           <Footer />
         </ThemeProvider>
         <Analytics />
