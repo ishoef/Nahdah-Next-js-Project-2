@@ -23,7 +23,7 @@ const JoinOurCommunity = () => {
           {/* QR Code */}
           <div className="flex-shrink-0">
             <img
-              src="https://i.ibb.co/84RpDpJ/qr-code.png"
+              src="https://i.postimg.cc/1RNXJ6By/Whats-App-Image-2025-10-05-at-10-46-32-76b95a31.jpg"
               alt="Community QR Code"
               width={140}
               height={140}
