@@ -5,7 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useSession } from "../SessionProvider";
 import { LogOut, LayoutDashboard } from "lucide-react";
-import { signOut } from "next-auth/react";
+import { doSignOut } from "@/utils/actions";
+import Swal from "sweetalert2";
+import { clientSignOut } from "@/utils/authClient";
 
 const ProfilePhoto = () => {
   const { session } = useSession();
@@ -23,6 +25,24 @@ const ProfilePhoto = () => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+    
+     const handleLogout = async () => {
+       setOpen(false);
+       const result = await Swal.fire({
+         icon: "warning",
+         title: "Are you sure you want to logout?",
+         showCancelButton: true,
+         confirmButtonText: "Yes, Logout",
+         confirmButtonColor: "red",
+         cancelButtonText: "No, Cancel",
+         cancelButtonColor: "blue",
+       });
+
+       if (result.isConfirmed) {
+         await clientSignOut(); // ✅ logout handled on client
+         Swal.fire("Logged Out!", "", "success");
+       }
+     };
 
   if (!user) return null;
 
@@ -71,10 +91,7 @@ const ProfilePhoto = () => {
             </Link>
 
             <button
-              onClick={() => {
-                setOpen(false);
-                signOut();
-              }}
+              onClick={handleLogout}
               className="flex items-center gap-2 px-4 py-2 text-sm text-red-600 dark:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/30 transition-colors text-left"
             >
               <LogOut size={16} />
