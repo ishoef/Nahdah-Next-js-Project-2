@@ -5,6 +5,8 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/next";
 import WhatsAppChat from "@/components/WhatsappChat";
+import { auth } from "@/auth";
+import { SessionProvider } from "@/components/SessionProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,7 +23,8 @@ export const metadata = {
   description: "Learn Islamic knowledge & skills online",
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  const session = await auth();
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -31,19 +34,21 @@ export default function RootLayout({ children }) {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="mobile-web-app-capable" content="yes" />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Header />
-          <div className="min-h-screen">
-            {" "}
-            <WhatsAppChat /> {children}
-          </div>
-          <Footer />
-        </ThemeProvider>
-        <Analytics />
-      </body>
+      <SessionProvider initialSession={session}>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <Header />
+            <div className="min-h-screen">
+              {" "}
+              <WhatsAppChat /> {children}
+            </div>
+            <Footer />
+          </ThemeProvider>
+          <Analytics />
+        </body>
+      </SessionProvider>
     </html>
   );
 }

@@ -21,7 +21,7 @@ export default function LanguageToggle() {
       </div> */}
       <button
         onClick={handleToggle}
-        className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-all duration-200"
+        className="cursor-pointer bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-all duration-200"
       >
         {languages[(index + 1) % languages.length].label}
       </button>

@@ -1,5 +1,4 @@
 "use client";
-
 import ThemeToggle from "@/app/theme-toggle";
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
@@ -9,7 +8,8 @@ import CustomLink from "./CustomLink";
 import NetworkStatus from "./NetworkStatus";
 import { usePathname } from "next/navigation";
 import LanguageToggle from "./ui/lan";
-import ProfilePhoto, { user } from "./ui/profile-photo";
+import ProfilePhoto from "./ui/profile-photo";
+import { useSession } from "./SessionProvider";
 
 const navItems = [
   // { name: "Home", href: "/" },
@@ -20,12 +20,11 @@ const navItems = [
   { name: "Contact", href: "/contact" },
 ];
 
-const student = user();
-
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
   const [menuHeight, setMenuHeight] = useState(0);
+  const { session } = useSession();
 
   // Get the current path
   const pathname = usePathname();
@@ -65,7 +64,7 @@ const Header = () => {
             <div className="flex items-center gap-2 sm:gap-3 lg:gap-4">
               <ThemeToggle />
               <LanguageToggle />
-              {student ? (
+              {session ? (
                 <ProfilePhoto />
               ) : (
                 <Button

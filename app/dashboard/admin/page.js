@@ -1,23 +1,7 @@
-import { auth } from "@/auth";
-import Image from "next/image";
 import React from "react";
 
-const AdminDashboardPage = async () => {
-  const session = await auth();
-  console.log("Admin Session:", session.user.image);
-  return (
-    <div>
-      {session.user.image && (
-        <Image
-          src={session.user.image}
-          alt="Admin Avatar"
-          width={42}
-          height={42}
-          className="rounded-full"
-        />
-      )}
-    </div>
-  );
+const AdminDashboardPage = () => {
+  return <div>this is the admin dashboard</div>;
 };
 
 export default AdminDashboardPage;
