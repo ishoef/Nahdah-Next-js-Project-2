@@ -6,7 +6,11 @@ export default function Footer() {
   const [email, setEmail] = useState("");
 
   const pathname = usePathname();
-  if (!pathname.includes("login") && !pathname.includes("register")) {
+  if (
+    !pathname.includes("login") &&
+    !pathname.includes("register") &&
+    !pathname.includes("dashboard")
+  ) {
     return (
       <footer className="bg-gray-800 border-t border-gray-300 dark:border-gray-700 dark:bg-gray-900 text-gray-50 dark:text-gray-200 transition-colors duration-300">
         <div className="max-w-7xl  mx-auto py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 px-4 sm:px-6 lg:px-8">

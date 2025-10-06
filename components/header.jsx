@@ -9,6 +9,7 @@ import CustomLink from "./CustomLink";
 import NetworkStatus from "./NetworkStatus";
 import { usePathname } from "next/navigation";
 import LanguageToggle from "./ui/lan";
+import ProfilePhoto, { user } from "./ui/profile-photo";
 
 const navItems = [
   // { name: "Home", href: "/" },
@@ -19,18 +20,15 @@ const navItems = [
   { name: "Contact", href: "/contact" },
 ];
 
+const student = user();
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
   const [menuHeight, setMenuHeight] = useState(0);
 
+  // Get the current path
   const pathname = usePathname();
-  console.log(
-    "Current Pathname:",
-    pathname,
-    pathname.includes("/login"),
-    pathname.includes("/register")
-  );
 
   // Calculate mobile menu height for smooth animation
   useEffect(() => {
@@ -39,7 +37,11 @@ const Header = () => {
     }
   }, [menuOpen]);
 
-  if (!pathname.includes("login") && !pathname.includes("register")) {
+  if (
+    !pathname.includes("login") &&
+    !pathname.includes("register") &&
+    !pathname.includes("dashboard")
+  ) {
     return (
       <>
         <header className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-300">
@@ -63,12 +65,16 @@ const Header = () => {
             <div className="flex items-center gap-2 sm:gap-3 lg:gap-4">
               <ThemeToggle />
               <LanguageToggle />
-              <Button
-                asChild
-                className="hidden md:inline-flex text-white bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-sm sm:text-base px-4 py-2"
-              >
-                <Link href="/login">Login</Link>
-              </Button>
+              {student ? (
+                <ProfilePhoto />
+              ) : (
+                <Button
+                  asChild
+                  className="hidden md:inline-flex text-white bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-sm sm:text-base px-4 py-2"
+                >
+                  <Link href="/login">Login</Link>
+                </Button>
+              )}
 
               {/* Mobile Menu Toggle */}
               <button

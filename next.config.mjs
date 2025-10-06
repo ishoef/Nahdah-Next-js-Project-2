@@ -4,6 +4,14 @@ import CaseSensitivePathsPlugin from "case-sensitive-paths-webpack-plugin";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "lh3.googleusercontent.com",
+      },
+    ],
+  },
   webpack(config, { webpack }) {
     config.plugins.push(new CaseSensitivePathsPlugin());
     return config;

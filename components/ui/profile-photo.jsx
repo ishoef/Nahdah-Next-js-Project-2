@@ -2,15 +2,15 @@ import { auth } from "@/auth";
 import Image from "next/image";
 import React from "react";
 
-const AdminDashboardPage = async () => {
+const ProfilePhoto = async () => {
   const session = await auth();
-  console.log("Admin Session:", session.user.image);
+  const user = session?.user;
   return (
     <div>
-      {session.user.image && (
+      {user?.image && (
         <Image
-          src={session.user.image}
-          alt="Admin Avatar"
+          src={user.image}
+          alt="Profile Photo"
           width={42}
           height={42}
           className="rounded-full"
@@ -20,4 +20,9 @@ const AdminDashboardPage = async () => {
   );
 };
 
-export default AdminDashboardPage;
+export default ProfilePhoto;
+
+export const user = async () => {
+  const session = await auth();
+  return session?.user;
+};
