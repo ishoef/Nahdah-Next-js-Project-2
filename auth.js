@@ -19,7 +19,7 @@ export const {
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     }),
   ],
-  trustedHosts: ["http://localhost:3000", "https://an-nahdah.vercel.app/"],
+
   secret: process.env.AUTH_SECRET,
   // debug: true,
 });

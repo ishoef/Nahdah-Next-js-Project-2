@@ -1,10 +1,9 @@
-import { doSignIn } from "@/utils/authClient";
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
 
 const GoogleLogin = () => {
   const handleGoogleLogin = () => {
-    doSignIn();
+    alert("click google login")
     // TODO: Integrate Google OAuth / NextAuth
   };
 

@@ -8,9 +8,6 @@ import { Button } from "./ui/button";
 import CustomLink from "./CustomLink";
 import NetworkStatus from "./NetworkStatus";
 import { usePathname, useRouter } from "next/navigation";
-import { useSession } from "./SessionProvider";
-import { clientSignOut } from "@/utils/authClient";
-import ProfilePhoto from "./ui/profile-photo";
 
 const navItems = [
   { name: "Islamic Knowledge", href: "/islamic-knowledge" },
@@ -22,16 +19,17 @@ const navItems = [
 
 const Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const { session } = useSession();
   const pathname = usePathname();
   const router = useRouter();
-
+  const session = false;
   if (pathname.includes("login") || pathname.includes("register")) return null;
 
   const handleLogout = async () => {
-    await clientSignOut();
-    router.push("/");
-    setDrawerOpen(false);
+    // await clientSignOut();
+    // router.push("/");
+    // setDrawerOpen(false);
+
+    alert("clciked log out");
   };
 
   return (
@@ -59,7 +57,8 @@ const Header = () => {
           {/* Desktop Login/Profile */}
           {session ? (
             <div className="hidden md:flex">
-              <ProfilePhoto />
+              {/* <ProfilePhoto /> */}
+              <p>P</p>
             </div>
           ) : (
             <Button

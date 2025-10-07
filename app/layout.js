@@ -6,7 +6,6 @@ import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/next";
 import WhatsAppChat from "@/components/WhatsappChat";
 import { auth } from "@/auth";
-import { SessionProvider } from "@/components/SessionProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,7 +23,6 @@ export const metadata = {
 };
 
 export default async function RootLayout({ children }) {
-  const session = await auth();
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -34,7 +32,6 @@ export default async function RootLayout({ children }) {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="mobile-web-app-capable" content="yes" />
       </head>
-      <SessionProvider initialSession={session}>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
@@ -48,7 +45,6 @@ export default async function RootLayout({ children }) {
           </ThemeProvider>
           <Analytics />
         </body>
-      </SessionProvider>
     </html>
   );
 }
