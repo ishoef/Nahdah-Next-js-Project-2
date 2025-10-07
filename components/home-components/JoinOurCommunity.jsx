@@ -53,7 +53,7 @@ const JoinOurCommunity = () => {
             href="https://chat.whatsapp.com/your-group-link"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-5 py-2.5 rounded-full shadow-md transition-all"
+            className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white px-5 py-2.5 rounded-full shadow-md transition-all"
           >
             <FaWhatsapp size={20} />
             <span>Join WhatsApp</span>

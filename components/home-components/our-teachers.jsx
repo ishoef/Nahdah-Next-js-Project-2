@@ -25,6 +25,7 @@
 
 import React, { useState } from "react";
 import Title from "../ui/title";
+import Link from "next/link";
 
 export default function TeachersSection() {
   const demoTeachers = [
@@ -210,9 +211,12 @@ export default function TeachersSection() {
                     >
                       Contact
                     </a>
-                    <button className="cursor-pointer inline-flex items-center justify-center px-4 py-2 rounded-md border border-gray-200 dark:border-gray-700 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700">
+                    <Link
+                      href={`/instructors/${t.id}`}
+                      className="cursor-pointer inline-flex items-center justify-center px-4 py-2 rounded-md border border-gray-200 dark:border-gray-700 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700"
+                    >
                       View Profile
-                    </button>
+                    </Link>
                   </div>
                 </div>
 

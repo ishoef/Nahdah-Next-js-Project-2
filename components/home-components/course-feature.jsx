@@ -49,13 +49,15 @@ export default function CourseFeatures() {
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#153151] dark:text-white">
             Our Course{" "}
-            <span className="text-blue-600 dark:text-blue-400">Learning Materials</span>
+            <span className="text-blue-600 dark:text-blue-400">
+              Learning Materials
+            </span>
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-700 dark:text-gray-300">
             Here’s everything included in our courses to help you learn better
           </p>
         </div>
-     
+
         {/* Card Container */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden">
           <div className="grid grid-cols-1 md:grid-cols-3 p-6 md:p-10 lg:p-14">

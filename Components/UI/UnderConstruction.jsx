@@ -7,7 +7,6 @@ import animationData from "@/public/lottie/underConstruction.json"; // make sure
 export default function UnderConstruction() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 dark:bg-gray-900 px-6 text-center transition-colors duration-300">
-      
       {/* Lottie Animation */}
       <div className="mt-10 w-72 h-72">
         <Lottie animationData={animationData} loop={true} />
@@ -18,7 +17,8 @@ export default function UnderConstruction() {
         We're Building Something New!
       </h2>
       <p className="mt-2 text-gray-600 dark:text-gray-300 max-w-md">
-        This page is currently under construction. Hang tight, we're working hard to bring it to life!
+        This page is currently under construction. Hang tight, we're working
+        hard to bring it to life!
       </p>
 
       {/* CTA Buttons */}

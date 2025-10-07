@@ -2,11 +2,12 @@
 
 import { signIn, signOut } from "next-auth/react";
 
+// Sign Out
 export async function clientSignOut() {
-  await signOut({ callbackUrl: "/" }); // ✅ client-safe logout
+  await signOut(); // ✅ client-safe logout
 }
 
+// Sign In with Google
 export async function doSignIn() {
-  alert("signing in");
   await signIn("google", { callbackUrl: "/" });
 }

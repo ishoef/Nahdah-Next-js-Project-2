@@ -105,7 +105,13 @@ const FeaturedCourses = () => {
         <div className="flex w-fit mx-auto">
           <FaBookOpen className="text-blue-600 dark:text-gray-300 text-6xl mb-6" />
         </div>
-        <Title title1={"Featured"} title2={"Courses"} subTitle={"Explore our most popular and highly-rated courses, handpicked for you."} />
+        <Title
+          title1={"Featured"}
+          title2={"Courses"}
+          subTitle={
+            "Explore our most popular and highly-rated courses, handpicked for you."
+          }
+        />
 
         {/* Courses Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

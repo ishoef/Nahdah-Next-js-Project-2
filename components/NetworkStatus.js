@@ -57,7 +57,7 @@ export default function NetworkStatus() {
         ${
           status === "offline"
             ? "bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800"
-            : "bg-gradient-to-r from-green-600 via-green-500 to-green-600"
+            : "bg-gradient-to-r from-blue-600 via-blue-500 to-blue-600"
         }
         ${visible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"}
       `}

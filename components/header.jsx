@@ -1,18 +1,18 @@
 "use client";
+
 import ThemeToggle from "@/app/theme-toggle";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from "./ui/button";
 import CustomLink from "./CustomLink";
 import NetworkStatus from "./NetworkStatus";
-import { usePathname } from "next/navigation";
-import LanguageToggle from "./ui/lan";
-import ProfilePhoto from "./ui/profile-photo";
+import { usePathname, useRouter } from "next/navigation";
 import { useSession } from "./SessionProvider";
+import { clientSignOut } from "@/utils/authClient";
+import ProfilePhoto from "./ui/profile-photo";
 
 const navItems = [
-  // { name: "Home", href: "/" },
   { name: "Islamic Knowledge", href: "/islamic-knowledge" },
   { name: "Skills", href: "/skills" },
   { name: "Courses", href: "/courses" },
@@ -21,116 +21,134 @@ const navItems = [
 ];
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const menuRef = useRef(null);
-  const [menuHeight, setMenuHeight] = useState(0);
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const { session } = useSession();
-
-  // Get the current path
   const pathname = usePathname();
+  const router = useRouter();
 
-  // Calculate mobile menu height for smooth animation
-  useEffect(() => {
-    if (menuRef.current) {
-      setMenuHeight(menuRef.current.scrollHeight);
-    }
-  }, [menuOpen]);
+  if (pathname.includes("login") || pathname.includes("register")) return null;
 
-  if (
-    !pathname.includes("login") &&
-    !pathname.includes("register") &&
-    !pathname.includes("dashboard")
-  ) {
-    return (
-      <>
-        <header className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-300">
-          <NetworkStatus />
-          <div className="max-w-7xl mx-auto flex justify-between items-center py-5 px-4 sm:px-6 lg:px-8">
-            {/* Logo */}
-            <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#153151] dark:text-gray-100">
-              <Link href="/">An-Nahdah</Link>
+  const handleLogout = async () => {
+    await clientSignOut();
+    router.push("/");
+    setDrawerOpen(false);
+  };
+
+  return (
+    <header className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-300">
+      <NetworkStatus />
+      <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-4 sm:px-6 lg:px-8">
+        {/* Logo */}
+        <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#153151] dark:text-gray-100">
+          <Link href="/">An-Nahdah</Link>
+        </div>
+
+        {/* Desktop / Tablet Navigation */}
+        <nav className="hidden md:flex space-x-4 lg:space-x-6 font-medium items-center">
+          {navItems.map((item) => (
+            <CustomLink key={item.name} path={item.href}>
+              {item.name}
+            </CustomLink>
+          ))}
+        </nav>
+
+        {/* Right Section */}
+        <div className="flex items-center gap-2 sm:gap-3 lg:gap-4">
+          <ThemeToggle />
+
+          {/* Desktop Login/Profile */}
+          {session ? (
+            <div className="hidden md:flex">
+              <ProfilePhoto />
             </div>
+          ) : (
+            <Button
+              asChild
+              className="hidden md:inline-flex text-white bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-sm sm:text-base px-4 py-2 transition-colors duration-200"
+            >
+              <Link href="/login">Login</Link>
+            </Button>
+          )}
 
-            {/* Desktop / Tablet Navigation */}
-            <nav className="hidden md:flex space-x-4 lg:space-x-6 font-medium">
-              {navItems.map((item) => (
-                <CustomLink key={item.name} path={item.href}>
-                  {item.name}
-                </CustomLink>
-              ))}
-            </nav>
-
-            {/* Theme Toggle + CTA */}
-            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4">
-              <ThemeToggle />
-              <LanguageToggle />
-              {session ? (
-                <ProfilePhoto />
-              ) : (
-                <Button
-                  asChild
-                  className="hidden md:inline-flex text-white bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-sm sm:text-base px-4 py-2"
-                >
-                  <Link href="/login">Login</Link>
-                </Button>
-              )}
-
-              {/* Mobile Menu Toggle */}
-              <button
-                className="md:hidden text-gray-700 dark:text-gray-200 text-2xl relative w-8 h-8 flex items-center justify-center"
-                onClick={() => setMenuOpen(!menuOpen)}
-              >
-                <FaBars
-                  className={`absolute transition-all duration-300 ${
-                    menuOpen
-                      ? "opacity-0 scale-0 rotate-90"
-                      : "opacity-100 scale-100 rotate-0"
-                  }`}
-                />
-                <FaTimes
-                  className={`absolute transition-all duration-300 ${
-                    menuOpen
-                      ? "opacity-100 scale-100 rotate-0"
-                      : "opacity-0 scale-0 -rotate-90"
-                  }`}
-                />
-              </button>
-            </div>
-          </div>
-
-          {/* Mobile Menu */}
-          <div
-            ref={menuRef}
-            className={`md:hidden overflow-hidden transition-[max-height,opacity] duration-500 ease-in-out bg-white dark:bg-gray-900 shadow-md`}
-            style={{
-              maxHeight: menuOpen ? `${menuHeight}px` : "0px",
-              opacity: menuOpen ? 1 : 0,
-            }}
+          {/* Mobile Drawer Toggle */}
+          <button
+            className="md:hidden text-gray-700 dark:text-gray-200 text-2xl w-10 h-10 flex items-center justify-center relative"
+            onClick={() => setDrawerOpen(true)}
+            aria-label="Open menu"
           >
-            <div className="py-5 px-6 space-y-4">
-              {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="block text-base font-medium text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
-                >
-                  {item.name}
-                </Link>
-              ))}
+            <FaBars />
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile Drawer */}
+      <div
+        className={`fixed top-0 right-0 h-full w-64 bg-white dark:bg-gray-900 shadow-lg z-50 transform transition-transform duration-300 ${
+          drawerOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        <div className="flex justify-between items-center p-4 border-b border-gray-200 dark:border-gray-700">
+          <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100">
+            Menu
+          </h2>
+          <button
+            onClick={() => setDrawerOpen(false)}
+            className="text-gray-700 dark:text-gray-200 text-xl"
+            aria-label="Close menu"
+          >
+            <FaTimes />
+          </button>
+        </div>
+
+        <div className="flex flex-col mt-4 space-y-3 px-4">
+          {navItems.map((item) => (
+            <CustomLink
+              key={item.name}
+              path={item.href}
+              className="block text-base font-medium text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+              onClick={() => setDrawerOpen(false)}
+            >
+              {item.name}
+            </CustomLink>
+          ))}
+
+          {session ? (
+            <>
               <Link
-                href="/login"
-                className="block bg-blue-500 text-white px-4 py-2 rounded-lg text-center hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-sm sm:text-base"
+                href="/dashboard"
+                className="block bg-blue-500 text-white px-4 py-2 rounded-lg text-center hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-sm sm:text-base transition-colors duration-200"
+                onClick={() => setDrawerOpen(false)}
               >
-                Login
+                Dashboard
               </Link>
-            </div>
-          </div>
-        </header>
-      </>
-    );
-  } else {
-    return null;
-  }
+              <button
+                onClick={handleLogout}
+                className="w-full bg-red-500 text-white px-4 py-2 rounded-lg text-center hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700 text-sm sm:text-base transition-colors duration-200"
+              >
+                Logout
+              </button>
+            </>
+          ) : (
+            <Link
+              href="/login"
+              className="block bg-blue-500 text-white px-4 py-2 rounded-lg text-center hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-sm sm:text-base transition-colors duration-200"
+              onClick={() => setDrawerOpen(false)}
+            >
+              Login
+            </Link>
+          )}
+        </div>
+      </div>
+
+      {/* Overlay */}
+      {drawerOpen && (
+        <div
+          className="fixed inset-0 bg-black/70 z-40"
+          onClick={() => setDrawerOpen(false)}
+        />
+      )}
+    </header>
+  );
 };
 
 export default Header;

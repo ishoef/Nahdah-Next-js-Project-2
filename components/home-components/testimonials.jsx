@@ -68,7 +68,9 @@ function MarqueeRow({ reverse }) {
               <h4 className="font-semibold text-gray-900 dark:text-white">
                 {t.name}
               </h4>
-              <p className="text-sm text-gray-500 dark:text-gray-400">{t.role}</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                {t.role}
+              </p>
             </div>
           </div>
         ))}

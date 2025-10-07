@@ -26,7 +26,7 @@ export default function WhatsAppChat() {
         {/* Floating Button */}
         <button
           onClick={() => setOpen(true)}
-          className="cursor-pointer fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50"
+          className="cursor-pointer fixed bottom-5 right-5 bg-blue-500 text-white p-4 rounded-full shadow-lg hover:bg-blue-600 transition-all duration-300 z-50"
         >
           <FaWhatsapp size={28} />
         </button>
@@ -43,7 +43,7 @@ export default function WhatsAppChat() {
             >
               <div className="flex justify-between items-center mb-3 border-b pb-2">
                 <div className="flex items-center gap-2">
-                  <FaWhatsapp className="text-green-500" size={22} />
+                  <FaWhatsapp className="text-blue-500" size={22} />
                   <h2 className="font-semibold text-gray-700">Chat with us</h2>
                 </div>
                 <button
@@ -60,11 +60,11 @@ export default function WhatsAppChat() {
                   onChange={(e) => setMessage(e.target.value)}
                   placeholder="Type your message..."
                   rows={3}
-                  className="w-full border rounded-lg p-2 focus:ring-2 focus:ring-green-500 outline-none resize-none"
+                  className="w-full border rounded-lg p-2 focus:ring-2 focus:ring-blue-500 outline-none resize-none"
                 />
                 <button
                   onClick={handleSend}
-                  className="bg-green-500 hover:bg-green-600 text-white py-2 rounded-lg transition-all"
+                  className="bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-lg transition-all"
                 >
                   Send on WhatsApp
                 </button>

@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useSession } from "../SessionProvider";
 import { LogOut, LayoutDashboard } from "lucide-react";
-import { doSignOut } from "@/utils/actions";
 import Swal from "sweetalert2";
 import { clientSignOut } from "@/utils/authClient";
 
@@ -25,24 +24,24 @@ const ProfilePhoto = () => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-    
-     const handleLogout = async () => {
-       setOpen(false);
-       const result = await Swal.fire({
-         icon: "warning",
-         title: "Are you sure you want to logout?",
-         showCancelButton: true,
-         confirmButtonText: "Yes, Logout",
-         confirmButtonColor: "red",
-         cancelButtonText: "No, Cancel",
-         cancelButtonColor: "blue",
-       });
 
-       if (result.isConfirmed) {
-         await clientSignOut(); // ✅ logout handled on client
-         Swal.fire("Logged Out!", "", "success");
-       }
-     };
+  const handleLogout = async () => {
+    setOpen(false);
+    const result = await Swal.fire({
+      icon: "warning",
+      title: "Are you sure you want to logout?",
+      showCancelButton: true,
+      confirmButtonText: "Yes, Logout",
+      confirmButtonColor: "red",
+      cancelButtonText: "No, Cancel",
+      cancelButtonColor: "blue",
+    });
+
+    if (result.isConfirmed) {
+      await clientSignOut(); // ✅ logout handled on client
+      Swal.fire("Logged Out!", "", "success");
+    }
+  };
 
   if (!user) return null;
 
