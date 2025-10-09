@@ -7,7 +7,7 @@ import Title from "../ui/title";
 
 export const courses = [
   {
-    id: "nahw101",
+    id: "101",
     title: "Arabic Grammar Fundamentals (Nahw)",
     instructor: "Dr. Fatima Hassan",
     description:
@@ -167,9 +167,9 @@ const FeaturedCourses = () => {
                 </p>
 
                 {/* Description */}
-                <p className="text-sm text-gray-700 dark:text-gray-300 line-clamp-2 mb-4">
+                {/* <p className="text-sm text-gray-700 dark:text-gray-300 line-clamp-2 mb-4">
                   {course.description}
-                </p>
+                </p> */}
 
                 {/* Metadata + Bottom Buttons */}
                 <div className="mt-auto flex flex-col gap-3">
@@ -206,9 +206,12 @@ const FeaturedCourses = () => {
 
         {/* View All Courses Button */}
         <div className="w-fit mx-auto mt-6">
-          <button className="cursor-pointer p-3 border text-white rounded-md bg-blue-600 dark:bg-gray-800 hover:bg-blue-700 dark:hover:bg-gray-700 transition-colors">
+          <Link
+            href={"/courses"}
+            className="cursor-pointer p-3 border text-white rounded-md bg-blue-600 dark:bg-gray-800 hover:bg-blue-700 dark:hover:bg-gray-700 transition-colors"
+          >
             View All Courses
-          </button>
+          </Link>
         </div>
       </div>
     </section>

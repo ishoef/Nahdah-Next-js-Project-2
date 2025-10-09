@@ -20,7 +20,7 @@ const courses = [
       "Learn from qualified scholars in Quran, Hadith, Fiqh, and more",
     icon: BookOpen,
     iconBg: "bg-blue-500/10 dark:bg-blue-500/30",
-    iconColor: "text-blue-600 dark:text-blue-400",
+    iconColor: "text-[#206380] dark:text-blue-400",
     badge: "150+ Courses",
     image: "/images/islamic.png",
     highlights: [
@@ -31,7 +31,7 @@ const courses = [
     ],
     link: "/islamic-knowledge",
     accent:
-      "bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600",
+      "bg-[#206380] hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600",
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ const courses = [
     description: "Master modern skills for career growth and entrepreneurship",
     icon: GraduationCap,
     iconBg: "bg-blue-500/20 dark:bg-gray-500/30",
-    iconColor: "text-blue-600 dark:text-blue-400",
+    iconColor: "text-[#206380] dark:text-blue-400",
     badge: "80+ Courses",
     image: "/images/skill.png",
     highlights: [
@@ -50,7 +50,7 @@ const courses = [
     ],
     link: "/skills",
     accent:
-      "bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600",
+      "bg-[#206380] hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600",
   },
 ];
 

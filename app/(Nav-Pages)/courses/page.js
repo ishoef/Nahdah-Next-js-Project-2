@@ -1,12 +1,12 @@
-import Section from "@/components/ui/section";
+import CourseSection from "@/components/courses-component/CourseSection";
+import CourseHero from "@/components/courses-component/course-hero";
 import React from "react";
 
 const CoursesPage = () => {
   return (
     <>
-      <Section>
-        <h1>this is the Courses Page</h1>
-      </Section>
+      <CourseHero />
+      <CourseSection />
     </>
   );
 };

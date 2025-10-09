@@ -6,10 +6,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { Download, ArrowRight, CheckCircle2 } from "lucide-react";
 import { Badge } from "../ui/badge";
-import usePwaMode from "@/hooks/usePwaMode/usePwaMode"; // ✅ lowercase 'use'
+import usePwaMode from "@/hooks/usePwaMode/usePwaMode"; 
 
 const Hero = () => {
-  const isStandalone = usePwaMode(); // ✅ hook called properly inside component
+  const isStandalone = usePwaMode(); 
   return (
     <section
       className="relative overflow-hidden 
@@ -37,7 +37,7 @@ const Hero = () => {
             {isStandalone ? (
               ""
             ) : (
-              <Badge className="mb-6 bg-blue-600 text-white dark:bg-blue-400 dark:text-gray-900 shadow text-xs sm:text-sm md:text-base">
+              <Badge className="mb-6 bg-[#206380] text-white dark:bg-blue-400 dark:text-gray-900 shadow text-xs sm:text-sm md:text-base">
                 <Download className="mr-2 h-4 w-4" />
                 Install Our App for Offline Learning
               </Badge>
@@ -50,7 +50,7 @@ const Hero = () => {
               leading-snug sm:leading-tight text-center lg:text-left"
             >
               Empower Your Journey with{" "}
-              <span className="text-blue-600 dark:text-blue-400">
+              <span className="text-[#206380] dark:text-blue-400">
                 Islamic Knowledge
               </span>{" "}
               & Modern Skills
