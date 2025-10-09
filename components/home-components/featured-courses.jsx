@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FaBookOpen } from "react-icons/fa";
 import Title from "../ui/title";
 
-const courses = [
+export const courses = [
   {
     id: "nahw101",
     title: "Arabic Grammar Fundamentals (Nahw)",

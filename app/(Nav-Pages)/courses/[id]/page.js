@@ -1,7 +1,15 @@
-import React from 'react'
+import React from "react";
+import { courses } from "@/components/home-components/featured-courses";
 
-export default async function CourseDetails({ params }) {
-  const p = await params;
+export function generateStaticParams() {
+  return courses.map((course) => ({
+    id: course.id.toString(),
+  }));
+}
 
-  return <div>CourseDetails page</div>;
+export default function CourseDetails({ params }) {
+  const { id } = params;
+  console.log(id);
+
+  return <div>CourseDetails for {id}</div>;
 }

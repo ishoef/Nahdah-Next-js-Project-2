@@ -3,7 +3,7 @@ import { FcGoogle } from "react-icons/fc";
 
 const GoogleLogin = () => {
   const handleGoogleLogin = () => {
-    alert("click google login")
+    alert("click google login");
     // TODO: Integrate Google OAuth / NextAuth
   };
 
