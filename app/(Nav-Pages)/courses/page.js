@@ -4,10 +4,10 @@ import React from "react";
 
 const CoursesPage = () => {
   return (
-    <>
+    <div className="bg-blue-100 dark:bg-gray-800">
       <CourseHero />
       <CourseSection />
-    </>
+    </div>
   );
 };
 

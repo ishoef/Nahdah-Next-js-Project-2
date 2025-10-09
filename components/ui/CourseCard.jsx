@@ -73,8 +73,12 @@ export default function CourseCard({ course }) {
 
           {/* Price & CTA */}
           <div className="mt-4 flex items-center justify-between">
-            <span className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white">
-              ${course.price}
+            <span
+              className={`text-lg sm:text-xl font-semibold  dark:text-white ${
+                course.price === "Free" ? "text-green-400" : "text-gray-900"
+              }`}
+            >
+              {course.price}
             </span>
             <Button
               className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded-md"

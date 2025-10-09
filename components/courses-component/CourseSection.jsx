@@ -133,10 +133,14 @@ export default function CourseSection() {
   });
   return (
     <>
-      <section className="py-8 bg-white border-b border-blue-500">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <Tabs value={activeTab} onValueChange={setActiveTab} className="mb-6">
-            <TabsList className="grid w-full max-w-md mx-auto grid-cols-3">
+      <section className="py-8 bg-white dark:bg-gray-900 border-b border-blue-500">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Tabs
+            value={activeTab}
+            onValueChange={setActiveTab}
+            className="mb-6 "
+          >
+            <TabsList className="grid dark:bg-gray-800 w-full max-w-md mx-auto grid-cols-3">
               <TabsTrigger value="all">All Courses</TabsTrigger>
               <TabsTrigger value="islamic">
                 <BookOpen className="h-4 w-4 mr-2" />

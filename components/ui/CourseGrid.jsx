@@ -4,8 +4,8 @@ import CourseCard from "./CourseCard";
 
 export default function CourseGrid({ filteredCourses }) {
   return (
-    <section className="py-16 lg:py-24 bg-muted">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-10 lg:py-12 bg-white dark:bg-gray-900">
+      <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {filteredCourses.length === 0 ? (
           <div className="text-center py-12">
             <Filter className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
