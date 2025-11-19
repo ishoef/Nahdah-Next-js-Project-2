@@ -1,7 +1,7 @@
 {
   "allCourses": [
     {
-      "_id": 1,
+      "_id": "1",
       "slug": "tafsir-surah-al-baqarah",
       "title": "Tafsir Al-Qur'an: Surah Al-Baqarah",
       "shortDescription": "A comprehensive, verse-by-verse study of Surah Al-Baqarah, exploring classical Tafsir, spiritual lessons, and practical applications.",
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "_id": 2,
+      "_id": "2",
       "slug": "arabic-grammar-nahw-fundamentals",
       "title": "Arabic Grammar Fundamentals (Nahw)",
       "shortDescription": "Master the essential rules of Arabic syntax (النحو) — from sentence structure to case endings — designed for beginners and early intermediate students.",
@@ -416,7 +416,7 @@
       ]
     },
     {
-      "_id": 3,
+      "_id": "3",
       "slug": "sahih-al-bukhari-selected-hadith",
       "title": "Sahih Al-Bukhari: Selected Hadith",
       "shortDescription": "A focused study of selected authentic hadith from Sahih al-Bukhari, covering meaning, chains of transmission, and practical application.",
@@ -707,7 +707,7 @@
       ]
     },
     {
-      "_id": 4,
+      "_id": "4",
       "slug": "web-development-react-nextjs",
       "title": "Web Development with React & Next.js",
       "shortDescription": "Learn to build modern web applications using React and Next.js, with hands-on projects and industry best practices.",
@@ -968,7 +968,7 @@
       ]
     },
     {
-      "_id": 5,
+      "_id": "5",
       "slug": "graphic-design-fundamentals",
       "title": "Graphic Design Fundamentals",
       "shortDescription": "Learn the essentials of graphic design, including visual principles, tools, and real-world projects to build a strong portfolio.",
@@ -1257,7 +1257,7 @@
       ]
     },
     {
-      "_id": 6,
+      "_id": "6",
       "slug": "digital-marketing-essentials",
       "title": "Digital Marketing Essentials",
       "shortDescription": "A comprehensive beginner course on digital marketing covering SEO, social media, email campaigns, and analytics with real-world projects.",

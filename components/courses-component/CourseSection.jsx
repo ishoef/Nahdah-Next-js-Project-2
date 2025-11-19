@@ -13,7 +13,7 @@ import {
 import CourseGrid from "../ui/CourseGrid";
 import coourseData from "../../jsons/courses.json";
 const allCourses = coourseData.allCourses;
-console.log(allCourses);
+
 export default function CourseSection() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");

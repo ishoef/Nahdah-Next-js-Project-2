@@ -17,7 +17,7 @@ export default function CourseGrid({ filteredCourses }) {
         ) : (
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredCourses.map((course) => (
-              <CourseCard key={course.id} course={course} />
+              <CourseCard key={course._id} course={course} />
             ))}
           </div>
         )}

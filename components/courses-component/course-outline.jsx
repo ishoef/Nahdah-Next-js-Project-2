@@ -48,6 +48,7 @@ export default function CourseOutline({ course }) {
             <ul className="mt-2 sm:mt-3 list-disc ml-4 sm:ml-0 text-gray-700 dark:text-gray-300 text-sm sm:text-base space-y-5">
               {section.lessons?.map((lessonId) => {
                 const lesson = course.lessons.find((l) => l.id === lessonId);
+                if (!lesson) return null; // skip if lesson not found
                 return (
                   <li
                     key={lesson.id}

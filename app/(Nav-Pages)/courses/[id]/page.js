@@ -3,18 +3,38 @@ import { courses } from "@/components/home-components/featured-courses";
 import CourseOutline from "@/components/courses-component/course-outline";
 import allData from "../../../../jsons/courses.json";
 
-export function generateStaticParams() {
-  return courses.map((course) => ({
-    id: course.id.toString(),
-  }));
-}
+// export function generateStaticParams() {
+//   return courses.map((course) => ({
+//     id: course._id.tostring(),
+//   }));
+// }
 
-export default function CourseDetails({ params }) {
+export default async function CourseDetails({ params }) {
   const allCourses = allData.allCourses;
-  console.log(allCourses);
+  // const course = demoCourse;
+  const { id } = await params;
+  const course = allCourses.find((c) => c._id === id);
+  console.log(course);
 
-  console.log(params);
-  const course = demoCourse;
+  const {
+    _id,
+    slug,
+    title,
+    shortDescription,
+    fullDescription,
+    category,
+    subcategory,
+    level,
+    language,
+    thumbnail,
+    price,
+    currency,
+    students,
+    duration,
+    instructor,
+    lessons,
+    outline,
+  } = course;
 
   return (
     <section className="bg-gray-50 dark:bg-gray-900">
@@ -25,8 +45,8 @@ export default function CourseDetails({ params }) {
             {/* Thumbnail */}
             <div className="w-full md:w-1/2 h-64 sm:h-72 md:h-96 rounded-xl overflow-hidden shadow-xl border-4 border-white">
               <img
-                src={course.thumbnail}
-                alt={course.title}
+                src={thumbnail}
+                alt={title}
                 className="object-cover w-full h-full"
               />
             </div>
@@ -34,23 +54,19 @@ export default function CourseDetails({ params }) {
             {/* Info */}
             <div className="md:w-1/2 space-y-4 sm:space-y-5">
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold drop-shadow-lg leading-tight">
-                {course.title}
+                {title}
               </h1>
               <p className="text-blue-100 dark:text-gray-300 text-base sm:text-lg">
-                {course.shortDescription}
+                {shortDescription}
               </p>
 
               <div className="flex flex-wrap gap-3 sm:gap-4 text-sm font-medium text-blue-100 dark:text-gray-300">
-                <span className="flex items-center gap-1">
-                  📚 {course.category}
-                </span>
+                <span className="flex items-center gap-1">📚 {category}</span>
+                <span>•</span>
+                <span className="flex items-center gap-1">🎓 {level}</span>
                 <span>•</span>
                 <span className="flex items-center gap-1">
-                  🎓 {course.level}
-                </span>
-                <span>•</span>
-                <span className="flex items-center gap-1">
-                  🕒 {course.lessons?.length || 0} Lessons
+                  🕒 {lessons?.length || 0} Lessons
                 </span>
               </div>
 
@@ -58,9 +74,9 @@ export default function CourseDetails({ params }) {
                 <button className="px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold bg-white text-[#206380] dark:bg-gray-700 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-gray-600 transition shadow-md">
                   Enroll Now
                 </button>
-                {course.price > 0 ? (
+                {price > 0 ? (
                   <span className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-gray-200">
-                    ${course.price} {course.currency}
+                    ${price} {currency}
                   </span>
                 ) : (
                   <span className="text-lg sm:text-xl font-semibold text-green-300">
@@ -110,16 +126,16 @@ export default function CourseDetails({ params }) {
             <div className="flex flex-col items-center text-center">
               <div className="w-24 h-24 sm:w-28 sm:h-28 mb-3 rounded-full overflow-hidden border-2 border-[#206380] dark:border-blue-400">
                 <img
-                  src={course.instructor.avatar}
-                  alt={course.instructor.name}
+                  src={instructor.avatar}
+                  alt={instructor.name}
                   className="object-cover w-full h-full"
                 />
               </div>
               <h3 className="text-md sm:text-lg font-bold text-[#206380] dark:text-blue-300">
-                {course.instructor.name}
+                {instructor.name}
               </h3>
               <p className="text-gray-600 dark:text-gray-300 text-xs sm:text-sm mt-2 text-center">
-                {course.instructor.bio}
+                {instructor.bio}
               </p>
             </div>
           </aside>

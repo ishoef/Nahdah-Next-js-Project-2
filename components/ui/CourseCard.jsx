@@ -7,15 +7,10 @@ import Link from "next/link";
 
 export default function CourseCard({ course }) {
   const {
-    id,
-    slug,
+    _id,
     title,
-    shortDescription,
-    fullDescription,
     category,
-    subcategory,
     level,
-    language,
     thumbnail,
     price,
     currency,
@@ -24,9 +19,10 @@ export default function CourseCard({ course }) {
     duration,
     instructor,
   } = course;
+
   return (
     <div
-      key={id}
+      key={_id}
       className="bg-white w-full dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow duration-300 flex flex-col"
     >
       {/* Image Section */}
@@ -99,14 +95,16 @@ export default function CourseCard({ course }) {
         : "bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
     }`}
             >
-              {price === 0 || price === "Free" ? "Free" : `${currency} ${price}`}
+              {price === 0 || price === "Free"
+                ? "Free"
+                : `${currency} ${price}`}
             </span>
 
             <Button
               className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded-md"
               asChild
             >
-              <Link href={`/courses/${id}`}>View Course</Link>
+              <Link href={`/courses/${_id}`}>View Course</Link>
             </Button>
           </div>
         </div>
