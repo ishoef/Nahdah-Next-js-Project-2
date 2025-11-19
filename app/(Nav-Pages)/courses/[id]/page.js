@@ -9,6 +9,7 @@ export function generateStaticParams() {
 }
 
 export default function CourseDetails({ params }) {
+  console.log(params);
   const course = demoCourse;
 
   return (
