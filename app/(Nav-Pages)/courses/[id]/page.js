@@ -1,6 +1,7 @@
 import React from "react";
 import { courses } from "@/components/home-components/featured-courses";
 import CourseOutline from "@/components/courses-component/course-outline";
+import allData from "../../../../jsons/courses.json";
 
 export function generateStaticParams() {
   return courses.map((course) => ({
@@ -9,6 +10,9 @@ export function generateStaticParams() {
 }
 
 export default function CourseDetails({ params }) {
+  const allCourses = allData.allCourses;
+  console.log(allCourses);
+
   console.log(params);
   const course = demoCourse;
 

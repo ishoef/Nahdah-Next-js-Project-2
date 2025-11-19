@@ -1,0 +1,1548 @@
+{
+  "allCourses": [
+    {
+      "_id": 1,
+      "slug": "tafsir-surah-al-baqarah",
+      "title": "Tafsir Al-Qur'an: Surah Al-Baqarah",
+      "shortDescription": "A comprehensive, verse-by-verse study of Surah Al-Baqarah, exploring classical Tafsir, spiritual lessons, and practical applications.",
+      "fullDescription": "<p>In this <strong>detailed intermediate-level Tafsir course</strong>, students will journey through Surah Al-Baqarah — the longest Surah in the Qur’an. This course includes:</p><ul><li>Context (Asbāb an-Nuzūl) and background of each passage</li><li>Explanation based on classical Tafsir sources</li><li>Deep linguistic reflections and thematic insights</li><li>Practical lessons relevant to modern life</li></ul><p>By the end of the course, you will gain a clearer understanding of Allah’s guidance and a deeper spiritual connection with the Qur’an.</p>",
+      "category": "Islamic Knowledge",
+      "subcategory": "Quran & Tafsir",
+      "level": "Intermediate",
+      "language": "Arabic & English",
+      "thumbnail": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?w=600&auto=format&fit=crop&q=60",
+      "price": 0,
+      "currency": "$",
+      "students": 3200,
+      "rating": 4.6,
+      "duration": "6 weeks",
+      "instructor": {
+        "name": "Sheikh Ahmad Al-Mansour",
+        "bio": "Renowned Qur’an teacher and scholar with over 20 years of experience in Tafsir and Islamic education.",
+        "avatar": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=500&auto=format&fit=crop"
+      },
+      "lessons": [
+        {
+          "id": "l-1",
+          "title": "Introduction to Surah Al-Baqarah",
+          "durationSeconds": 420,
+          "freePreview": true
+        },
+        {
+          "id": "l-2",
+          "title": "Virtues & Themes of the Surah",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "l-3",
+          "title": "Overview of Makki & Madani Revelations",
+          "durationSeconds": 360,
+          "freePreview": true
+        },
+        {
+          "id": "l-4",
+          "title": "Tafsir of Verses 1–5: Qualities of the Believers",
+          "durationSeconds": 620,
+          "freePreview": true
+        },
+        {
+          "id": "l-5",
+          "title": "Tafsir of Verses 6–16: Traits of the Hypocrites",
+          "durationSeconds": 650,
+          "freePreview": true
+        },
+        {
+          "id": "l-6",
+          "title": "Tafsir of Verses 17–20: Parables of Hypocrisy",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "l-7",
+          "title": "Tafsir of Verses 21–29: Call to Worship",
+          "durationSeconds": 580,
+          "freePreview": true
+        },
+        {
+          "id": "l-8",
+          "title": "Tafsir of Verses 30–39: Story of Adam (AS)",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "l-9",
+          "title": "Tafsir of Verses 40–46: Reminder to Bani Isra'il",
+          "durationSeconds": 550,
+          "freePreview": false
+        },
+        {
+          "id": "l-10",
+          "title": "Tafsir of Verses 47–59: Blessings and Warnings to Bani Isra'il",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "l-11",
+          "title": "Tafsir of Verses 60–74: The Cow Incident",
+          "durationSeconds": 660,
+          "freePreview": false
+        },
+        {
+          "id": "l-12",
+          "title": "Tafsir of Verses 75–86: Breaking the Covenant & Altering Scripture",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "l-36",
+          "title": "Conclusion, Summary & Life Lessons",
+          "durationSeconds": 700,
+          "freePreview": false
+        }
+      ],
+      "outline": [
+        {
+          "title": "Milestone 1: Introduction",
+          "lessons": ["l-1", "l-2", "l-3"]
+        },
+        {
+          "title": "Milestone 2: Believers, Disbelievers & Hypocrites",
+          "lessons": ["l-4", "l-5", "l-6"]
+        },
+        {
+          "title": "Milestone 3: Story of Adam & Early Reminders",
+          "lessons": ["l-7", "l-8", "l-9"]
+        },
+        {
+          "title": "Milestone 4: Lessons from Bani Isra'il",
+          "lessons": ["l-10", "l-11", "l-12"]
+        },
+        {
+          "title": "Milestone 12: Final Reflection & Conclusion",
+          "lessons": ["l-34", "l-35", "l-36"]
+        }
+      ]
+    },
+    {
+      "_id": 2,
+      "slug": "arabic-grammar-nahw-fundamentals",
+      "title": "Arabic Grammar Fundamentals (Nahw)",
+      "shortDescription": "Master the essential rules of Arabic syntax (النحو) — from sentence structure to case endings — designed for beginners and early intermediate students.",
+      "fullDescription": "<p>This <strong>practical beginner-to-intermediate</strong> course on Nahw (Arabic grammar) teaches you how Arabic sentences are built and how words relate to each other. The course covers:</p><ul><li>Basic sentence types (nominal & verbal)</li><li>Case endings and how to recognise them in reading</li><li>Verb conjugation basics and verb-subject agreement</li><li>Important particles, idafa (possessive constructions), and common syntactic patterns</li></ul><p>By the end of the course you'll be able to parse simple and medium-complexity Arabic sentences from classical and Qur'anic texts and write grammatically correct sentences with confidence.</p>",
+      "category": "Islamic Knowledge",
+      "subcategory": "Arabic Language",
+      "level": "Beginner",
+      "duration": "6 weeks",
+      "language": "Arabic & English",
+      "thumbnail": "https://images.unsplash.com/photo-1611131922192-9e1d9f483900?w=600&auto=format&fit=crop&q=60",
+      "price": 49,
+      "currency": "$",
+      "students": 3200,
+      "rating": 4.8,
+      "type": "Islamic",
+      "instructor": {
+        "name": "Dr. Fatima Hassan",
+        "bio": "Assistant professor of Arabic grammar with extensive teaching experience in Nahw and Qur’anic syntax.",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=500&auto=format&fit=crop"
+      },
+      "lessons": [
+        {
+          "id": "nahw-l-1",
+          "title": "Course Introduction & How to Use This Course",
+          "durationSeconds": 300,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-2",
+          "title": "Why Study Nahw? Uses & Approaches",
+          "durationSeconds": 360,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-3",
+          "title": "Arabic Script Review & Pronunciation for Grammar",
+          "durationSeconds": 420,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-4",
+          "title": "Nominal Sentences (الجملة الاسمية) — Structure & Definition",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-5",
+          "title": "Verbal Sentences (الجملة الفعلية) — Structure & Definition",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-6",
+          "title": "The Subject (الفاعل) — Types & Marking",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-7",
+          "title": "The Predicate (الخبر) — Nominal Predicate Forms",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-8",
+          "title": "Case Endings (اعراب) — Nominative, Accusative, Genitive",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-9",
+          "title": "Definite & Indefinite Nouns (المعرفة والنكرة)",
+          "durationSeconds": 420,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-10",
+          "title": "The Idafa (الإضافة) — Possessive Constructions",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-11",
+          "title": "Adjectives & Agreement (النعت والتوافق)",
+          "durationSeconds": 480,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-12",
+          "title": "Prepositions (حروف الجر) & Their Effects on Case",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-13",
+          "title": "Personal Pronouns & Their Roles (ضمائر الشخصيات)",
+          "durationSeconds": 420,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-14",
+          "title": "Demonstrative & Relative Pronouns (اسم الإشارة والاسم الموصول)",
+          "durationSeconds": 480,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-15",
+          "title": "Verbs: Perfect (الماضي) — Forms & Uses",
+          "durationSeconds": 540,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-16",
+          "title": "Verbs: Imperfect (المضارع) — Conjugation Patterns",
+          "durationSeconds": 560,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-17",
+          "title": "Imperative & Prohibitive Forms (الأمر والنهي)",
+          "durationSeconds": 480,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-18",
+          "title": "Verb Moods (الحالات الإنشائية) — Indicative, Subjunctive, Jussive",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-19",
+          "title": "Negation in Arabic Sentences (أدوات النفي)",
+          "durationSeconds": 420,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-20",
+          "title": "Interrogatives & Question Formation",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-21",
+          "title": "Particles of Emphasis & Restriction (إنما، فقط، حتى)",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-22",
+          "title": "Numbers & Their Syntax (الأعداد وإعرابها)",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-23",
+          "title": "Dual & Plural Forms and Agreement Rules",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-24",
+          "title": "Constructing Complex Sentences — Coordination & Subordination",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-25",
+          "title": "Idafa Chains & Long Noun Phrases",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-26",
+          "title": "Common Syntactic Errors & How to Avoid Them",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-27",
+          "title": "Parsing (الإعراب) Practice — Step-by-Step",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-28",
+          "title": "Reading Qur'anic Examples: Applying Nahw to the Text",
+          "durationSeconds": 660,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-29",
+          "title": "Short Hadiths & Sentences: Grammar Notes",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-30",
+          "title": "Advanced Particles & Their Effects",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-31",
+          "title": "Transformations: From Simple to Complex Sentences",
+          "durationSeconds": 580,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-32",
+          "title": "Practice: Writing Grammatically Correct Sentences",
+          "durationSeconds": 540,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-33",
+          "title": "Review: Case Endings & Verb Moods",
+          "durationSeconds": 600,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-34",
+          "title": "Mock Parsing Exam (Mid-course Assessment)",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "nahw-l-35",
+          "title": "Final Revision & Common Pitfalls",
+          "durationSeconds": 660,
+          "freePreview": true
+        },
+        {
+          "id": "nahw-l-36",
+          "title": "Final Assessment, Feedback & Next Steps",
+          "durationSeconds": 800,
+          "freePreview": false
+        }
+      ],
+      "outline": [
+        {
+          "title": "Milestone 1: Foundations & Orientation",
+          "lessons": ["nahw-l-1", "nahw-l-2", "nahw-l-3"]
+        },
+        {
+          "title": "Milestone 2: Sentence Types & Basics",
+          "lessons": ["nahw-l-4", "nahw-l-5", "nahw-l-6"]
+        },
+        {
+          "title": "Milestone 3: Case Endings & Idafa",
+          "lessons": ["nahw-l-7", "nahw-l-8", "nahw-l-9"]
+        },
+        {
+          "title": "Milestone 4: Pronouns & Particles",
+          "lessons": ["nahw-l-10", "nahw-l-11", "nahw-l-12"]
+        },
+        {
+          "title": "Milestone 5: Verb Basics",
+          "lessons": ["nahw-l-13", "nahw-l-14", "nahw-l-15"]
+        },
+        {
+          "title": "Milestone 6: Verb Conjugation & Moods",
+          "lessons": ["nahw-l-16", "nahw-l-17", "nahw-l-18"]
+        },
+        {
+          "title": "Milestone 7: Negation, Questions & Particles",
+          "lessons": ["nahw-l-19", "nahw-l-20", "nahw-l-21"]
+        },
+        {
+          "title": "Milestone 8: Numbers & Agreement",
+          "lessons": ["nahw-l-22", "nahw-l-23", "nahw-l-24"]
+        },
+        {
+          "title": "Milestone 9: Phrases & Error Correction",
+          "lessons": ["nahw-l-25", "nahw-l-26", "nahw-l-27"]
+        },
+        {
+          "title": "Milestone 10: Applying Nahw to Texts",
+          "lessons": ["nahw-l-28", "nahw-l-29", "nahw-l-30"]
+        },
+        {
+          "title": "Milestone 11: Production & Practice",
+          "lessons": ["nahw-l-31", "nahw-l-32", "nahw-l-33"]
+        },
+        {
+          "title": "Milestone 12: Assessment & Next Steps",
+          "lessons": ["nahw-l-34", "nahw-l-35", "nahw-l-36"]
+        }
+      ]
+    },
+    {
+      "_id": 3,
+      "slug": "sahih-al-bukhari-selected-hadith",
+      "title": "Sahih Al-Bukhari: Selected Hadith",
+      "shortDescription": "A focused study of selected authentic hadith from Sahih al-Bukhari, covering meaning, chains of transmission, and practical application.",
+      "fullDescription": "<p>This <strong>intermediate-level</strong> course explores carefully chosen hadith from <em>Sahih al-Bukhari</em>. Each lesson examines the text, chain (isnād), classification, scholarly commentary, and contemporary application. The course equips students to understand hadith methodology and apply prophetic guidance in daily life.</p><ul><li>Close reading of selected hadith with Arabic text and reliable translations</li><li>Explanation of the isnād and reasons for narrators' acceptance</li><li>Comparative commentary from classical and contemporary scholars</li><li>Practical lessons for worship, ethics, and community life</li></ul><p>By the end of the course you will be able to analyse selected hadith, explain their legal and moral implications, and reference classical commentary responsibly.</p>",
+      "category": "Islamic Knowledge",
+      "subcategory": "Hadith Sciences",
+      "level": "Intermediate",
+      "language": "Arabic & English",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1679671812146-71581a1419bb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fEhhZGl0aHxlbnwwfHwwfHx8MA%3D%3D",
+      "price": 79,
+      "currency": "$",
+      "students": 1890,
+      "rating": 4.9,
+      "duration": "6 weeks",
+      "type": "Islamic",
+      "instructor": {
+        "name": "Sheikh Abdullah Rahman",
+        "bio": "Hadith scholar and teacher specialising in hadith methodology and practical application, with extensive experience teaching classical sources.",
+        "avatar": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=500&auto=format&fit=crop"
+      },
+      "lessons": [
+        {
+          "id": "hb-l-1",
+          "title": "Course Introduction & How to Study Hadith",
+          "durationSeconds": 360,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-2",
+          "title": "Introduction to Imam al-Bukhari & His Methodology",
+          "durationSeconds": 420,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-3",
+          "title": "Understanding Isnad (Chains of Transmission)",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-4",
+          "title": "Hadith 1: Intention (niyyah) — Text, Chain & Meaning",
+          "durationSeconds": 600,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-5",
+          "title": "Hadith 2: Actions Are by Intentions — Commentary",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-6",
+          "title": "Hadith 3: Principles of Charity and Spending",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-7",
+          "title": "Hadith 4: on Sincerity and Hypocrisy",
+          "durationSeconds": 560,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-8",
+          "title": "Hadith 5: Rights of Parents — Chain & Explanation",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-9",
+          "title": "Hadith 6: Etiquette of Learning and Teachers",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-10",
+          "title": "Hadith 7: Social Ethics & Brotherhood",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-11",
+          "title": "Hadith 8: Lawful & Unlawful — Jurisprudential Notes",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-12",
+          "title": "Hadith 9: Speech, Truthfulness & Oaths",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-13",
+          "title": "Hadith 10: Prayer (Salah) — Practical Lessons",
+          "durationSeconds": 660,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-14",
+          "title": "Hadith 11: Fasting and Its Wisdom",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-15",
+          "title": "Hadith 12: Hajj & Pilgrimage Guidance",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-16",
+          "title": "Hadith 13: Ethics of Trade and Contracts",
+          "durationSeconds": 580,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-17",
+          "title": "Hadith 14: Legal Principles Derived from Hadith",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-18",
+          "title": "Hadith 15: Manners of the Prophet (AS) — Case Studies",
+          "durationSeconds": 600,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-19",
+          "title": "Hadith 16: Strategic Use of Hadith in Fiqh",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-20",
+          "title": "Hadith 17: Women in Hadith — Contextual Study",
+          "durationSeconds": 560,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-21",
+          "title": "Hadith 18: Supplication (Dua) and Its Etiquette",
+          "durationSeconds": 520,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-22",
+          "title": "Hadith 19: Healing, Medicine & Prophetic Advice",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-23",
+          "title": "Hadith 20: Governance, Justice & Leadership",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-24",
+          "title": "Hadith 21: Trials, Patience & Reliance on God",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-25",
+          "title": "Hadith 22: Ethics of War & Peace — Historical Context",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-26",
+          "title": "Hadith 23: Good Character & Personal Development",
+          "durationSeconds": 540,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-27",
+          "title": "Hadith 24: Prophetic Stories & Lessons",
+          "durationSeconds": 660,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-28",
+          "title": "Hadith 25: Food, Hospitality & Social Manners",
+          "durationSeconds": 520,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-29",
+          "title": "Hadith 26: Economics & Wealth Distribution",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-30",
+          "title": "Hadith 27: Repentance & Forgiveness",
+          "durationSeconds": 580,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-31",
+          "title": "Hadith 28: Death, Funerals & Afterlife Reminders",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-32",
+          "title": "Hadith 29: Preservation of the Sunnah — Transmission Issues",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-33",
+          "title": "Hadith 30: Contemporary Application & Case Studies",
+          "durationSeconds": 660,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-34",
+          "title": "Review Session: Analytical Techniques for Hadith",
+          "durationSeconds": 720,
+          "freePreview": true
+        },
+        {
+          "id": "hb-l-35",
+          "title": "Assessment: Textual Analysis & Chain Evaluation",
+          "durationSeconds": 800,
+          "freePreview": false
+        },
+        {
+          "id": "hb-l-36",
+          "title": "Conclusion: Practical Takeaways & Next Steps",
+          "durationSeconds": 840,
+          "freePreview": false
+        }
+      ],
+      "outline": [
+        {
+          "title": "Milestone 1: Orientation & Methodology",
+          "lessons": ["hb-l-1", "hb-l-2", "hb-l-3"]
+        },
+        {
+          "title": "Milestone 2: Core Hadiths — Intention & Action",
+          "lessons": ["hb-l-4", "hb-l-5", "hb-l-6"]
+        },
+        {
+          "title": "Milestone 3: Faith, Ethics & Social Conduct",
+          "lessons": ["hb-l-7", "hb-l-8", "hb-l-9"]
+        },
+        {
+          "title": "Milestone 4: Worship & Rituals",
+          "lessons": ["hb-l-10", "hb-l-11", "hb-l-12"]
+        },
+        {
+          "title": "Milestone 5: Family, Society & Morals",
+          "lessons": ["hb-l-13", "hb-l-14", "hb-l-15"]
+        },
+        {
+          "title": "Milestone 6: Legal Principles & Fiqh Derivations",
+          "lessons": ["hb-l-16", "hb-l-17", "hb-l-18"]
+        },
+        {
+          "title": "Milestone 7: Specialized Topics (Women, Healing, Dua)",
+          "lessons": ["hb-l-19", "hb-l-20", "hb-l-21"]
+        },
+        {
+          "title": "Milestone 8: Governance, Trials & Ethics",
+          "lessons": ["hb-l-22", "hb-l-23", "hb-l-24"]
+        },
+        {
+          "title": "Milestone 9: Historical Contexts & Narratives",
+          "lessons": ["hb-l-25", "hb-l-26", "hb-l-27"]
+        },
+        {
+          "title": "Milestone 10: Daily Life Applications",
+          "lessons": ["hb-l-28", "hb-l-29", "hb-l-30"]
+        },
+        {
+          "title": "Milestone 11: Assessment & Review",
+          "lessons": ["hb-l-31", "hb-l-32", "hb-l-33"]
+        },
+        {
+          "title": "Milestone 12: Final Assessment & Reflection",
+          "lessons": ["hb-l-34", "hb-l-35", "hb-l-36"]
+        }
+      ]
+    },
+    {
+      "_id": 4,
+      "slug": "web-development-react-nextjs",
+      "title": "Web Development with React & Next.js",
+      "shortDescription": "Learn to build modern web applications using React and Next.js, with hands-on projects and industry best practices.",
+      "fullDescription": "<p>This <strong>intermediate-level web development course</strong> guides students through building modern, performant web applications using React and Next.js. The course covers:</p><ul><li>React fundamentals and advanced concepts</li><li>Next.js for server-side rendering and static sites</li><li>State management, routing, and API integration</li><li>Project-based learning to build real-world applications</li></ul><p>By the end of this course, students will be able to develop scalable web applications and understand the best practices of modern frontend development.</p>",
+      "category": "Skill Development",
+      "subcategory": "Digital Skills & Coding",
+      "level": "Intermediate",
+      "language": "English",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1720287601920-ee8c503af775?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fFdlYiUyMERldmVsb3BtZW50JTIwd2l0aCUyMFJlYWN0JTIwJTI2JTIwTmV4dC5qc3xlbnwwfHwwfHx8MA%3D%3D",
+      "price": 99,
+      "currency": "$",
+      "students": 1850,
+      "rating": 4.7,
+      "duration": "6 weeks",
+      "type": "Skill",
+      "instructor": {
+        "name": "Yusuf Ibrahim",
+        "bio": "Experienced web developer and instructor specializing in React, Next.js, and modern frontend technologies.",
+        "avatar": "https://images.unsplash.com/photo-1595152772835-219674b2a8a3?q=80&w=500&auto=format&fit=crop"
+      },
+      "lessons": [
+        {
+          "id": "rnl-1",
+          "title": "Introduction to React & Next.js",
+          "durationSeconds": 360,
+          "freePreview": true
+        },
+        {
+          "id": "rnl-2",
+          "title": "JSX, Components & Props",
+          "durationSeconds": 420,
+          "freePreview": true
+        },
+        {
+          "id": "rnl-3",
+          "title": "State Management with useState & useReducer",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "rnl-4",
+          "title": "Handling Events & Forms in React",
+          "durationSeconds": 540,
+          "freePreview": true
+        },
+        {
+          "id": "rnl-5",
+          "title": "React Router & Navigation",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-6",
+          "title": "Next.js Pages, Routing & SSR",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-7",
+          "title": "Static Site Generation & ISR",
+          "durationSeconds": 580,
+          "freePreview": true
+        },
+        {
+          "id": "rnl-8",
+          "title": "API Routes & Data Fetching",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-9",
+          "title": "Styling with CSS Modules & Tailwind CSS",
+          "durationSeconds": 550,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-10",
+          "title": "State Management with Redux & Context API",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-11",
+          "title": "Authentication & Authorization in Next.js",
+          "durationSeconds": 660,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-12",
+          "title": "Deploying Next.js Apps",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+
+        {
+          "id": "rnl-13",
+          "title": "Advanced React Patterns",
+          "durationSeconds": 480,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-14",
+          "title": "Custom Hooks in React",
+          "durationSeconds": 450,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-15",
+          "title": "React Context Deep Dive",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-16",
+          "title": "Next.js Dynamic Routes",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-17",
+          "title": "Server-Side Rendering with Next.js",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-18",
+          "title": "Client-Side Data Fetching & SWR",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-19",
+          "title": "Forms & Validation in React",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-20",
+          "title": "Error Handling & Debugging",
+          "durationSeconds": 450,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-21",
+          "title": "Performance Optimization in React",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-22",
+          "title": "Next.js Image & Head Optimization",
+          "durationSeconds": 480,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-23",
+          "title": "SEO Best Practices in Next.js",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-24",
+          "title": "Integrating Third-Party Libraries",
+          "durationSeconds": 460,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-25",
+          "title": "React Testing with Jest & React Testing Library",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-26",
+          "title": "Next.js API Integration",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-27",
+          "title": "Authentication with JWT & NextAuth",
+          "durationSeconds": 580,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-28",
+          "title": "State Management with Recoil (Optional)",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-29",
+          "title": "Building a Blog with Next.js",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-30",
+          "title": "Building an E-commerce App",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-31",
+          "title": "Authentication & Cart Management",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-32",
+          "title": "Payment Integration (Stripe/PayPal)",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-33",
+          "title": "Testing & Deployment of Full App",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-34",
+          "title": "CI/CD & Vercel Deployment",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-35",
+          "title": "Project Review & Best Practices",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "rnl-36",
+          "title": "Final Project: Build a Full Web Application",
+          "durationSeconds": 800,
+          "freePreview": false
+        }
+      ],
+      "outline": [
+        {
+          "title": "Milestone 1: React Basics",
+          "lessons": ["rnl-1", "rnl-2", "rnl-3"]
+        },
+        {
+          "title": "Milestone 2: React Advanced",
+          "lessons": ["rnl-4", "rnl-5", "rnl-6"]
+        },
+        {
+          "title": "Milestone 3: Next.js Fundamentals",
+          "lessons": ["rnl-7", "rnl-8", "rnl-9"]
+        },
+        {
+          "title": "Milestone 4: State Management & Advanced Topics",
+          "lessons": ["rnl-10", "rnl-11", "rnl-12"]
+        },
+        { "title": "Milestone 12: Capstone Project", "lessons": ["rnl-36"] }
+      ]
+    },
+    {
+      "_id": 5,
+      "slug": "graphic-design-fundamentals",
+      "title": "Graphic Design Fundamentals",
+      "shortDescription": "Learn the essentials of graphic design, including visual principles, tools, and real-world projects to build a strong portfolio.",
+      "fullDescription": "<p>This <strong>beginner-friendly course</strong> covers the foundations of graphic design. Students will learn:</p><ul><li>Design principles: color theory, typography, composition</li><li>Software skills: Adobe Photoshop, Illustrator, and Figma</li><li>Branding, logo design, and visual identity</li><li>Practical projects to create a professional portfolio</li></ul><p>By the end of this course, students will be able to design visually appealing graphics and understand the core principles of effective design.</p>",
+      "category": "Skill Development",
+      "subcategory": "Graphic Design",
+      "level": "Beginner",
+      "language": "English",
+      "thumbnail": "https://images.unsplash.com/photo-1622465911894-1e73cbdc293a?w=500&auto=format&fit=crop&q=60",
+      "price": 79,
+      "currency": "$",
+      "students": 2340,
+      "rating": 4.8,
+      "duration": "8 weeks",
+      "type": "Skill",
+      "instructor": {
+        "name": "Aisha Rahman",
+        "bio": "Professional graphic designer and educator with over 10 years of experience in design, branding, and digital art.",
+        "avatar": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=500&auto=format&fit=crop"
+      },
+      "lessons": [
+        {
+          "id": "gdf-1",
+          "title": "Introduction to Graphic Design",
+          "durationSeconds": 360,
+          "freePreview": true
+        },
+        {
+          "id": "gdf-2",
+          "title": "Principles of Design: Balance & Alignment",
+          "durationSeconds": 420,
+          "freePreview": true
+        },
+        {
+          "id": "gdf-3",
+          "title": "Color Theory Basics",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "gdf-4",
+          "title": "Typography Essentials",
+          "durationSeconds": 540,
+          "freePreview": true
+        },
+        {
+          "id": "gdf-5",
+          "title": "Layout & Composition Techniques",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-6",
+          "title": "Understanding Visual Hierarchy",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-7",
+          "title": "Adobe Photoshop Basics",
+          "durationSeconds": 580,
+          "freePreview": true
+        },
+        {
+          "id": "gdf-8",
+          "title": "Adobe Illustrator Basics",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-9",
+          "title": "Figma: UI & UX Fundamentals",
+          "durationSeconds": 550,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-10",
+          "title": "Logo Design Principles",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-11",
+          "title": "Branding & Visual Identity",
+          "durationSeconds": 660,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-12",
+          "title": "Designing Social Media Graphics",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+
+        {
+          "id": "gdf-13",
+          "title": "Working with Images & Vectors",
+          "durationSeconds": 480,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-14",
+          "title": "Creating Posters & Flyers",
+          "durationSeconds": 450,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-15",
+          "title": "Infographics Design",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-16",
+          "title": "Color Correction & Filters",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-17",
+          "title": "Mockups & Presentation Design",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-18",
+          "title": "Portfolio Building Part 1",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-19",
+          "title": "Portfolio Building Part 2",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-20",
+          "title": "Motion Graphics Introduction",
+          "durationSeconds": 450,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-21",
+          "title": "Basics of Animation in Design",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-22",
+          "title": "Creating GIFs & Simple Animations",
+          "durationSeconds": 480,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-23",
+          "title": "UI Design Patterns",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-24",
+          "title": "UX Principles for Beginners",
+          "durationSeconds": 460,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-25",
+          "title": "Designing Mobile Interfaces",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-26",
+          "title": "Prototyping with Figma",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-27",
+          "title": "Design Feedback & Iteration",
+          "durationSeconds": 580,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-28",
+          "title": "Print vs Digital Design",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-29",
+          "title": "Client Work & Real Projects",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-30",
+          "title": "Creative Workflow & Time Management",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-31",
+          "title": "Design Collaboration & Handoff",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-32",
+          "title": "Portfolio Review & Critique",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-33",
+          "title": "Freelancing Tips for Designers",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-34",
+          "title": "Preparing for Job Interviews",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-35",
+          "title": "Marketing Yourself as a Designer",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "gdf-36",
+          "title": "Final Project: Complete Design Portfolio",
+          "durationSeconds": 800,
+          "freePreview": false
+        }
+      ],
+      "outline": [
+        {
+          "title": "Milestone 1: Introduction & Principles",
+          "lessons": ["gdf-1", "gdf-2", "gdf-3"]
+        },
+        {
+          "title": "Milestone 2: Typography, Layout & Tools",
+          "lessons": ["gdf-4", "gdf-5", "gdf-6", "gdf-7"]
+        },
+        {
+          "title": "Milestone 3: Advanced Tools & Branding",
+          "lessons": ["gdf-8", "gdf-9", "gdf-10", "gdf-11"]
+        },
+        {
+          "title": "Milestone 4: Projects & Portfolio",
+          "lessons": ["gdf-12", "gdf-13", "gdf-14", "gdf-15", "gdf-16"]
+        },
+        {
+          "title": "Milestone 5: UI/UX & Motion Graphics",
+          "lessons": [
+            "gdf-17",
+            "gdf-18",
+            "gdf-19",
+            "gdf-20",
+            "gdf-21",
+            "gdf-22"
+          ]
+        },
+        {
+          "title": "Milestone 6: Advanced Projects & Portfolio Review",
+          "lessons": ["gdf-23", "gdf-24", "gdf-25", "gdf-26", "gdf-27"]
+        },
+        {
+          "title": "Milestone 7: Freelancing & Career",
+          "lessons": [
+            "gdf-28",
+            "gdf-29",
+            "gdf-30",
+            "gdf-31",
+            "gdf-32",
+            "gdf-33",
+            "gdf-34",
+            "gdf-35",
+            "gdf-36"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 6,
+      "slug": "digital-marketing-essentials",
+      "title": "Digital Marketing Essentials",
+      "shortDescription": "A comprehensive beginner course on digital marketing covering SEO, social media, email campaigns, and analytics with real-world projects.",
+      "fullDescription": "<p>This <strong>beginner-friendly digital marketing course</strong> covers essential topics to launch and grow online campaigns. Students will learn:</p><ul><li>Search Engine Optimization (SEO) and keyword research</li><li>Social media marketing strategies for major platforms</li><li>Email marketing, content creation, and branding</li><li>Analytics, conversion tracking, and campaign optimization</li><li>Practical projects and real-world case studies</li></ul><p>By the end of the course, students will be able to plan, execute, and measure successful digital marketing campaigns.</p>",
+      "category": "Skill Development",
+      "subcategory": "Digital Marketing",
+      "level": "Beginner",
+      "language": "English",
+      "students": 3890,
+      "rating": 4.2,
+      "duration": "6 weeks",
+      "thumbnail": "https://images.unsplash.com/photo-1758973935099-5b662a863f6c?w=600&auto=format&fit=crop&q=60",
+      "price": 0,
+      "currency": "$",
+      "type": "Skill",
+      "instructor": {
+        "name": "Omar Abdullah",
+        "bio": "Experienced digital marketing consultant with over 8 years of expertise in SEO, social media marketing, and online advertising.",
+        "avatar": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=500&auto=format&fit=crop"
+      },
+      "lessons": [
+        {
+          "id": "dme-1",
+          "title": "Introduction to Digital Marketing",
+          "durationSeconds": 360,
+          "freePreview": true
+        },
+        {
+          "id": "dme-2",
+          "title": "Understanding Marketing Funnels",
+          "durationSeconds": 420,
+          "freePreview": true
+        },
+        {
+          "id": "dme-3",
+          "title": "SEO Fundamentals",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "dme-4",
+          "title": "Keyword Research & On-page SEO",
+          "durationSeconds": 540,
+          "freePreview": true
+        },
+        {
+          "id": "dme-5",
+          "title": "Off-page SEO & Link Building",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "dme-6",
+          "title": "Content Marketing Strategies",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "dme-7",
+          "title": "Social Media Marketing Basics",
+          "durationSeconds": 580,
+          "freePreview": true
+        },
+        {
+          "id": "dme-8",
+          "title": "Facebook & Instagram Ads",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "dme-9",
+          "title": "LinkedIn & Twitter Marketing",
+          "durationSeconds": 550,
+          "freePreview": false
+        },
+        {
+          "id": "dme-10",
+          "title": "Email Marketing Essentials",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "dme-11",
+          "title": "Content Creation & Blogging",
+          "durationSeconds": 660,
+          "freePreview": false
+        },
+        {
+          "id": "dme-12",
+          "title": "Visual Marketing & Branding",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "dme-13",
+          "title": "Analytics & Tracking Metrics",
+          "durationSeconds": 480,
+          "freePreview": false
+        },
+        {
+          "id": "dme-14",
+          "title": "Conversion Rate Optimization",
+          "durationSeconds": 450,
+          "freePreview": false
+        },
+        {
+          "id": "dme-15",
+          "title": "Landing Pages & Lead Generation",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "dme-16",
+          "title": "Pay-per-click (PPC) Advertising",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "dme-17",
+          "title": "Google Ads Fundamentals",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "dme-18",
+          "title": "Remarketing & Retargeting",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "dme-19",
+          "title": "Social Media Campaign Planning",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "dme-20",
+          "title": "Influencer Marketing Basics",
+          "durationSeconds": 450,
+          "freePreview": false
+        },
+        {
+          "id": "dme-21",
+          "title": "Video Marketing for Beginners",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "dme-22",
+          "title": "Brand Reputation Management",
+          "durationSeconds": 480,
+          "freePreview": false
+        },
+        {
+          "id": "dme-23",
+          "title": "E-commerce Marketing Strategies",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "dme-24",
+          "title": "Affiliate Marketing Basics",
+          "durationSeconds": 460,
+          "freePreview": false
+        },
+        {
+          "id": "dme-25",
+          "title": "Mobile Marketing Essentials",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "dme-26",
+          "title": "Marketing Automation Tools",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "dme-27",
+          "title": "Lead Nurturing & Email Funnels",
+          "durationSeconds": 580,
+          "freePreview": false
+        },
+        {
+          "id": "dme-28",
+          "title": "Marketing Case Studies",
+          "durationSeconds": 500,
+          "freePreview": false
+        },
+        {
+          "id": "dme-29",
+          "title": "Content Calendar & Scheduling",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "dme-30",
+          "title": "Marketing Analytics Reporting",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "dme-31",
+          "title": "SEO & PPC Integration Strategies",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+        {
+          "id": "dme-32",
+          "title": "Social Media ROI & Metrics",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "dme-33",
+          "title": "Marketing Career Tips",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "dme-34",
+          "title": "Freelancing as a Digital Marketer",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+        {
+          "id": "dme-35",
+          "title": "Preparing for Marketing Interviews",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "dme-36",
+          "title": "Final Project: Launch a Complete Marketing Campaign",
+          "durationSeconds": 800,
+          "freePreview": false
+        }
+      ],
+      "outline": [
+        {
+          "title": "Milestone 1: Introduction & Basics",
+          "lessons": ["dme-1", "dme-2", "dme-3"]
+        },
+        {
+          "title": "Milestone 2: SEO & Content Marketing",
+          "lessons": ["dme-4", "dme-5", "dme-6", "dme-7"]
+        },
+        {
+          "title": "Milestone 3: Social Media Marketing",
+          "lessons": ["dme-8", "dme-9", "dme-10", "dme-11"]
+        },
+        {
+          "title": "Milestone 4: Branding & Analytics",
+          "lessons": ["dme-12", "dme-13", "dme-14", "dme-15", "dme-16"]
+        },
+        {
+          "title": "Milestone 5: Paid Advertising & Campaigns",
+          "lessons": [
+            "dme-17",
+            "dme-18",
+            "dme-19",
+            "dme-20",
+            "dme-21",
+            "dme-22"
+          ]
+        },
+        {
+          "title": "Milestone 6: Advanced Strategies & Case Studies",
+          "lessons": ["dme-23", "dme-24", "dme-25", "dme-26", "dme-27"]
+        },
+        {
+          "title": "Milestone 7: Career & Final Project",
+          "lessons": [
+            "dme-28",
+            "dme-29",
+            "dme-30",
+            "dme-31",
+            "dme-32",
+            "dme-33",
+            "dme-34",
+            "dme-35",
+            "dme-36"
+          ]
+        }
+      ]
+    }
+  ]
+}
