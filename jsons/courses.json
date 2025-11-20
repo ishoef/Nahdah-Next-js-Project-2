@@ -1822,6 +1822,877 @@
           "lessons": ["gd-7", "gd-8", "gd-9"]
         }
       ]
+    },
+    {
+      "_id": "10",
+      "slug": "arabic-grammar-nahw-level-1",
+      "title": "Arabic Grammar Mastery: Nahw Level 1",
+      "shortDescription": "A structured beginner-to-intermediate course covering essential Arabic grammar rules based on classical texts.",
+      "fullDescription": "<p>This <strong>beginner-friendly Arabic grammar course</strong> introduces students to the foundations of <strong>Nahw (syntax)</strong>. Based on classical sources like Ajrumiyyah, students will master sentence structure, word analysis, and core grammatical rules with practical examples.</p><ul><li>Clear explanations with examples from Qur'an & Hadith</li><li>Step-by-step mastery of core Nahw principles</li><li>Weekly quizzes and practical exercises</li><li>Ideal for students of Islamic studies and Arabic learners</li></ul><p>By completing this course, learners will be able to understand and analyze Arabic sentences with confidence.</p>",
+      "category": "Arabic Language",
+      "subcategory": "Grammar & Syntax",
+      "level": "Beginner–Intermediate",
+      "language": "Arabic & English",
+      "thumbnail": "https://images.unsplash.com/photo-1584556812952-905ffd0c611a?w=600&auto=format&fit=crop&q=60",
+      "price": 0,
+      "currency": "$",
+      "students": 4100,
+      "rating": 4.8,
+      "duration": "10 weeks",
+      "instructor": {
+        "name": "Ustadh Kareem Al-Hassani",
+        "bio": "Expert Arabic linguist and Islamic studies teacher with 15+ years of teaching experience.",
+        "avatar": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=500&auto=format&fit=crop&q=60"
+      },
+
+      "lessons": [
+        {
+          "id": "n-1",
+          "title": "Introduction to Arabic Grammar",
+          "durationSeconds": 420,
+          "freePreview": true
+        },
+        {
+          "id": "n-2",
+          "title": "Importance of Nahw in Understanding Qur'an",
+          "durationSeconds": 460,
+          "freePreview": true
+        },
+        {
+          "id": "n-3",
+          "title": "Arabic Alphabets & Word Formation Review",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "n-4",
+          "title": "Definition of Kalimah & Types",
+          "durationSeconds": 520,
+          "freePreview": false
+        },
+        {
+          "id": "n-5",
+          "title": "Ism: Signs & Classifications",
+          "durationSeconds": 560,
+          "freePreview": false
+        },
+        {
+          "id": "n-6",
+          "title": "Fi'l: Signs & Types",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "n-7",
+          "title": "Harf: Meanings & Usage",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "n-8",
+          "title": "Understanding I'rab",
+          "durationSeconds": 590,
+          "freePreview": false
+        },
+        {
+          "id": "n-9",
+          "title": "Marfu'at: Mubtada & Khabar",
+          "durationSeconds": 630,
+          "freePreview": false
+        },
+        {
+          "id": "n-10",
+          "title": "Marfu'at: Fa'il & Na'ib al-Fa'il",
+          "durationSeconds": 610,
+          "freePreview": false
+        },
+        {
+          "id": "n-11",
+          "title": "Mansubat: Maf'ul Bihi",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+        {
+          "id": "n-12",
+          "title": "Mansubat: Maf'ul Mutlaq",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "n-13",
+          "title": "Majrurat: Huruf al-Jarr",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "n-14",
+          "title": "Idafah Structure Explained",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "n-15",
+          "title": "Types of Sentences: Jumlah Ismiyyah",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "n-16",
+          "title": "Jumlah Fi'liyyah: Structure and Rules",
+          "durationSeconds": 720,
+          "freePreview": false
+        },
+        {
+          "id": "n-17",
+          "title": "Particles in Arabic: Inna & Sisters",
+          "durationSeconds": 690,
+          "freePreview": false
+        },
+        {
+          "id": "n-18",
+          "title": "Kana & Sisters: Effects on I'rab",
+          "durationSeconds": 710,
+          "freePreview": false
+        },
+        {
+          "id": "n-19",
+          "title": "Advanced I'rab Practice",
+          "durationSeconds": 760,
+          "freePreview": false
+        },
+        {
+          "id": "n-20",
+          "title": "Applied Grammar Through Qur’anic Examples",
+          "durationSeconds": 780,
+          "freePreview": false
+        },
+        {
+          "id": "n-21",
+          "title": "Final Review & Comprehensive Summary",
+          "durationSeconds": 820,
+          "freePreview": false
+        }
+      ],
+
+      "outline": [
+        {
+          "title": "Milestone 1: Foundations of Nahw",
+          "lessons": ["n-1", "n-2", "n-3", "n-4"]
+        },
+        {
+          "title": "Milestone 2: Types of Words",
+          "lessons": ["n-5", "n-6", "n-7", "n-8"]
+        },
+        {
+          "title": "Milestone 3: Marfu'at (Nominatives)",
+          "lessons": ["n-9", "n-10"]
+        },
+        {
+          "title": "Milestone 4: Mansubat (Accusatives)",
+          "lessons": ["n-11", "n-12"]
+        },
+        {
+          "title": "Milestone 5: Majrurat (Genitives)",
+          "lessons": ["n-13", "n-14"]
+        },
+        {
+          "title": "Milestone 6: Sentence Structures",
+          "lessons": ["n-15", "n-16"]
+        },
+        {
+          "title": "Milestone 7: Special Particles",
+          "lessons": ["n-17", "n-18"]
+        },
+        { "title": "Milestone 8: I'rab Deep Dive", "lessons": ["n-19"] },
+        { "title": "Milestone 9: Qur'anic Grammar", "lessons": ["n-20"] },
+        {
+          "title": "Milestone 10: Practical Application",
+          "lessons": ["n-14", "n-15", "n-16"]
+        },
+        {
+          "title": "Milestone 11: Workbook Exercises",
+          "lessons": ["n-17", "n-18", "n-19"]
+        },
+        {
+          "title": "Milestone 12: Final Review & Summary",
+          "lessons": ["n-20", "n-21"]
+        }
+      ]
+    },
+    {
+      "_id": "11",
+      "slug": "islamic-youth-studies-leadership",
+      "title": "Islamic Youth Studies: Identity, Leadership & Modern Challenges",
+      "shortDescription": "A practical, inspiring course designed to empower Muslim youth with Islamic identity, leadership qualities, and resilience in a modern world.",
+      "fullDescription": "<p>This <strong>transformative Youth Studies course</strong> focuses on building a strong Muslim identity, leadership character, and spiritual discipline. It covers modern challenges that young Muslims face and provides prophetic solutions grounded in Qur’an & Sunnah.</p><ul><li>Islamic identity & self-confidence</li><li>Leadership from the Prophetic model</li><li>Digital challenges & social media discipline</li><li>Mental resilience & emotional intelligence</li><li>Goal setting, productivity & time management</li></ul><p>By the end, learners will be equipped to lead with confidence, navigate challenges wisely, and live as strong ambassadors of Islam.</p>",
+      "category": "Islamic Youth Development",
+      "subcategory": "Identity & Leadership",
+      "level": "Beginner–Intermediate",
+      "language": "English",
+      "thumbnail": "https://images.unsplash.com/photo-1541844053589-346841d0b34c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGVhZGVyc2hpcHxlbnwwfHwwfHx8MA%3D%3D",
+      "price": 0,
+      "currency": "$",
+      "students": 2800,
+      "rating": 4.9,
+      "duration": "8 weeks",
+      "instructor": {
+        "name": "Ustadh Hamza Rahman",
+        "bio": "Youth mentor and Islamic motivational speaker who has guided thousands of young Muslims around the world.",
+        "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=60"
+      },
+
+      "lessons": [
+        {
+          "id": "ys-1",
+          "title": "Who Am I? Understanding Muslim Identity",
+          "durationSeconds": 480,
+          "freePreview": true
+        },
+        {
+          "id": "ys-2",
+          "title": "Purpose of Life Through Qur’anic Lens",
+          "durationSeconds": 520,
+          "freePreview": true
+        },
+        {
+          "id": "ys-3",
+          "title": "Belonging to the Ummah",
+          "durationSeconds": 460,
+          "freePreview": true
+        },
+        {
+          "id": "ys-4",
+          "title": "Pillars of Strong Faith for Youth",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+
+        {
+          "id": "ys-5",
+          "title": "Qualities of Youth Mentioned in Qur'an",
+          "durationSeconds": 540,
+          "freePreview": false
+        },
+        {
+          "id": "ys-6",
+          "title": "Examples of Young Sahabah",
+          "durationSeconds": 610,
+          "freePreview": false
+        },
+        {
+          "id": "ys-7",
+          "title": "Courage, Responsibility & Trust",
+          "durationSeconds": 630,
+          "freePreview": false
+        },
+        {
+          "id": "ys-8",
+          "title": "Developing Leadership Skills",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+
+        {
+          "id": "ys-9",
+          "title": "The Heart in Islam: Purification & Strength",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "ys-10",
+          "title": "Building a Daily Spiritual Routine",
+          "durationSeconds": 580,
+          "freePreview": false
+        },
+        {
+          "id": "ys-11",
+          "title": "Salah, Dua & Dhikr for Youth",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "ys-12",
+          "title": "Handling Temptations & Peer Pressure",
+          "durationSeconds": 690,
+          "freePreview": false
+        },
+
+        {
+          "id": "ys-13",
+          "title": "Time Management Principles from Sunnah",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "ys-14",
+          "title": "Goal Setting for Success",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "ys-15",
+          "title": "Productive Habits & Routines",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "ys-16",
+          "title": "Balancing Study, Work & Worship",
+          "durationSeconds": 660,
+          "freePreview": false
+        },
+
+        {
+          "id": "ys-17",
+          "title": "Social Media Addiction: Islamic Perspective",
+          "durationSeconds": 680,
+          "freePreview": false
+        },
+        {
+          "id": "ys-18",
+          "title": "Protecting the Heart in the Digital World",
+          "durationSeconds": 720,
+          "freePreview": false
+        },
+        {
+          "id": "ys-19",
+          "title": "Managing Online Friendships",
+          "durationSeconds": 610,
+          "freePreview": false
+        },
+        {
+          "id": "ys-20",
+          "title": "Halal Entertainment & Boundaries",
+          "durationSeconds": 630,
+          "freePreview": false
+        },
+
+        {
+          "id": "ys-21",
+          "title": "Dealing with Depression & Anxiety",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "ys-22",
+          "title": "Emotional Intelligence in Islam",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+        {
+          "id": "ys-23",
+          "title": "Keeping a Healthy Mindset",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "ys-24",
+          "title": "Seeking Help: Islamic & Practical Approaches",
+          "durationSeconds": 670,
+          "freePreview": false
+        },
+
+        {
+          "id": "ys-25",
+          "title": "Building Islamic Friendships",
+          "durationSeconds": 590,
+          "freePreview": false
+        },
+        {
+          "id": "ys-26",
+          "title": "Avoiding Toxic Influences",
+          "durationSeconds": 610,
+          "freePreview": false
+        },
+        {
+          "id": "ys-27",
+          "title": "Community Service & Leadership",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "ys-28",
+          "title": "Being a Role Model in Society",
+          "durationSeconds": 680,
+          "freePreview": false
+        },
+
+        {
+          "id": "ys-29",
+          "title": "Youth & Family Responsibilities",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "ys-30",
+          "title": "Communication & Conflict Resolution",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+        {
+          "id": "ys-31",
+          "title": "Respecting Parents: Qur’anic Guidance",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "ys-32",
+          "title": "Maintaining Family Bonds",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+
+        {
+          "id": "ys-33",
+          "title": "Haram Relationships: Prevention & Guidance",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "ys-34",
+          "title": "Islamic View of Gender Interaction",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+        {
+          "id": "ys-35",
+          "title": "Lowering the Gaze & Modesty",
+          "durationSeconds": 680,
+          "freePreview": false
+        },
+        {
+          "id": "ys-36",
+          "title": "Preparing for Marriage in Youth",
+          "durationSeconds": 720,
+          "freePreview": false
+        },
+
+        {
+          "id": "ys-37",
+          "title": "Youth Role in Da’wah",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "ys-38",
+          "title": "Speaking with Wisdom & Confidence",
+          "durationSeconds": 660,
+          "freePreview": false
+        },
+        {
+          "id": "ys-39",
+          "title": "Correcting Mistakes Gently",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "ys-40",
+          "title": "Making a Positive Impact",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+
+        {
+          "id": "ys-41",
+          "title": "Final Review & Practical Life Plan",
+          "durationSeconds": 720,
+          "freePreview": false
+        },
+        {
+          "id": "ys-42",
+          "title": "Action Steps for the Next 30 Days",
+          "durationSeconds": 680,
+          "freePreview": false
+        },
+        {
+          "id": "ys-43",
+          "title": "Youth Leadership Roadmap",
+          "durationSeconds": 750,
+          "freePreview": false
+        },
+        {
+          "id": "ys-44",
+          "title": "Conclusion & Dua for Success",
+          "durationSeconds": 600,
+          "freePreview": false
+        }
+      ],
+
+      "outline": [
+        {
+          "title": "Milestone 1: Islamic Identity",
+          "lessons": ["ys-1", "ys-2", "ys-3", "ys-4"]
+        },
+        {
+          "title": "Milestone 2: Youth in Qur'an & Sunnah",
+          "lessons": ["ys-5", "ys-6", "ys-7", "ys-8"]
+        },
+        {
+          "title": "Milestone 3: Spiritual Development",
+          "lessons": ["ys-9", "ys-10", "ys-11", "ys-12"]
+        },
+        {
+          "title": "Milestone 4: Productivity & Time Management",
+          "lessons": ["ys-13", "ys-14", "ys-15", "ys-16"]
+        },
+        {
+          "title": "Milestone 5: Digital Discipline",
+          "lessons": ["ys-17", "ys-18", "ys-19", "ys-20"]
+        },
+        {
+          "title": "Milestone 6: Mental Strength",
+          "lessons": ["ys-21", "ys-22", "ys-23", "ys-24"]
+        },
+        {
+          "title": "Milestone 7: Positive Friendships",
+          "lessons": ["ys-25", "ys-26", "ys-27", "ys-28"]
+        },
+        {
+          "title": "Milestone 8: Family & Responsibilities",
+          "lessons": ["ys-29", "ys-30", "ys-31", "ys-32"]
+        },
+        {
+          "title": "Milestone 9: Modesty & Relationships",
+          "lessons": ["ys-33", "ys-34", "ys-35", "ys-36"]
+        },
+        {
+          "title": "Milestone 10: Da’wah & Community Impact",
+          "lessons": ["ys-37", "ys-38", "ys-39", "ys-40"]
+        },
+        {
+          "title": "Milestone 11: Personal Growth Plan",
+          "lessons": ["ys-41", "ys-42"]
+        },
+        {
+          "title": "Milestone 12: Final Reflection",
+          "lessons": ["ys-43", "ys-44"]
+        }
+      ]
+    },
+    {
+      "_id": "12",
+      "slug": "muslim-youth-character-building",
+      "title": "Muslim Youth Character Building Program",
+      "shortDescription": "A complete tarbiyah program focusing on character purification, manners, self-discipline, and Islamic personality development.",
+      "fullDescription": "<p>This <strong>Islamic Character Building Program for Youth</strong> is designed to develop sincerity, manners, emotional strength, and Islamic personality based on Qur’an and Sunnah.</p><ul><li>Building strong Islamic morals</li><li>Mental & emotional discipline</li><li>Social manners & etiquette</li><li>Overcoming desires & temptations</li><li>Prophetic akhlaq & real-life applications</li></ul><p>By the end of this course, youth will rise as confident, responsible, and spiritually disciplined Muslims.</p>",
+      "category": "Islamic Knowledge",
+      "subcategory": "Character & Tarbiyah",
+      "level": "Beginner–Intermediate",
+      "language": "English",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1726866383352-3b273965d285?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 0,
+      "currency": "$",
+      "students": 3500,
+      "rating": 4.8,
+      "duration": "9 weeks",
+      "instructor": {
+        "name": "Shaykh Mustafa Al-Hakim",
+        "bio": "Islamic teacher and tarbiyah mentor specializing in youth development and character training for 12+ years.",
+        "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=500&auto=format&fit=crop&q=60"
+      },
+
+      "lessons": [
+        {
+          "id": "cb-1",
+          "title": "Why Character Matters in Islam",
+          "durationSeconds": 500,
+          "freePreview": true
+        },
+        {
+          "id": "cb-2",
+          "title": "Akhlaq of the Prophet ﷺ",
+          "durationSeconds": 540,
+          "freePreview": true
+        },
+        {
+          "id": "cb-3",
+          "title": "What Shapes Youth Character?",
+          "durationSeconds": 520,
+          "freePreview": true
+        },
+        {
+          "id": "cb-4",
+          "title": "Heart Purification Basics",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+
+        {
+          "id": "cb-5",
+          "title": "Sincerity (Ikhlas) for Allah",
+          "durationSeconds": 580,
+          "freePreview": false
+        },
+        {
+          "id": "cb-6",
+          "title": "Avoiding Showing Off (Riya)",
+          "durationSeconds": 610,
+          "freePreview": false
+        },
+        {
+          "id": "cb-7",
+          "title": "Controlling Ego & Pride",
+          "durationSeconds": 630,
+          "freePreview": false
+        },
+        {
+          "id": "cb-8",
+          "title": "Humility Like the Sahabah",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+
+        {
+          "id": "cb-9",
+          "title": "Truthfulness & Trust",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "cb-10",
+          "title": "Keeping Promises & Integrity",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "cb-11",
+          "title": "Self-Control in Difficult Times",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "cb-12",
+          "title": "Dealing with Anger As a Muslim",
+          "durationSeconds": 680,
+          "freePreview": false
+        },
+
+        {
+          "id": "cb-13",
+          "title": "Cleanliness & Personal Hygiene",
+          "durationSeconds": 575,
+          "freePreview": false
+        },
+        {
+          "id": "cb-14",
+          "title": "Manners with Parents",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "cb-15",
+          "title": "Manners with Elders & Teachers",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "cb-16",
+          "title": "Respect, Kindness & Mercy",
+          "durationSeconds": 630,
+          "freePreview": false
+        },
+
+        {
+          "id": "cb-17",
+          "title": "Avoiding Haram Friendships",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+        {
+          "id": "cb-18",
+          "title": "Dealing with Peer Pressure",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "cb-19",
+          "title": "Etiquettes of Islamic Brotherhood",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "cb-20",
+          "title": "Healthy & Productive Social Circles",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+
+        {
+          "id": "cb-21",
+          "title": "Avoiding Sins & Bad Habits",
+          "durationSeconds": 690,
+          "freePreview": false
+        },
+        {
+          "id": "cb-22",
+          "title": "Controlling Desires",
+          "durationSeconds": 710,
+          "freePreview": false
+        },
+        {
+          "id": "cb-23",
+          "title": "Building Consistency in Good Deeds",
+          "durationSeconds": 680,
+          "freePreview": false
+        },
+        {
+          "id": "cb-24",
+          "title": "Willpower & Discipline for Youth",
+          "durationSeconds": 720,
+          "freePreview": false
+        },
+
+        {
+          "id": "cb-25",
+          "title": "Understanding Emotional Triggers",
+          "durationSeconds": 600,
+          "freePreview": false
+        },
+        {
+          "id": "cb-26",
+          "title": "Islamic Coping Skills",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "cb-27",
+          "title": "Managing Stress as a Student",
+          "durationSeconds": 610,
+          "freePreview": false
+        },
+        {
+          "id": "cb-28",
+          "title": "Building Emotional Strength",
+          "durationSeconds": 650,
+          "freePreview": false
+        },
+
+        {
+          "id": "cb-29",
+          "title": "Confidence Without Arrogance",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "cb-30",
+          "title": "Communication Manners",
+          "durationSeconds": 640,
+          "freePreview": false
+        },
+        {
+          "id": "cb-31",
+          "title": "Public Speaking for Youth",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "cb-32",
+          "title": "Leadership Through Good Character",
+          "durationSeconds": 720,
+          "freePreview": false
+        },
+
+        {
+          "id": "cb-33",
+          "title": "Digital Manners & Online Behavior",
+          "durationSeconds": 680,
+          "freePreview": false
+        },
+        {
+          "id": "cb-34",
+          "title": "Using Social Media With Purpose",
+          "durationSeconds": 630,
+          "freePreview": false
+        },
+        {
+          "id": "cb-35",
+          "title": "Protecting Yourself Online",
+          "durationSeconds": 610,
+          "freePreview": false
+        },
+        {
+          "id": "cb-36",
+          "title": "Avoiding Fitnah on the Internet",
+          "durationSeconds": 690,
+          "freePreview": false
+        },
+
+        {
+          "id": "cb-37",
+          "title": "Helping Others & Volunteering",
+          "durationSeconds": 620,
+          "freePreview": false
+        },
+        {
+          "id": "cb-38",
+          "title": "Community Leadership for Youth",
+          "durationSeconds": 700,
+          "freePreview": false
+        },
+        {
+          "id": "cb-39",
+          "title": "Dawah With Good Manners",
+          "durationSeconds": 720,
+          "freePreview": false
+        },
+        {
+          "id": "cb-40",
+          "title": "Creating Positive Change",
+          "durationSeconds": 680,
+          "freePreview": false
+        }
+      ],
+
+      "outline": [
+        {
+          "title": "Milestone 1: Foundations of Islamic Character",
+          "lessons": ["cb-1", "cb-2", "cb-3", "cb-4"]
+        },
+        {
+          "title": "Milestone 2: Purification of the Heart",
+          "lessons": ["cb-5", "cb-6", "cb-7", "cb-8"]
+        },
+        {
+          "title": "Milestone 3: Truthfulness & Self-Control",
+          "lessons": ["cb-9", "cb-10", "cb-11", "cb-12"]
+        },
+        {
+          "title": "Milestone 4: Manners & Etiquette",
+          "lessons": ["cb-13", "cb-14", "cb-15", "cb-16"]
+        },
+        {
+          "title": "Milestone 5: Friendships & Social Manners",
+          "lessons": ["cb-17", "cb-18", "cb-19", "cb-20"]
+        },
+        {
+          "title": "Milestone 6: Discipline & Willpower",
+          "lessons": ["cb-21", "cb-22", "cb-23", "cb-24"]
+        },
+        {
+          "title": "Milestone 7: Emotional Strength & Stability",
+          "lessons": ["cb-25", "cb-26", "cb-27", "cb-28"]
+        },
+        {
+          "title": "Milestone 8: Confidence & Leadership",
+          "lessons": ["cb-29", "cb-30", "cb-31", "cb-32"]
+        },
+        {
+          "title": "Milestone 9: Digital Manners & Online Safety",
+          "lessons": ["cb-33", "cb-34", "cb-35", "cb-36"]
+        },
+        {
+          "title": "Milestone 10: Community Service & Leadership",
+          "lessons": ["cb-37", "cb-38", "cb-39", "cb-40"]
+        },
+        {
+          "title": "Milestone 11: Review & Self-Assessment",
+          "lessons": ["cb-21", "cb-27"]
+        },
+        {
+          "title": "Milestone 12: Final Project & Personal Growth Plan",
+          "lessons": ["cb-38", "cb-39"]
+        }
+      ]
     }
   ]
 }
