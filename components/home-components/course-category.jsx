@@ -31,7 +31,7 @@ const courses = [
     ],
     link: "/islamic-knowledge",
     accent:
-      "bg-[#206380] hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600",
+      "bg-[#206380] hover:bg-[#1f789b] dark:bg-blue-500 dark:hover:bg-blue-600",
   },
   {
     id: 2,
@@ -50,7 +50,7 @@ const courses = [
     ],
     link: "/skills",
     accent:
-      "bg-[#206380] hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600",
+      "bg-[#206380] hover:bg-[#1f789b] dark:bg-blue-500 dark:hover:bg-blue-600",
   },
 ];
 

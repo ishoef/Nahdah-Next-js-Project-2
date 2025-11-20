@@ -16,8 +16,8 @@ const CustomLink = ({ path, children }) => {
         transition-colors duration-200
         ${
           active
-            ? "text-blue-500 dark:text-blue-400" // active
-            : "text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400" // default + hover
+            ? "text-[#206380] dark:text-[#3eb2d2]" // active
+            : "text-gray-700 dark:text-gray-200 hover:text-[#1f789b] dark:hover:text-[#3eb2d2]" // default + hover
         }
       `}
     >

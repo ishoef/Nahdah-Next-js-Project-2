@@ -10,32 +10,32 @@ import {
 
 const features = [
   {
-    icon: <FaVideo className="text-blue-500 text-2xl" />,
+    icon: <FaVideo className="text-[#1f789b] text-2xl" />,
     title: "Live Classes & Video Lessons",
     desc: "Attend interactive live classes and access high-quality video lessons for a complete learning experience.",
   },
   {
-    icon: <FaFolderOpen className="text-blue-500 text-2xl" />,
+    icon: <FaFolderOpen className="text-[#1f789b] text-2xl" />,
     title: "Recorded Content & Videos for Every Lesson",
     desc: "All lessons are recorded and available for download so you can learn at your own pace, anytime and anywhere.",
   },
   {
-    icon: <FaClipboardList className="text-blue-500 text-2xl" />,
+    icon: <FaClipboardList className="text-[#1f789b] text-2xl" />,
     title: "Quizzes",
     desc: "Test your understanding with quizzes after each lesson and track your progress effectively.",
   },
   {
-    icon: <FaCode className="text-blue-500 text-2xl" />,
+    icon: <FaCode className="text-[#1f789b] text-2xl" />,
     title: "Assignments",
     desc: "Practice hands-on assignments with every module to strengthen your learning and apply concepts in real scenarios.",
   },
   {
-    icon: <FaUsers className="text-blue-500 text-2xl" />,
+    icon: <FaUsers className="text-[#1f789b] text-2xl" />,
     title: "Support Sessions",
     desc: "Join live support sessions to ask questions and get guidance on any course topic from our experts.",
   },
   {
-    icon: <FaTasks className="text-blue-500 text-2xl" />,
+    icon: <FaTasks className="text-[#1f789b] text-2xl" />,
     title: "World’s Best Teachers",
     desc: "Learn from top educators and work on real projects to build practical skills and a strong portfolio.",
   },
@@ -47,9 +47,9 @@ export default function CourseFeatures() {
       <div className="max-w-5xl mx-auto text-center">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#153151] dark:text-white">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#102b3c] dark:text-white">
             Our Course{" "}
-            <span className="text-blue-600 dark:text-blue-400">
+            <span className="text-[#206380] dark:text-blue-400">
               Learning Materials
             </span>
           </h2>

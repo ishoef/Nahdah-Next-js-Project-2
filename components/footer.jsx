@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Logo and About */}
           <div>
             <div className="flex items-center mb-4">
-              <div className="bg-blue-500 dark:bg-gray-800 text-white p-2 rounded-md text-2xl">
+              <div className="bg-[#1f789b] dark:bg-gray-800 text-white p-2 rounded-md text-2xl">
                 📖
               </div>
               <div className="ml-3">
@@ -37,28 +37,28 @@ export default function Footer() {
               <a
                 href="#"
                 aria-label="Facebook"
-                className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                className="hover:text-[#1f789b] dark:hover:text-gray-400 transition-colors"
               >
                 <i className="fab fa-facebook"></i>
               </a>
               <a
                 href="#"
                 aria-label="Twitter"
-                className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                className="hover:text-[#1f789b] dark:hover:text-gray-400 transition-colors"
               >
                 <i className="fab fa-twitter"></i>
               </a>
               <a
                 href="#"
                 aria-label="Instagram"
-                className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                className="hover:text-[#1f789b] dark:hover:text-gray-400 transition-colors"
               >
                 <i className="fab fa-instagram"></i>
               </a>
               <a
                 href="#"
                 aria-label="YouTube"
-                className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                className="hover:text-[#1f789b] dark:hover:text-gray-400 transition-colors"
               >
                 <i className="fab fa-youtube"></i>
               </a>
@@ -74,7 +74,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                  className="hover:text-[#3eb2d2] dark:hover:text-gray-400 transition-colors"
                 >
                   Islamic Knowledge
                 </a>
@@ -82,7 +82,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                  className="hover:text-[#3eb2d2] dark:hover:text-gray-400 transition-colors"
                 >
                   Skill Development
                 </a>
@@ -90,7 +90,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                  className="hover:text-[#3eb2d2] dark:hover:text-gray-400 transition-colors"
                 >
                   Our Instructors
                 </a>
@@ -98,7 +98,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                  className="hover:text-[#3eb2d2] dark:hover:text-gray-400 transition-colors"
                 >
                   Certificates
                 </a>
@@ -115,7 +115,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                  className="hover:text-[#3eb2d2] dark:hover:text-gray-400 transition-colors"
                 >
                   About Us
                 </a>
@@ -123,7 +123,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                  className="hover:text-[#3eb2d2] dark:hover:text-gray-400 transition-colors"
                 >
                   Contact
                 </a>
@@ -131,7 +131,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                  className="hover:text-[#3eb2d2] dark:hover:text-gray-400 transition-colors"
                 >
                   Donate
                 </a>
@@ -139,7 +139,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                  className="hover:text-[#3eb2d2] dark:hover:text-gray-400 transition-colors"
                 >
                   FAQ
                 </a>
@@ -147,7 +147,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-blue-500 dark:hover:text-gray-400 transition-colors"
+                  className="hover:text-[#3eb2d2] dark:hover:text-gray-400 transition-colors"
                 >
                   Privacy Policy
                 </a>
@@ -166,12 +166,12 @@ export default function Footer() {
             <input
               type="email"
               id="email"
-              className="border-2 w-full px-4 py-2 mb-3 rounded text-gray-50 dark:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-gray-400 text-sm dark:placeholder:text-gray-500"
+              className="border-2 w-full px-4 py-2 mb-3 rounded text-gray-50 dark:text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#3eb2d2] dark:focus:ring-gray-400 text-sm dark:placeholder:text-gray-500"
               placeholder="Your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <button className="w-full bg-blue-500 dark:bg-gray-500 text-white py-2 rounded flex items-center justify-center gap-2 hover:bg-blue-600 dark:hover:bg-gray-800 transition">
+            <button className="cursor-pointer w-full bg-[#2295b8] dark:bg-gray-500 text-white py-2 rounded flex items-center justify-center gap-2 hover:bg-[#1f789b] dark:hover:bg-gray-800 transition">
               <span>📧</span>
               <span>Subscribe</span>
             </button>

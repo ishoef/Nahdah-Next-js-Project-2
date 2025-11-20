@@ -37,7 +37,7 @@ const Header = () => {
       <NetworkStatus />
       <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#153151] dark:text-gray-100">
+        <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#206380] dark:text-gray-100">
           <Link href="/">An-Nahdah</Link>
         </div>
 
@@ -63,7 +63,7 @@ const Header = () => {
           ) : (
             <Button
               asChild
-              className="hidden md:inline-flex text-white bg-[#2295b8] hover:bg-[#1f789b] dark:bg-[#1f789b] dark:hover:bg-[#206380] text-sm sm:text-base px-4 py-2 transition-colors duration-200"
+              className="hidden md:inline-flex text-white bg-[#206380] hover:bg-[#225168] dark:bg-[#1f789b] dark:hover:bg-[#206380] text-sm sm:text-base px-4 py-2 transition-colors duration-200"
             >
               <Link href="/login">Login</Link>
             </Button>
