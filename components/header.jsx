@@ -63,7 +63,7 @@ const Header = () => {
           ) : (
             <Button
               asChild
-              className="hidden md:inline-flex text-white bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-sm sm:text-base px-4 py-2 transition-colors duration-200"
+              className="hidden md:inline-flex text-white bg-[#2295b8] hover:bg-[#1f789b] dark:bg-[#1f789b] dark:hover:bg-[#206380] text-sm sm:text-base px-4 py-2 transition-colors duration-200"
             >
               <Link href="/login">Login</Link>
             </Button>

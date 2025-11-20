@@ -32,7 +32,7 @@ export default function CourseShowcase() {
           {/* Left Card */}
           <div className="bg-gradient-to-bl from-white via-gray-50 to-gray-100 dark:from-gray-800 dark:via-gray-700 dark:to-gray-900 rounded-3xl shadow-xl p-6 sm:p-8 border border-gray-300 dark:border-gray-700">
             <div className="flex items-center justify-center mb-4">
-              <span className="bg-blue-500 text-sm text-white font-semibold px-4 py-1 rounded-full">
+              <span className="bg-[#2295b8] text-sm text-white font-semibold px-4 py-1 rounded-full">
                 Islamic Knowledge Courses
               </span>
             </div>
@@ -50,7 +50,7 @@ export default function CourseShowcase() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="flex flex-col items-center bg-blue-500/20 backdrop-blur-sm rounded-xl p-4 hover:bg-blue-400/30 transition-all duration-300"
+                  className="flex flex-col items-center bg-[#d5f2f8] backdrop-blur-sm rounded-xl p-4 hover:bg-blue-400/30 transition-all duration-300"
                 >
                   <div className="w-12 h-12 mb-2">
                     <Image
@@ -70,7 +70,7 @@ export default function CourseShowcase() {
 
             <Link
               href="#"
-              className="block text-center text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline transition"
+              className="block text-center text-sm font-semibold text-[#1f789b] dark:text-[#3eb2d2] hover:underline transition"
             >
               🎯 Book Your Free Class Now →
             </Link>
@@ -79,7 +79,7 @@ export default function CourseShowcase() {
           {/* Right Card */}
           <div className="bg-gradient-to-br from-white via-gray-50 to-gray-100 dark:from-gray-800 dark:via-gray-700 dark:to-gray-900 rounded-3xl shadow-xl p-6 sm:p-8 border border-gray-300 dark:border-gray-700">
             <div className="flex items-center justify-center mb-4">
-              <span className="bg-blue-500 text-sm font-semibold px-4 py-1 rounded-full text-white">
+              <span className="bg-[#2295b8] text-sm font-semibold px-4 py-1 rounded-full text-white">
                 Skill Development Courses
               </span>
             </div>
@@ -97,7 +97,7 @@ export default function CourseShowcase() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="flex flex-col items-center bg-blue-500/20 backdrop-blur-sm rounded-xl p-4 hover:bg-blue-400/30 transition-all duration-300"
+                  className="flex flex-col items-center bg-[#d5f2f8] backdrop-blur-sm rounded-xl p-4 hover:bg-blue-400/30 transition-all duration-300"
                 >
                   <div className="w-12 h-12 mb-2">
                     <Image
@@ -117,7 +117,7 @@ export default function CourseShowcase() {
 
             <Link
               href="#"
-              className="block text-center text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline transition"
+              className="block text-center text-sm font-semibold text-[#1f789b] dark:text-[#3eb2d2] hover:underline transition"
             >
               📘 Explore Free Courses →
             </Link>
@@ -130,7 +130,7 @@ export default function CourseShowcase() {
             {
               title: "Quranic Studies & Tafsir",
               desc: "Enrollment Open",
-              color: "from-blue-600 to-blue-700",
+              color: "from-[#206380] to-[#1f789b]",
             },
             {
               title: "Hadith Sciences & Fiqh",
@@ -140,7 +140,7 @@ export default function CourseShowcase() {
             {
               title: "Arabic Language & Grammar",
               desc: "Enroll Now",
-              color: "from-indigo-600 to-indigo-700",
+              color: "from-[#206380] to-[#1f789b]",
             },
             {
               title: "Islamic History & Aqeedah",
@@ -155,7 +155,7 @@ export default function CourseShowcase() {
             {
               title: "Graphic Design & Marketing",
               desc: "Enroll Now",
-              color: "from-indigo-600 to-indigo-700",
+              color: "from-[#206380] to-[#1f789b]",
             },
             {
               title: "Leadership & Communication",
@@ -165,7 +165,7 @@ export default function CourseShowcase() {
             {
               title: "Entrepreneurship & Business",
               desc: "Enrollment Open",
-              color: "from-blue-600 to-blue-700",
+              color: "from-[#206380] to-[#1f789b]",
             },
           ].map((item, i) => (
             <Link

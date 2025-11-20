@@ -149,7 +149,7 @@ export default function NewsSection() {
                   </p>
                   <Link
                     href={`/news/${item.slug}`}
-                    className="mt-4 inline-block font-medium hover:underline bg-gradient-to-r from-blue-600 to-blue-400 dark:from-gray-400 dark:to-gray-300 bg-clip-text text-transparent"
+                    className="mt-4 inline-block font-medium hover:underline bg-gradient-to-r from-[#206380] to-blue-400 dark:from-gray-400 dark:to-gray-300 bg-clip-text text-transparent"
                   >
                     Read More →
                   </Link>
@@ -168,7 +168,7 @@ export default function NewsSection() {
           <div className="text-center mt-12">
             <Link
               href="/news"
-              className="px-6 py-3 rounded-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-400 hover:opacity-90 dark:from-gray-700 dark:to-gray-600 transition-all"
+              className="px-6 py-3 rounded-lg font-semibold text-white bg-gradient-to-r from-[#206380] to-[#2295b8] hover:opacity-90 dark:from-gray-700 dark:to-gray-600 transition-all"
             >
               View All News
             </Link>

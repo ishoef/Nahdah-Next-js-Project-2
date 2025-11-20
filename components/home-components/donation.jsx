@@ -11,7 +11,7 @@ const Donation = () => {
           <FaHeart className="animate-pulse text-red-500" />
         </span>
 
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#153151] dark:text-gray-100 mt-4">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#102b3c] dark:text-gray-100 mt-4">
           Support Islamic Education
         </h1>
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-300 text-lg sm:text-xl">
@@ -23,7 +23,7 @@ const Donation = () => {
           <Link
             href="/donate"
             aria-label="Donate to support Islamic education"
-            className="cursor-pointer px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg rounded-md transition-colors"
+            className="cursor-pointer px-6 py-3 bg-[#1f789b] hover:bg-[#206380] text-white text-lg rounded-md transition-colors"
           >
             Donate Now
           </Link>

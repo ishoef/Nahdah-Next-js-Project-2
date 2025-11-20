@@ -25,7 +25,7 @@ export default function CourseOutline({ course }) {
             className="w-full text-left px-4 sm:px-5 py-3 flex justify-between items-center focus:outline-none cursor-pointer hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"
             onClick={() => toggleMilestone(index)}
           >
-            <span className=" text-md sm:text-lg font-semibold text-blue-600 dark:text-blue-400">
+            <span className=" text-md sm:text-lg font-semibold text-[#1f789b] dark:text-blue-400">
               {section.title}
             </span>
             <span

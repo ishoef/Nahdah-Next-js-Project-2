@@ -81,12 +81,12 @@ function MarqueeRow({ reverse }) {
 
 export default function TestimonialsSlider() {
   return (
-    <section className="py-20 relative bg-gradient-to-r from-blue-200 via-blue-100 to-blue-200 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+    <section className="py-20 relative bg-gradient-to-r from-[#b1e5f0] via-[#d5f2f8] to-[#b1e5f0] dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="max-w-7xl mx-auto text-center mb-12 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#153151] dark:text-white">
             Students{" "}
-            <span className="text-blue-600 dark:text-blue-400">
+            <span className="text-[#206380] dark:text-blue-400">
               Success Story
             </span>
           </h2>

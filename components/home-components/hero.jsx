@@ -14,8 +14,8 @@ const Hero = () => {
     <section
       className="relative overflow-hidden 
       bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 
-      dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 
-      py-14 sm:py-10 md:py-12 lg:py-14 transition-colors duration-500"
+      dark:from-gray-900 dark:via-gray-800 dark:to-gray-900
+      py-14 sm:py-10 md:py-12 lg:py-22 transition-colors duration-500"
     >
       {/* Decorative Pattern */}
       <div className="absolute inset-0 islamic-pattern opacity-20 dark:opacity-10"></div>
@@ -37,7 +37,7 @@ const Hero = () => {
             {isStandalone ? (
               ""
             ) : (
-              <Badge className="mb-6 bg-[#206380] text-white dark:bg-blue-400 dark:text-gray-900 shadow text-xs sm:text-sm md:text-base">
+              <Badge className="mb-6 bg-[#206380] text-white dark:bg-[#3eb2d2] dark:text-gray-900 shadow text-xs sm:text-sm md:text-base">
                 <Download className="mr-2 h-4 w-4" />
                 Install Our App for Offline Learning
               </Badge>
@@ -69,7 +69,7 @@ const Hero = () => {
                 size="lg"
                 variant="default"
                 asChild
-                className="px-6 sm:px-8 py-3 text-base sm:text-lg"
+                className="px-6 sm:px-8 py-3 text-base sm:text-lg bg-[#206380] hover:bg-[#1f789b] dark:bg-[#3eb2d2] dark:hover:bg-[#7bd0e5]"
               >
                 <Link href="/register">
                   Start Learning Now
@@ -79,7 +79,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="px-6 sm:px-8 py-3 text-base sm:text-lg border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white 
+                className="px-6 sm:px-8 py-3 text-base sm:text-lg border-[#1f789b] text-[#1f789b] hover:bg-[#1f789b] hover:text-white 
                 dark:border-gray-300 dark:text-gray-300 dark:hover:bg-gray-300 dark:hover:text-gray-900"
                 asChild
               >

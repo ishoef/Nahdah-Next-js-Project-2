@@ -36,7 +36,7 @@ export default function CourseCard({ course }) {
         />
 
         {/* Top Left: Level */}
-        <span className="absolute top-2 left-2 bg-blue-600 text-white text-xs sm:text-sm px-3 py-1 rounded-full font-medium shadow-sm">
+        <span className="absolute top-2 left-2 bg-[#206380] text-white text-xs sm:text-sm px-3 py-1 rounded-full font-medium shadow-sm">
           {level}
         </span>
 
@@ -69,7 +69,7 @@ export default function CourseCard({ course }) {
           </h3>
 
           {/* Instructor */}
-          <p className="text-sm text-blue-600 dark:text-blue-400 mb-4">
+          <p className="text-sm font-semibold cursor-pointer text-[#206380] dark:text-blue-400 mb-4">
             {instructor.name}
           </p>
         </div>
@@ -101,7 +101,7 @@ export default function CourseCard({ course }) {
             </span>
 
             <Button
-              className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded-md"
+              className="bg-[#206380] hover:bg-[#225168] text-white text-sm px-4 py-2 rounded-md"
               asChild
             >
               <Link href={`/courses/${_id}`}>View Course</Link>

@@ -5,11 +5,11 @@ import { FaBookOpen } from "react-icons/fa"; // Dummy logo icon
 const FounderSection = () => {
   return (
     <section className="bg-white dark:bg-gray-900 px-6">
-      <div className="max-w-6xl  py-16 border-b-3 border-b-blue-500 mx-auto flex flex-col md:flex-row items-center gap-12">
+      <div className="max-w-6xl  py-16 border-b-3 border-b-[#1f789b] mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Left Image with Background */}
         <div className="relative w-full md:w-1/3 flex justify-center basis-1/2">
           {/* Background Accent */}
-          <div className="absolute top-5 left-5 w-[80%] h-[95%] bg-[#153151] rounded-lg"></div>
+          <div className="absolute top-5 left-5 w-[80%] h-[95%] bg-[#1f789b] rounded-lg"></div>
 
           {/* Photo Card */}
           <div className="overflow-hidden rounded-lg shadow-lg transform transition-all z-10 duration-500 hover:scale-105 hover:rotate-1">
@@ -22,8 +22,8 @@ const FounderSection = () => {
         </div>
 
         {/* Right Text Section */}
-        <div className="w-full basis-1/2 md:w-2/3 border-l-4 border-blue-600 pl-6 ">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#153151] dark:text-gray-100 mb-6">
+        <div className="w-full basis-1/2 md:w-2/3 border-l-4 border-[#1f789b] pl-6 ">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#102b3c] dark:text-gray-100 mb-6">
             A Few Words About Our Founder
           </h2>
 
@@ -57,10 +57,10 @@ const FounderSection = () => {
           {/* Logo + License */}
           <div className="mt-6 flex items-center gap-3">
             <div className="p-2 rounded-full bg-gray-200 dark:bg-gray-800">
-              <FaBookOpen className="text-blue-600 dark:text-gray-300 text-xl" />
+              <FaBookOpen className="text-[#1f789b] dark:text-gray-300 text-xl" />
             </div>
             <div>
-              <p className="text-gray-800 dark:text-gray-200 font-medium">
+              <p className="text-[#204459] dark:text-gray-200 font-medium">
                 An-Nahdah Online Academy - AOI
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-400">

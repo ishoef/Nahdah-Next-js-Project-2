@@ -1,26 +1,3 @@
-// import React from "react";
-// import Section from "../ui/section";
-// import Title from "../ui/title";
-
-// const OurTeachers = () => {
-//   return (
-//     // <Section>
-//     //   <Title
-//     //     title1={"Meet Our"}
-//     //     title2={"Honorable Teachers"}
-//     //     subTitle="Learn from the world best and well educated teachers"
-//     //   />
-//     // </Section>
-//   );
-// };
-
-// export default OurTeachers;
-
-// TeachersSection.jsx (Next.js component)
-// - TailwindCSS responsive grid
-// - Gradient background for light/dark themes (no manual toggle)
-// - Elegant, respectful teacher profile cards
-
 "use client";
 
 import React, { useState } from "react";
@@ -162,7 +139,7 @@ export default function TeachersSection() {
                 className="group relative bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-300 dark:border-gray-700 overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
               >
                 {/* Gradient top border */}
-                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 to-blue-600" />
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#3eb2d2] to-[#1f789b]" />
 
                 <div className="flex flex-col items-center text-center p-6 pt-10">
                   <div className="relative">
@@ -171,9 +148,9 @@ export default function TeachersSection() {
                         "https://i.postimg.cc/QNFWys2W/vecteezy-profile-icon-design-vector-5544718.jpg"
                       }
                       alt={`${t.name} profile`}
-                      className="w-38 h-38 rounded-full object-cover shadow-md ring-4 ring-blue-400"
+                      className="w-38 h-38 rounded-full object-cover shadow-md ring-4 ring-[#3eb2d2]"
                     />
-                    <div className="absolute -bottom-2 -right-2 bg-blue-500 text-white text-xs px-2 py-0.5 rounded-full shadow">
+                    <div className="absolute -bottom-2 -right-2 bg-[#2295b8] text-white text-xs px-2 py-0.5 rounded-full shadow">
                       {t.rating.toFixed(1)} ★
                     </div>
                   </div>
@@ -197,7 +174,7 @@ export default function TeachersSection() {
                     {t.subjects.map((s) => (
                       <span
                         key={s}
-                        className="text-xs px-2 py-1 rounded-full bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300"
+                        className="text-xs px-2 py-1 rounded-full bg-[#effbfc] text-[#206380] dark:bg-blue-900/30 dark:text-blue-300"
                       >
                         {s}
                       </span>
@@ -207,7 +184,7 @@ export default function TeachersSection() {
                   <div className="mt-6 flex flex-col sm:flex-row gap-3 w-full sm:w-auto justify-center">
                     <a
                       href={`mailto:${t.email}`}
-                      className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium shadow focus:outline-none focus:ring-2 focus:ring-blue-400"
+                      className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-[#1f789b] hover:bg-[#206380] text-white text-sm font-medium shadow focus:outline-none focus:ring-2 focus:ring-blue-400"
                     >
                       Contact
                     </a>
@@ -237,7 +214,7 @@ export default function TeachersSection() {
 
           {/* See All Button */}
           <div className="mt-12 flex justify-center">
-            <button className="cursor-pointer px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400">
+            <button className="cursor-pointer px-6 py-3 bg-[#2295b8] hover:bg-[#1f789b] text-white text-sm font-medium rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400">
               See All Teachers
             </button>
           </div>

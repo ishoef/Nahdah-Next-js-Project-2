@@ -55,7 +55,7 @@ export default function FAQ() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#153151] dark:text-white">
             Frequently Asked{" "}
-            <span className="text-blue-600 dark:text-blue-400">Questions</span>
+            <span className="text-[#206380] dark:text-blue-400">Questions</span>
           </h2>
           <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Common questions about learning at An-Nahdah
