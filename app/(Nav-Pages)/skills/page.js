@@ -1,10 +1,25 @@
-import UnderConstruction from "@/components/ui/UnderConstruction";
+import CourseSection from "@/components/courses-component/CourseSection";
+import Section from "@/components/ui/section";
+import Title from "@/components/ui/title";
 import React from "react";
+import courseData from "../../../jsons/courses.json";
 
 const Page = () => {
+  const courses = courseData.allCourses;
+
+  const islamicCourses = courses.filter(
+    (course) => course.category === "Skill Development"
+  );
   return (
-    <div>
-      <UnderConstruction />
+    <div className="bg-blue-100 dark:bg-gray-800">
+      <Section>
+        <Title
+          title1={"Skill Development"}
+          title2={"Courses"}
+          subTitle="A path to gaining sound Islamic understanding, step by step. Learn, grow, and strengthen your connection with knowledge."
+        ></Title>
+      </Section>
+      <CourseSection courses={islamicCourses} />
     </div>
   );
 };

@@ -11,15 +11,13 @@ import {
   SelectValue,
 } from "../ui/select";
 import CourseGrid from "../ui/CourseGrid";
-import coourseData from "../../jsons/courses.json";
-const allCourses = coourseData.allCourses;
 
-export default function CourseSection() {
+export default function CourseSection({ courses, tabs }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [activeTab, setActiveTab] = useState("all");
 
-  const filteredCourses = allCourses.filter((course) => {
+  const filteredCourses = courses.filter((course) => {
     const matchesSearch =
       course.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       course.instructor.name.toLowerCase().includes(searchQuery.toLowerCase());
@@ -36,23 +34,25 @@ export default function CourseSection() {
     <>
       <section className="py-8 bg-white dark:bg-gray-900 border-b border-blue-500">
         <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Tabs
-            value={activeTab}
-            onValueChange={setActiveTab}
-            className="mb-6 "
-          >
-            <TabsList className="grid dark:bg-gray-800 w-full max-w-md mx-auto grid-cols-3">
-              <TabsTrigger value="all">All Courses</TabsTrigger>
-              <TabsTrigger value="islamic">
-                <BookOpen className="h-4 w-4 mr-2" />
-                Islamic
-              </TabsTrigger>
-              <TabsTrigger value="skill">
-                <GraduationCap className="h-4 w-4 mr-2" />
-                Skills
-              </TabsTrigger>
-            </TabsList>
-          </Tabs>
+          {tabs && (
+            <Tabs
+              value={activeTab}
+              onValueChange={setActiveTab}
+              className="mb-6 "
+            >
+              <TabsList className="grid dark:bg-gray-800 w-full max-w-md mx-auto grid-cols-3">
+                <TabsTrigger value="all">All Courses</TabsTrigger>
+                <TabsTrigger value="islamic">
+                  <BookOpen className="h-4 w-4 mr-2" />
+                  Islamic
+                </TabsTrigger>
+                <TabsTrigger value="skill">
+                  <GraduationCap className="h-4 w-4 mr-2" />
+                  Skills
+                </TabsTrigger>
+              </TabsList>
+            </Tabs>
+          )}
 
           <div className="flex flex-col lg:flex-row gap-4">
             <div className="flex-1">
@@ -97,7 +97,7 @@ export default function CourseSection() {
           </div>
 
           <div className="mt-4 text-sm text-muted-foreground">
-            Showing {filteredCourses.length} of {allCourses.length} courses
+            Showing {filteredCourses.length} of {courses.length} courses
           </div>
         </div>
       </section>
