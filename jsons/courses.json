@@ -5,7 +5,7 @@
       "slug": "tafsir-surah-al-baqarah",
       "title": "Tafsir Al-Qur'an: Surah Al-Baqarah",
       "shortDescription": "A comprehensive, verse-by-verse study of Surah Al-Baqarah, exploring classical Tafsir, spiritual lessons, and practical applications.",
-      "fullDescription": "<p>In this <strong>detailed intermediate-level Tafsir course</strong>, students will journey through Surah Al-Baqarah — the longest Surah in the Qur’an. This course includes:</p><ul><li>Context (Asbāb an-Nuzūl) and background of each passage</li><li>Explanation based on classical Tafsir sources</li><li>Deep linguistic reflections and thematic insights</li><li>Practical lessons relevant to modern life</li></ul><p>By the end of the course, you will gain a clearer understanding of Allah’s guidance and a deeper spiritual connection with the Qur’an.</p>",
+      "fullDescription": "In this detailed intermediate-level Tafsir course, students will journey through Surah Al-Baqarah — the longest Surah in the Qur’an. This course covers the context (Asbāb an-Nuzūl) and background of each passage, explanations based on classical Tafsir sources, deep linguistic reflections and thematic insights, and practical lessons relevant to modern life. By the end of the course, you will gain a clearer understanding of Allah’s guidance and a deeper spiritual connection with the Qur’an.",
       "category": "Islamic Knowledge",
       "subcategory": "Quran & Tafsir",
       "level": "Intermediate",
@@ -18,87 +18,131 @@
       "duration": "6 weeks",
       "instructor": {
         "name": "Sheikh Ahmad Al-Mansour",
+        "title": "PhD in Quranic Studies",
         "bio": "Renowned Qur’an teacher and scholar with over 20 years of experience in Tafsir and Islamic education.",
         "avatar": "https://images.unsplash.com/photo-1632922267756-9b71242b1592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D"
       },
-      "lessons": [
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "l-1",
           "title": "Introduction to Surah Al-Baqarah",
           "durationSeconds": 420,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-2",
           "title": "Virtues & Themes of the Surah",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-3",
           "title": "Overview of Makki & Madani Revelations",
           "durationSeconds": 360,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-4",
           "title": "Tafsir of Verses 1–5: Qualities of the Believers",
           "durationSeconds": 620,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-5",
           "title": "Tafsir of Verses 6–16: Traits of the Hypocrites",
           "durationSeconds": 650,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-6",
           "title": "Tafsir of Verses 17–20: Parables of Hypocrisy",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-7",
           "title": "Tafsir of Verses 21–29: Call to Worship",
           "durationSeconds": 580,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-8",
           "title": "Tafsir of Verses 30–39: Story of Adam (AS)",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-9",
           "title": "Tafsir of Verses 40–46: Reminder to Bani Isra'il",
           "durationSeconds": 550,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-10",
           "title": "Tafsir of Verses 47–59: Blessings and Warnings to Bani Isra'il",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-11",
           "title": "Tafsir of Verses 60–74: The Cow Incident",
           "durationSeconds": 660,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-12",
           "title": "Tafsir of Verses 75–86: Breaking the Covenant & Altering Scripture",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "l-36",
           "title": "Conclusion, Summary & Life Lessons",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
       "outline": [
@@ -129,7 +173,7 @@
       "slug": "arabic-grammar-nahw-fundamentals",
       "title": "Arabic Grammar Fundamentals (Nahw)",
       "shortDescription": "Master the essential rules of Arabic syntax (النحو) — from sentence structure to case endings — designed for beginners and early intermediate students.",
-      "fullDescription": "<p>This <strong>practical beginner-to-intermediate</strong> course on Nahw (Arabic grammar) teaches you how Arabic sentences are built and how words relate to each other. The course covers:</p><ul><li>Basic sentence types (nominal & verbal)</li><li>Case endings and how to recognise them in reading</li><li>Verb conjugation basics and verb-subject agreement</li><li>Important particles, idafa (possessive constructions), and common syntactic patterns</li></ul><p>By the end of the course you'll be able to parse simple and medium-complexity Arabic sentences from classical and Qur'anic texts and write grammatically correct sentences with confidence.</p>",
+      "fullDescription": "This <strong>practical beginner-to-intermediate</strong> course on Nahw (Arabic grammar) teaches you how Arabic sentences are built and how words relate to each other. The course covers:Basic sentence types (nominal & verbal),Case endings and how to recognise them in reading,Verb conjugation basics and verb-subject agreement,Important particles, idafa (possessive constructions), and common syntactic patternsBy the end of the course you'll be able to parse simple and medium-complexity Arabic sentences from classical and Qur'anic texts and write grammatically correct sentences with confidence.",
       "category": "Islamic Knowledge",
       "subcategory": "Arabic Language",
       "level": "Beginner",
@@ -143,225 +187,292 @@
       "type": "Islamic",
       "instructor": {
         "name": "Dr. Fatima Hassan",
+        "title": "PhD in Arabic Language",
         "bio": "Assistant professor of Arabic grammar with extensive teaching experience in Nahw and Qur’anic syntax.",
         "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=500&auto=format&fit=crop"
       },
-      "lessons": [
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "nahw-l-1",
           "title": "Course Introduction & How to Use This Course",
           "durationSeconds": 300,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-2",
           "title": "Why Study Nahw? Uses & Approaches",
           "durationSeconds": 360,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-3",
           "title": "Arabic Script Review & Pronunciation for Grammar",
           "durationSeconds": 420,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-4",
           "title": "Nominal Sentences (الجملة الاسمية) — Structure & Definition",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-5",
           "title": "Verbal Sentences (الجملة الفعلية) — Structure & Definition",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-6",
           "title": "The Subject (الفاعل) — Types & Marking",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-7",
           "title": "The Predicate (الخبر) — Nominal Predicate Forms",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-8",
           "title": "Case Endings (اعراب) — Nominative, Accusative, Genitive",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-9",
           "title": "Definite & Indefinite Nouns (المعرفة والنكرة)",
           "durationSeconds": 420,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-10",
           "title": "The Idafa (الإضافة) — Possessive Constructions",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-11",
           "title": "Adjectives & Agreement (النعت والتوافق)",
           "durationSeconds": 480,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-12",
           "title": "Prepositions (حروف الجر) & Their Effects on Case",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-13",
           "title": "Personal Pronouns & Their Roles (ضمائر الشخصيات)",
           "durationSeconds": 420,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-14",
           "title": "Demonstrative & Relative Pronouns (اسم الإشارة والاسم الموصول)",
           "durationSeconds": 480,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-15",
           "title": "Verbs: Perfect (الماضي) — Forms & Uses",
           "durationSeconds": 540,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-16",
           "title": "Verbs: Imperfect (المضارع) — Conjugation Patterns",
           "durationSeconds": 560,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-17",
           "title": "Imperative & Prohibitive Forms (الأمر والنهي)",
           "durationSeconds": 480,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-18",
           "title": "Verb Moods (الحالات الإنشائية) — Indicative, Subjunctive, Jussive",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-19",
           "title": "Negation in Arabic Sentences (أدوات النفي)",
           "durationSeconds": 420,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-20",
           "title": "Interrogatives & Question Formation",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-21",
           "title": "Particles of Emphasis & Restriction (إنما، فقط، حتى)",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-22",
           "title": "Numbers & Their Syntax (الأعداد وإعرابها)",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-23",
           "title": "Dual & Plural Forms and Agreement Rules",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-24",
           "title": "Constructing Complex Sentences — Coordination & Subordination",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-25",
           "title": "Idafa Chains & Long Noun Phrases",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-26",
           "title": "Common Syntactic Errors & How to Avoid Them",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-27",
           "title": "Parsing (الإعراب) Practice — Step-by-Step",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-28",
           "title": "Reading Qur'anic Examples: Applying Nahw to the Text",
           "durationSeconds": 660,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-29",
           "title": "Short Hadiths & Sentences: Grammar Notes",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-30",
           "title": "Advanced Particles & Their Effects",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-31",
           "title": "Transformations: From Simple to Complex Sentences",
           "durationSeconds": 580,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-32",
           "title": "Practice: Writing Grammatically Correct Sentences",
           "durationSeconds": 540,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-33",
           "title": "Review: Case Endings & Verb Moods",
           "durationSeconds": 600,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-34",
           "title": "Mock Parsing Exam (Mid-course Assessment)",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-35",
           "title": "Final Revision & Common Pitfalls",
           "durationSeconds": 660,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "nahw-l-36",
           "title": "Final Assessment, Feedback & Next Steps",
           "durationSeconds": 800,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
       "outline": [
@@ -420,7 +531,7 @@
       "slug": "sahih-al-bukhari-selected-hadith",
       "title": "Sahih Al-Bukhari: Selected Hadith",
       "shortDescription": "A focused study of selected authentic hadith from Sahih al-Bukhari, covering meaning, chains of transmission, and practical application.",
-      "fullDescription": "<p>This <strong>intermediate-level</strong> course explores carefully chosen hadith from <em>Sahih al-Bukhari</em>. Each lesson examines the text, chain (isnād), classification, scholarly commentary, and contemporary application. The course equips students to understand hadith methodology and apply prophetic guidance in daily life.</p><ul><li>Close reading of selected hadith with Arabic text and reliable translations</li><li>Explanation of the isnād and reasons for narrators' acceptance</li><li>Comparative commentary from classical and contemporary scholars</li><li>Practical lessons for worship, ethics, and community life</li></ul><p>By the end of the course you will be able to analyse selected hadith, explain their legal and moral implications, and reference classical commentary responsibly.</p>",
+      "fullDescription": "This intermediate-level course explores carefully chosen hadith from Sahih al-Bukhari. Each lesson examines the text, chain (isnād), classification, scholarly commentary, and contemporary application. The course equips students to understand hadith methodology and apply prophetic guidance in daily life. Students will engage in close reading of selected hadith with Arabic text and reliable translations, learn explanations of the isnād and reasons for narrators' acceptance, study comparative commentary from classical and contemporary scholars, and apply practical lessons for worship, ethics, and community life. By the end of the course, you will be able to analyze selected hadith, explain their legal and moral implications, and reference classical commentary responsibly.",
       "category": "Islamic Knowledge",
       "subcategory": "Hadith Sciences",
       "level": "Intermediate",
@@ -434,225 +545,292 @@
       "type": "Islamic",
       "instructor": {
         "name": "Sheikh Abdullah Rahman",
+        "title": "PhD in Islamic Studies",
         "bio": "Hadith scholar and teacher specialising in hadith methodology and practical application, with extensive experience teaching classical sources.",
         "avatar": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=500&auto=format&fit=crop"
       },
-      "lessons": [
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "hb-l-1",
           "title": "Course Introduction & How to Study Hadith",
           "durationSeconds": 360,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-2",
           "title": "Introduction to Imam al-Bukhari & His Methodology",
           "durationSeconds": 420,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-3",
           "title": "Understanding Isnad (Chains of Transmission)",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-4",
           "title": "Hadith 1: Intention (niyyah) — Text, Chain & Meaning",
           "durationSeconds": 600,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-5",
           "title": "Hadith 2: Actions Are by Intentions — Commentary",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-6",
           "title": "Hadith 3: Principles of Charity and Spending",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-7",
           "title": "Hadith 4: on Sincerity and Hypocrisy",
           "durationSeconds": 560,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-8",
           "title": "Hadith 5: Rights of Parents — Chain & Explanation",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-9",
           "title": "Hadith 6: Etiquette of Learning and Teachers",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-10",
           "title": "Hadith 7: Social Ethics & Brotherhood",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-11",
           "title": "Hadith 8: Lawful & Unlawful — Jurisprudential Notes",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-12",
           "title": "Hadith 9: Speech, Truthfulness & Oaths",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-13",
           "title": "Hadith 10: Prayer (Salah) — Practical Lessons",
           "durationSeconds": 660,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-14",
           "title": "Hadith 11: Fasting and Its Wisdom",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-15",
           "title": "Hadith 12: Hajj & Pilgrimage Guidance",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-16",
           "title": "Hadith 13: Ethics of Trade and Contracts",
           "durationSeconds": 580,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-17",
           "title": "Hadith 14: Legal Principles Derived from Hadith",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-18",
           "title": "Hadith 15: Manners of the Prophet (AS) — Case Studies",
           "durationSeconds": 600,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-19",
           "title": "Hadith 16: Strategic Use of Hadith in Fiqh",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-20",
           "title": "Hadith 17: Women in Hadith — Contextual Study",
           "durationSeconds": 560,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-21",
           "title": "Hadith 18: Supplication (Dua) and Its Etiquette",
           "durationSeconds": 520,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-22",
           "title": "Hadith 19: Healing, Medicine & Prophetic Advice",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-23",
           "title": "Hadith 20: Governance, Justice & Leadership",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-24",
           "title": "Hadith 21: Trials, Patience & Reliance on God",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-25",
           "title": "Hadith 22: Ethics of War & Peace — Historical Context",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-26",
           "title": "Hadith 23: Good Character & Personal Development",
           "durationSeconds": 540,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-27",
           "title": "Hadith 24: Prophetic Stories & Lessons",
           "durationSeconds": 660,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-28",
           "title": "Hadith 25: Food, Hospitality & Social Manners",
           "durationSeconds": 520,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-29",
           "title": "Hadith 26: Economics & Wealth Distribution",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-30",
           "title": "Hadith 27: Repentance & Forgiveness",
           "durationSeconds": 580,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-31",
           "title": "Hadith 28: Death, Funerals & Afterlife Reminders",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-32",
           "title": "Hadith 29: Preservation of the Sunnah — Transmission Issues",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-33",
           "title": "Hadith 30: Contemporary Application & Case Studies",
           "durationSeconds": 660,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-34",
           "title": "Review Session: Analytical Techniques for Hadith",
           "durationSeconds": 720,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-35",
           "title": "Assessment: Textual Analysis & Chain Evaluation",
           "durationSeconds": 800,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "hb-l-36",
           "title": "Conclusion: Practical Takeaways & Next Steps",
           "durationSeconds": 840,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
       "outline": [
@@ -711,7 +889,7 @@
       "slug": "web-development-react-nextjs",
       "title": "Web Development with React & Next.js",
       "shortDescription": "Learn to build modern web applications using React and Next.js, with hands-on projects and industry best practices.",
-      "fullDescription": "<p>This <strong>intermediate-level web development course</strong> guides students through building modern, performant web applications using React and Next.js. The course covers:</p><ul><li>React fundamentals and advanced concepts</li><li>Next.js for server-side rendering and static sites</li><li>State management, routing, and API integration</li><li>Project-based learning to build real-world applications</li></ul><p>By the end of this course, students will be able to develop scalable web applications and understand the best practices of modern frontend development.</p>",
+      "fullDescription": "This intermediate-level web development course guides students through building modern, performant web applications using React and Next.js. The course covers React fundamentals and advanced concepts, Next.js for server-side rendering and static sites, state management, routing, and API integration, as well as project-based learning to build real-world applications. By the end of this course, students will be able to develop scalable web applications and understand the best practices of modern frontend development.",
       "category": "Skill Development",
       "subcategory": "Digital Skills & Coding",
       "level": "Intermediate",
@@ -725,226 +903,293 @@
       "type": "Skill",
       "instructor": {
         "name": "Yusuf Ibrahim",
+        "title": "PhD in Islamic Studies",
         "bio": "Experienced web developer and instructor specializing in React, Next.js, and modern frontend technologies.",
         "avatar": "https://images.unsplash.com/photo-1595152772835-219674b2a8a3?q=80&w=500&auto=format&fit=crop"
       },
-      "lessons": [
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "rnl-1",
           "title": "Introduction to React & Next.js",
           "durationSeconds": 360,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-2",
           "title": "JSX, Components & Props",
           "durationSeconds": 420,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-3",
           "title": "State Management with useState & useReducer",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-4",
           "title": "Handling Events & Forms in React",
           "durationSeconds": 540,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-5",
           "title": "React Router & Navigation",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-6",
           "title": "Next.js Pages, Routing & SSR",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-7",
           "title": "Static Site Generation & ISR",
           "durationSeconds": 580,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-8",
           "title": "API Routes & Data Fetching",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-9",
           "title": "Styling with CSS Modules & Tailwind CSS",
           "durationSeconds": 550,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-10",
           "title": "State Management with Redux & Context API",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-11",
           "title": "Authentication & Authorization in Next.js",
           "durationSeconds": 660,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-12",
           "title": "Deploying Next.js Apps",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "rnl-13",
           "title": "Advanced React Patterns",
           "durationSeconds": 480,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-14",
           "title": "Custom Hooks in React",
           "durationSeconds": 450,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-15",
           "title": "React Context Deep Dive",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-16",
           "title": "Next.js Dynamic Routes",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-17",
           "title": "Server-Side Rendering with Next.js",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-18",
           "title": "Client-Side Data Fetching & SWR",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-19",
           "title": "Forms & Validation in React",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-20",
           "title": "Error Handling & Debugging",
           "durationSeconds": 450,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-21",
           "title": "Performance Optimization in React",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-22",
           "title": "Next.js Image & Head Optimization",
           "durationSeconds": 480,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-23",
           "title": "SEO Best Practices in Next.js",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-24",
           "title": "Integrating Third-Party Libraries",
           "durationSeconds": 460,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-25",
           "title": "React Testing with Jest & React Testing Library",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-26",
           "title": "Next.js API Integration",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-27",
           "title": "Authentication with JWT & NextAuth",
           "durationSeconds": 580,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-28",
           "title": "State Management with Recoil (Optional)",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-29",
           "title": "Building a Blog with Next.js",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-30",
           "title": "Building an E-commerce App",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-31",
           "title": "Authentication & Cart Management",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-32",
           "title": "Payment Integration (Stripe/PayPal)",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-33",
           "title": "Testing & Deployment of Full App",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-34",
           "title": "CI/CD & Vercel Deployment",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-35",
           "title": "Project Review & Best Practices",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "rnl-36",
           "title": "Final Project: Build a Full Web Application",
           "durationSeconds": 800,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
       "outline": [
@@ -972,7 +1217,7 @@
       "slug": "graphic-design-fundamentals",
       "title": "Graphic Design Fundamentals",
       "shortDescription": "Learn the essentials of graphic design, including visual principles, tools, and real-world projects to build a strong portfolio.",
-      "fullDescription": "<p>This <strong>beginner-friendly course</strong> covers the foundations of graphic design. Students will learn:</p><ul><li>Design principles: color theory, typography, composition</li><li>Software skills: Adobe Photoshop, Illustrator, and Figma</li><li>Branding, logo design, and visual identity</li><li>Practical projects to create a professional portfolio</li></ul><p>By the end of this course, students will be able to design visually appealing graphics and understand the core principles of effective design.</p>",
+      "fullDescription": "This beginner-friendly course covers the foundations of graphic design. Students will learn design principles such as color theory, typography, and composition; software skills including Adobe Photoshop, Illustrator, and Figma; branding, logo design, and visual identity; and practical projects to create a professional portfolio. By the end of this course, students will be able to design visually appealing graphics and understand the core principles of effective design.",
       "category": "Skill Development",
       "subcategory": "Graphic Design",
       "level": "Beginner",
@@ -986,226 +1231,293 @@
       "type": "Skill",
       "instructor": {
         "name": "Aisha Rahman",
+        "title": "PhD in Quranic Studies",
         "bio": "Professional graphic designer and educator with over 10 years of experience in design, branding, and digital art.",
         "avatar": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=500&auto=format&fit=crop"
       },
-      "lessons": [
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "gdf-1",
           "title": "Introduction to Graphic Design",
           "durationSeconds": 360,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-2",
           "title": "Principles of Design: Balance & Alignment",
           "durationSeconds": 420,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-3",
           "title": "Color Theory Basics",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-4",
           "title": "Typography Essentials",
           "durationSeconds": 540,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-5",
           "title": "Layout & Composition Techniques",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-6",
           "title": "Understanding Visual Hierarchy",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-7",
           "title": "Adobe Photoshop Basics",
           "durationSeconds": 580,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-8",
           "title": "Adobe Illustrator Basics",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-9",
           "title": "Figma: UI & UX Fundamentals",
           "durationSeconds": 550,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-10",
           "title": "Logo Design Principles",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-11",
           "title": "Branding & Visual Identity",
           "durationSeconds": 660,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-12",
           "title": "Designing Social Media Graphics",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "gdf-13",
           "title": "Working with Images & Vectors",
           "durationSeconds": 480,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-14",
           "title": "Creating Posters & Flyers",
           "durationSeconds": 450,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-15",
           "title": "Infographics Design",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-16",
           "title": "Color Correction & Filters",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-17",
           "title": "Mockups & Presentation Design",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-18",
           "title": "Portfolio Building Part 1",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-19",
           "title": "Portfolio Building Part 2",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-20",
           "title": "Motion Graphics Introduction",
           "durationSeconds": 450,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-21",
           "title": "Basics of Animation in Design",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-22",
           "title": "Creating GIFs & Simple Animations",
           "durationSeconds": 480,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-23",
           "title": "UI Design Patterns",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-24",
           "title": "UX Principles for Beginners",
           "durationSeconds": 460,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-25",
           "title": "Designing Mobile Interfaces",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-26",
           "title": "Prototyping with Figma",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-27",
           "title": "Design Feedback & Iteration",
           "durationSeconds": 580,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-28",
           "title": "Print vs Digital Design",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-29",
           "title": "Client Work & Real Projects",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-30",
           "title": "Creative Workflow & Time Management",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-31",
           "title": "Design Collaboration & Handoff",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-32",
           "title": "Portfolio Review & Critique",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-33",
           "title": "Freelancing Tips for Designers",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-34",
           "title": "Preparing for Job Interviews",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-35",
           "title": "Marketing Yourself as a Designer",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gdf-36",
           "title": "Final Project: Complete Design Portfolio",
           "durationSeconds": 800,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
       "outline": [
@@ -1261,7 +1573,7 @@
       "slug": "digital-marketing-essentials",
       "title": "Digital Marketing Essentials",
       "shortDescription": "A comprehensive beginner course on digital marketing covering SEO, social media, email campaigns, and analytics with real-world projects.",
-      "fullDescription": "<p>This <strong>beginner-friendly digital marketing course</strong> covers essential topics to launch and grow online campaigns. Students will learn:</p><ul><li>Search Engine Optimization (SEO) and keyword research</li><li>Social media marketing strategies for major platforms</li><li>Email marketing, content creation, and branding</li><li>Analytics, conversion tracking, and campaign optimization</li><li>Practical projects and real-world case studies</li></ul><p>By the end of the course, students will be able to plan, execute, and measure successful digital marketing campaigns.</p>",
+      "fullDescription": "This beginner-friendly digital marketing course covers essential topics to launch and grow online campaigns. Students will learn search engine optimization (SEO) and keyword research, social media marketing strategies for major platforms, email marketing, content creation, and branding, analytics, conversion tracking, and campaign optimization, as well as practical projects and real-world case studies. By the end of the course, students will be able to plan, execute, and measure successful digital marketing campaigns.",
       "category": "Skill Development",
       "subcategory": "Digital Marketing",
       "level": "Beginner",
@@ -1275,225 +1587,292 @@
       "type": "Skill",
       "instructor": {
         "name": "Omar Abdullah",
+        "title": "Mester's in Digital Marketing",
         "bio": "Experienced digital marketing consultant with over 8 years of expertise in SEO, social media marketing, and online advertising.",
         "avatar": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=500&auto=format&fit=crop"
       },
-      "lessons": [
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "dme-1",
           "title": "Introduction to Digital Marketing",
           "durationSeconds": 360,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-2",
           "title": "Understanding Marketing Funnels",
           "durationSeconds": 420,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-3",
           "title": "SEO Fundamentals",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-4",
           "title": "Keyword Research & On-page SEO",
           "durationSeconds": 540,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-5",
           "title": "Off-page SEO & Link Building",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-6",
           "title": "Content Marketing Strategies",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-7",
           "title": "Social Media Marketing Basics",
           "durationSeconds": 580,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-8",
           "title": "Facebook & Instagram Ads",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-9",
           "title": "LinkedIn & Twitter Marketing",
           "durationSeconds": 550,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-10",
           "title": "Email Marketing Essentials",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-11",
           "title": "Content Creation & Blogging",
           "durationSeconds": 660,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-12",
           "title": "Visual Marketing & Branding",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-13",
           "title": "Analytics & Tracking Metrics",
           "durationSeconds": 480,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-14",
           "title": "Conversion Rate Optimization",
           "durationSeconds": 450,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-15",
           "title": "Landing Pages & Lead Generation",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-16",
           "title": "Pay-per-click (PPC) Advertising",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-17",
           "title": "Google Ads Fundamentals",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-18",
           "title": "Remarketing & Retargeting",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-19",
           "title": "Social Media Campaign Planning",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-20",
           "title": "Influencer Marketing Basics",
           "durationSeconds": 450,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-21",
           "title": "Video Marketing for Beginners",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-22",
           "title": "Brand Reputation Management",
           "durationSeconds": 480,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-23",
           "title": "E-commerce Marketing Strategies",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-24",
           "title": "Affiliate Marketing Basics",
           "durationSeconds": 460,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-25",
           "title": "Mobile Marketing Essentials",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-26",
           "title": "Marketing Automation Tools",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-27",
           "title": "Lead Nurturing & Email Funnels",
           "durationSeconds": 580,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-28",
           "title": "Marketing Case Studies",
           "durationSeconds": 500,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-29",
           "title": "Content Calendar & Scheduling",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-30",
           "title": "Marketing Analytics Reporting",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-31",
           "title": "SEO & PPC Integration Strategies",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-32",
           "title": "Social Media ROI & Metrics",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-33",
           "title": "Marketing Career Tips",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-34",
           "title": "Freelancing as a Digital Marketer",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-35",
           "title": "Preparing for Marketing Interviews",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "dme-36",
           "title": "Final Project: Launch a Complete Marketing Campaign",
           "durationSeconds": 800,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
       "outline": [
@@ -1549,7 +1928,7 @@
       "slug": "ui-ux-design-fundamentals",
       "title": "UI/UX Design Fundamentals",
       "shortDescription": "Learn essential UI/UX principles, wireframing, prototyping, and user testing to design intuitive digital experiences.",
-      "fullDescription": "<p>This <strong>beginner-friendly UI/UX course</strong> teaches you how to design user-centered digital products. Topics include:</p><ul><li>User research and personas</li><li>UI design principles and color psychology</li><li>Wireframing, prototyping, and Figma techniques</li><li>User testing and feedback analysis</li><li>Portfolio-ready projects</li></ul><p>By the end, you’ll be able to design beautiful and functional interfaces confidently.</p>",
+      "fullDescription": "This beginner-friendly UI/UX course teaches you how to design user-centered digital products. Topics include user research and personas, UI design principles and color psychology, wireframing, prototyping, and Figma techniques, user testing and feedback analysis, and portfolio-ready projects. By the end, you’ll be able to design beautiful and functional interfaces confidently.",
       "category": "Skill Development",
       "subcategory": "Design",
       "level": "Beginner",
@@ -1563,63 +1942,103 @@
       "type": "Skill",
       "instructor": {
         "name": "Sarah Mitchell",
+        "title": "Mester's in UI/UX",
         "bio": "Senior UX designer with 10+ years of experience building products for startups and global companies.",
         "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&q=60"
       },
-      "lessons": [
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "ux-1",
           "title": "Introduction to UI/UX Design",
           "durationSeconds": 360,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ux-2",
           "title": "Understanding User Behavior",
           "durationSeconds": 420,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ux-3",
           "title": "Design Principles & Visual Hierarchy",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ux-4",
           "title": "Wireframing Basics",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ux-5",
           "title": "Figma Essentials",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ux-6",
           "title": "Prototyping Techniques",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ux-7",
           "title": "Usability Testing",
           "durationSeconds": 580,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ux-8",
           "title": "Design Systems",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ux-9",
           "title": "Portfolio Building",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
       "outline": [
@@ -1642,7 +2061,7 @@
       "slug": "python-programming-beginner",
       "title": "Python Programming for Beginners",
       "shortDescription": "Start coding with Python — learn basics, data types, loops, functions, and build real beginner-friendly projects.",
-      "fullDescription": "<p>This <strong>hands-on Python course</strong> is designed for those with zero coding experience. You will learn:</p><ul><li>Variables, data types, loops, and conditionals</li><li>Functions, modules, and error handling</li><li>Working with files and data structures</li><li>Small projects and automation tasks</li><li>Final project: Build a Python mini-application</li></ul><p>By the end, you will be able to write clean and efficient Python programs.</p>",
+      "fullDescription": "This hands-on Python course is designed for those with zero coding experience. You will learn variables, data types, loops, and conditionals; functions, modules, and error handling; working with files and data structures; small projects and automation tasks; and a final project where you build a Python mini-application. By the end, you will be able to write clean and efficient Python programs.",
       "category": "Programming",
       "subcategory": "Python",
       "level": "Beginner",
@@ -1656,63 +2075,103 @@
       "type": "Skill",
       "instructor": {
         "name": "Jonathan Reed",
+        "title": "BSC in Software Engineering",
         "bio": "Software engineer and Python expert with 12+ years of teaching experience.",
         "avatar": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?w=500&q=60"
       },
-      "lessons": [
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "py-1",
           "title": "Introduction to Python",
           "durationSeconds": 380,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "py-2",
           "title": "Installing Python & IDEs",
           "durationSeconds": 400,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "py-3",
           "title": "Variables & Data Types",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "py-4",
           "title": "Loops & Conditional Statements",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "py-5",
           "title": "Functions & Modules",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "py-6",
           "title": "Working with Files",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "py-7",
           "title": "Error Handling",
           "durationSeconds": 580,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "py-8",
           "title": "Mini Projects",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "py-9",
           "title": "Final Python Project",
           "durationSeconds": 800,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
       "outline": [
@@ -1735,7 +2194,7 @@
       "slug": "graphic-design-mastery",
       "title": "Graphic Design Mastery",
       "shortDescription": "Master Adobe Photoshop, Illustrator, and design principles to create professional-level graphics and branding materials.",
-      "fullDescription": "<p>This <strong>comprehensive graphic design program</strong> covers everything from design basics to advanced editing. You will learn:</p><ul><li>Adobe Photoshop tools & workflows</li><li>Illustrator vector design techniques</li><li>Branding, typography & layout principles</li><li>Poster, logo, and social media design</li><li>Real-world design projects for your portfolio</li></ul><p>Perfect for aspiring designers and content creators.</p>",
+      "fullDescription": "This comprehensive graphic design program covers everything from design basics to advanced editing. You will learn Adobe Photoshop tools and workflows, Illustrator vector design techniques, branding, typography and layout principles, poster, logo, and social media design, and real-world design projects for your portfolio. This course is perfect for aspiring designers and content creators.",
       "category": "Design",
       "subcategory": "Graphic Design",
       "level": "Intermediate",
@@ -1749,63 +2208,103 @@
       "type": "Skill",
       "instructor": {
         "name": "Michael Carter",
+        "title": "Professional graphic designer",
         "bio": "Professional graphic designer with 14+ years of branding and digital design experience.",
         "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&q=60"
       },
-      "lessons": [
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "gd-1",
           "title": "Introduction to Graphic Design",
           "durationSeconds": 400,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gd-2",
           "title": "Typography Essentials",
           "durationSeconds": 450,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gd-3",
           "title": "Color Theory Basics",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gd-4",
           "title": "Photoshop Basics",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gd-5",
           "title": "Illustrator Fundamentals",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gd-6",
           "title": "Branding Principles",
           "durationSeconds": 580,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gd-7",
           "title": "Logo Design Project",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gd-8",
           "title": "Poster & Banner Design",
           "durationSeconds": 680,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "gd-9",
           "title": "Final Portfolio Project",
           "durationSeconds": 800,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
       "outline": [
@@ -1828,7 +2327,7 @@
       "slug": "arabic-grammar-nahw-level-1",
       "title": "Arabic Grammar Mastery: Nahw Level 1",
       "shortDescription": "A structured beginner-to-intermediate course covering essential Arabic grammar rules based on classical texts.",
-      "fullDescription": "<p>This <strong>beginner-friendly Arabic grammar course</strong> introduces students to the foundations of <strong>Nahw (syntax)</strong>. Based on classical sources like Ajrumiyyah, students will master sentence structure, word analysis, and core grammatical rules with practical examples.</p><ul><li>Clear explanations with examples from Qur'an & Hadith</li><li>Step-by-step mastery of core Nahw principles</li><li>Weekly quizzes and practical exercises</li><li>Ideal for students of Islamic studies and Arabic learners</li></ul><p>By completing this course, learners will be able to understand and analyze Arabic sentences with confidence.</p>",
+      "fullDescription": "This beginner-friendly Arabic grammar course introduces students to the foundations of Nahw (syntax). Based on classical sources like Ajrumiyyah, students will master sentence structure, word analysis, and core grammatical rules with practical examples. The course provides clear explanations with examples from the Qur'an and Hadith, step-by-step mastery of core Nahw principles, weekly quizzes and practical exercises, and is ideal for students of Islamic studies and Arabic learners. By completing this course, learners will be able to understand and analyze Arabic sentences with confidence.",
       "category": "Islamic Knowledge",
       "subcategory": "Grammar & Syntax",
       "level": "Beginner–Intermediate",
@@ -1841,136 +2340,188 @@
       "duration": "10 weeks",
       "instructor": {
         "name": "Ustadh Kareem Al-Hassani",
+        "title": "Phd in Arabic linguist and Islamic studies",
         "bio": "Expert Arabic linguist and Islamic studies teacher with 15+ years of teaching experience.",
         "avatar": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=500&auto=format&fit=crop&q=60"
       },
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
 
-      "lessons": [
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "n-1",
           "title": "Introduction to Arabic Grammar",
           "durationSeconds": 420,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-2",
           "title": "Importance of Nahw in Understanding Qur'an",
           "durationSeconds": 460,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-3",
           "title": "Arabic Alphabets & Word Formation Review",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-4",
           "title": "Definition of Kalimah & Types",
           "durationSeconds": 520,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-5",
           "title": "Ism: Signs & Classifications",
           "durationSeconds": 560,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-6",
           "title": "Fi'l: Signs & Types",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-7",
           "title": "Harf: Meanings & Usage",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-8",
           "title": "Understanding I'rab",
           "durationSeconds": 590,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-9",
           "title": "Marfu'at: Mubtada & Khabar",
           "durationSeconds": 630,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-10",
           "title": "Marfu'at: Fa'il & Na'ib al-Fa'il",
           "durationSeconds": 610,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-11",
           "title": "Mansubat: Maf'ul Bihi",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-12",
           "title": "Mansubat: Maf'ul Mutlaq",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-13",
           "title": "Majrurat: Huruf al-Jarr",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-14",
           "title": "Idafah Structure Explained",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-15",
           "title": "Types of Sentences: Jumlah Ismiyyah",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-16",
           "title": "Jumlah Fi'liyyah: Structure and Rules",
           "durationSeconds": 720,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-17",
           "title": "Particles in Arabic: Inna & Sisters",
           "durationSeconds": 690,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-18",
           "title": "Kana & Sisters: Effects on I'rab",
           "durationSeconds": 710,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-19",
           "title": "Advanced I'rab Practice",
           "durationSeconds": 760,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-20",
           "title": "Applied Grammar Through Qur’anic Examples",
           "durationSeconds": 780,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "n-21",
           "title": "Final Review & Comprehensive Summary",
           "durationSeconds": 820,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
 
@@ -2024,7 +2575,7 @@
       "slug": "islamic-youth-studies-leadership",
       "title": "Islamic Youth Studies: Identity, Leadership & Modern Challenges",
       "shortDescription": "A practical, inspiring course designed to empower Muslim youth with Islamic identity, leadership qualities, and resilience in a modern world.",
-      "fullDescription": "<p>This <strong>transformative Youth Studies course</strong> focuses on building a strong Muslim identity, leadership character, and spiritual discipline. It covers modern challenges that young Muslims face and provides prophetic solutions grounded in Qur’an & Sunnah.</p><ul><li>Islamic identity & self-confidence</li><li>Leadership from the Prophetic model</li><li>Digital challenges & social media discipline</li><li>Mental resilience & emotional intelligence</li><li>Goal setting, productivity & time management</li></ul><p>By the end, learners will be equipped to lead with confidence, navigate challenges wisely, and live as strong ambassadors of Islam.</p>",
+      "fullDescription": "This transformative Youth Studies course focuses on building a strong Muslim identity, leadership character, and spiritual discipline. It addresses modern challenges that young Muslims face and provides prophetic solutions grounded in the Qur’an and Sunnah. The course covers Islamic identity and self-confidence, leadership from the Prophetic model, digital challenges and social media discipline, mental resilience and emotional intelligence, and goal setting, productivity, and time management. By the end, learners will be equipped to lead with confidence, navigate challenges wisely, and live as strong ambassadors of Islam.",
       "category": "Islamic Knowledge",
       "subcategory": "Identity & Leadership",
       "level": "Beginner–Intermediate",
@@ -2037,284 +2588,358 @@
       "duration": "8 weeks",
       "instructor": {
         "name": "Ustadh Hamza Rahman",
+        "title": "Youth mentor and Islamic motivational speaker",
         "bio": "Youth mentor and Islamic motivational speaker who has guided thousands of young Muslims around the world.",
         "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=60"
       },
-
-      "lessons": [
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "ys-1",
           "title": "Who Am I? Understanding Muslim Identity",
           "durationSeconds": 480,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-2",
           "title": "Purpose of Life Through Qur’anic Lens",
           "durationSeconds": 520,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-3",
           "title": "Belonging to the Ummah",
           "durationSeconds": 460,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-4",
           "title": "Pillars of Strong Faith for Youth",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "ys-5",
           "title": "Qualities of Youth Mentioned in Qur'an",
           "durationSeconds": 540,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-6",
           "title": "Examples of Young Sahabah",
           "durationSeconds": 610,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-7",
           "title": "Courage, Responsibility & Trust",
           "durationSeconds": 630,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-8",
           "title": "Developing Leadership Skills",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "ys-9",
           "title": "The Heart in Islam: Purification & Strength",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-10",
           "title": "Building a Daily Spiritual Routine",
           "durationSeconds": 580,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-11",
           "title": "Salah, Dua & Dhikr for Youth",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-12",
           "title": "Handling Temptations & Peer Pressure",
           "durationSeconds": 690,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "ys-13",
           "title": "Time Management Principles from Sunnah",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-14",
           "title": "Goal Setting for Success",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-15",
           "title": "Productive Habits & Routines",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-16",
           "title": "Balancing Study, Work & Worship",
           "durationSeconds": 660,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "ys-17",
           "title": "Social Media Addiction: Islamic Perspective",
           "durationSeconds": 680,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-18",
           "title": "Protecting the Heart in the Digital World",
           "durationSeconds": 720,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-19",
           "title": "Managing Online Friendships",
           "durationSeconds": 610,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-20",
           "title": "Halal Entertainment & Boundaries",
           "durationSeconds": 630,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "ys-21",
           "title": "Dealing with Depression & Anxiety",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-22",
           "title": "Emotional Intelligence in Islam",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-23",
           "title": "Keeping a Healthy Mindset",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-24",
           "title": "Seeking Help: Islamic & Practical Approaches",
           "durationSeconds": 670,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "ys-25",
           "title": "Building Islamic Friendships",
           "durationSeconds": 590,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-26",
           "title": "Avoiding Toxic Influences",
           "durationSeconds": 610,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-27",
           "title": "Community Service & Leadership",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-28",
           "title": "Being a Role Model in Society",
           "durationSeconds": 680,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "ys-29",
           "title": "Youth & Family Responsibilities",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-30",
           "title": "Communication & Conflict Resolution",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-31",
           "title": "Respecting Parents: Qur’anic Guidance",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-32",
           "title": "Maintaining Family Bonds",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "ys-33",
           "title": "Haram Relationships: Prevention & Guidance",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-34",
           "title": "Islamic View of Gender Interaction",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-35",
           "title": "Lowering the Gaze & Modesty",
           "durationSeconds": 680,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-36",
           "title": "Preparing for Marriage in Youth",
           "durationSeconds": 720,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "ys-37",
           "title": "Youth Role in Da’wah",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-38",
           "title": "Speaking with Wisdom & Confidence",
           "durationSeconds": 660,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-39",
           "title": "Correcting Mistakes Gently",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-40",
           "title": "Making a Positive Impact",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "ys-41",
           "title": "Final Review & Practical Life Plan",
           "durationSeconds": 720,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-42",
           "title": "Action Steps for the Next 30 Days",
           "durationSeconds": 680,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-43",
           "title": "Youth Leadership Roadmap",
           "durationSeconds": 750,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "ys-44",
           "title": "Conclusion & Dua for Success",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
 
@@ -2374,7 +2999,7 @@
       "slug": "muslim-youth-character-building",
       "title": "Muslim Youth Character Building Program",
       "shortDescription": "A complete tarbiyah program focusing on character purification, manners, self-discipline, and Islamic personality development.",
-      "fullDescription": "<p>This <strong>Islamic Character Building Program for Youth</strong> is designed to develop sincerity, manners, emotional strength, and Islamic personality based on Qur’an and Sunnah.</p><ul><li>Building strong Islamic morals</li><li>Mental & emotional discipline</li><li>Social manners & etiquette</li><li>Overcoming desires & temptations</li><li>Prophetic akhlaq & real-life applications</li></ul><p>By the end of this course, youth will rise as confident, responsible, and spiritually disciplined Muslims.</p>",
+      "fullDescription": "This Islamic Character Building Program for Youth is designed to develop sincerity, manners, emotional strength, and an Islamic personality based on the Qur’an and Sunnah. The course focuses on building strong Islamic morals, mental and emotional discipline, social manners and etiquette, overcoming desires and temptations, and learning Prophetic akhlaq with real-life applications. By the end of this course, youth will emerge as confident, responsible, and spiritually disciplined Muslims.",
       "category": "Islamic Knowledge",
       "subcategory": "Character & Tarbiyah",
       "level": "Beginner–Intermediate",
@@ -2387,259 +3012,329 @@
       "duration": "9 weeks",
       "instructor": {
         "name": "Shaykh Mustafa Al-Hakim",
+        "title": "PhD in Islamic Studies",
         "bio": "Islamic teacher and tarbiyah mentor specializing in youth development and character training for 12+ years.",
         "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=500&auto=format&fit=crop&q=60"
       },
-
-      "lessons": [
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "curriculum": [
         {
           "id": "cb-1",
           "title": "Why Character Matters in Islam",
           "durationSeconds": 500,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-2",
           "title": "Akhlaq of the Prophet ﷺ",
           "durationSeconds": 540,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-3",
           "title": "What Shapes Youth Character?",
           "durationSeconds": 520,
-          "freePreview": true
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-4",
           "title": "Heart Purification Basics",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "cb-5",
           "title": "Sincerity (Ikhlas) for Allah",
           "durationSeconds": 580,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-6",
           "title": "Avoiding Showing Off (Riya)",
           "durationSeconds": 610,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-7",
           "title": "Controlling Ego & Pride",
           "durationSeconds": 630,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-8",
           "title": "Humility Like the Sahabah",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "cb-9",
           "title": "Truthfulness & Trust",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-10",
           "title": "Keeping Promises & Integrity",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-11",
           "title": "Self-Control in Difficult Times",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-12",
           "title": "Dealing with Anger As a Muslim",
           "durationSeconds": 680,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "cb-13",
           "title": "Cleanliness & Personal Hygiene",
           "durationSeconds": 575,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-14",
           "title": "Manners with Parents",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-15",
           "title": "Manners with Elders & Teachers",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-16",
           "title": "Respect, Kindness & Mercy",
           "durationSeconds": 630,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "cb-17",
           "title": "Avoiding Haram Friendships",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-18",
           "title": "Dealing with Peer Pressure",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-19",
           "title": "Etiquettes of Islamic Brotherhood",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-20",
           "title": "Healthy & Productive Social Circles",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "cb-21",
           "title": "Avoiding Sins & Bad Habits",
           "durationSeconds": 690,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-22",
           "title": "Controlling Desires",
           "durationSeconds": 710,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-23",
           "title": "Building Consistency in Good Deeds",
           "durationSeconds": 680,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-24",
           "title": "Willpower & Discipline for Youth",
           "durationSeconds": 720,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "cb-25",
           "title": "Understanding Emotional Triggers",
           "durationSeconds": 600,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-26",
           "title": "Islamic Coping Skills",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-27",
           "title": "Managing Stress as a Student",
           "durationSeconds": 610,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-28",
           "title": "Building Emotional Strength",
           "durationSeconds": 650,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "cb-29",
           "title": "Confidence Without Arrogance",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-30",
           "title": "Communication Manners",
           "durationSeconds": 640,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-31",
           "title": "Public Speaking for Youth",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-32",
           "title": "Leadership Through Good Character",
           "durationSeconds": 720,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "cb-33",
           "title": "Digital Manners & Online Behavior",
           "durationSeconds": 680,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-34",
           "title": "Using Social Media With Purpose",
           "durationSeconds": 630,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-35",
           "title": "Protecting Yourself Online",
           "durationSeconds": 610,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-36",
           "title": "Avoiding Fitnah on the Internet",
           "durationSeconds": 690,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
 
         {
           "id": "cb-37",
           "title": "Helping Others & Volunteering",
           "durationSeconds": 620,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-38",
           "title": "Community Leadership for Youth",
           "durationSeconds": 700,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-39",
           "title": "Dawah With Good Manners",
           "durationSeconds": 720,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
         {
           "id": "cb-40",
           "title": "Creating Positive Change",
           "durationSeconds": 680,
-          "freePreview": false
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
 

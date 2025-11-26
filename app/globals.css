@@ -114,6 +114,21 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@theme {
+  --color-primary: #206380;
+  --color-nhd-50: #effbfc;
+  --color-nhd-100: #d5f2f8;
+  --color-nhd-200: #b1e5f0;
+  --color-nhd-300: #7bd0e5;
+  --color-nhd-400: #3eb2d2;
+  --color-nhd-500: #2295b8;
+  --color-nhd-600: #1f789b;
+  --color-nhd-700: #206380;
+  --color-nhd-800: #225168;
+  --color-nhd-900: #204459;
+  --color-nhd-950: #102b3c;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

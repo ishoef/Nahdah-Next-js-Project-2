@@ -50,7 +50,7 @@ const Hero = () => {
               leading-snug sm:leading-tight text-center lg:text-left"
             >
               Empower Your Journey with{" "}
-              <span className="text-[#206380] dark:text-blue-400">
+              <span className="text-nhd-700 dark:text-blue-400">
                 Islamic Knowledge
               </span>{" "}
               & Modern Skills
