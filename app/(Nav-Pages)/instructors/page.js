@@ -1,11 +1,12 @@
-import React from 'react';
+import TeachersSection from "@/components/home-components/our-teachers";
+import React from "react";
 
 const Page = () => {
-    return (
-        <div>
-            this is the instructor page
-        </div>
-    );
-}
+  return (
+    <>
+      <TeachersSection />
+    </>
+  );
+};
 
 export default Page;

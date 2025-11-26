@@ -3,30 +3,49 @@ import React, { useState, useRef, useEffect } from "react";
 import allData from "@/jsons/courses.json";
 import { useParams } from "next/navigation";
 
-export default function LessonPage({
-  videoSrc = "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
-  thumbnail = "/images/video-thumb.jpg",
-  title = "Lesson Title: Introduction to Arabic Grammar",
-  course = "Arabic Grammar — Level 1",
-  instructor = {
-    name: "Dr. Ahmad",
-    avatar: "/images/instructor.jpg",
-    bio: "Assistant Professor",
-  },
-  duration = "12:34",
-  lessons = [],
-  
-}) {
+export default function LessonPage() {
   const params = useParams();
-  console.log(params.id, params.lessonId);
+  const courseId = params?.courseId;
+  const lessonId = params?.lessonId;
   const allCourses = allData.allCourses;
-  // allCourses.map((course) => course.curriculum.map((l) => console.log(l.id)));
+  const singleCourse = allCourses.find((crs) => crs._id === courseId);
+
+  const singleLesson = singleCourse.curriculum.find((l) => l.id === lessonId);
+
+  const videoURL = singleLesson?.videoUrl;
+  console.log(videoURL);
+
+  // CourseData Destructure
+
+  const {
+    slug,
+    title,
+    shortDescription,
+    fullDescription,
+    category,
+    subcategory,
+    level,
+    language,
+    thumbnail,
+    price,
+    currency,
+    students,
+    rating,
+    duration,
+    instructor,
+    lastUpdated,
+    whatYouLearn,
+    requirements,
+    extraValues,
+    features,
+    curriculum,
+  } = singleCourse;
   // primary color
   const primary = "#206380";
 
   const [isTranscriptOpen, setTranscriptOpen] = useState(false);
   const [activeLesson, setActiveLesson] = useState(
-    lessons.length ? lessons[0].id : 1
+    curriculum.length ? curriculum[0].id : 1
   );
   const [progress, setProgress] = useState(0);
   const [comments, setComments] = useState([
@@ -85,7 +104,7 @@ export default function LessonPage({
     }
   }
 
-  const isYoutube = /youtube\.com|youtu\.be/.test(videoSrc);
+  const isYoutube = /youtube\.com|youtu\.be/.test(videoURL);
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
@@ -93,7 +112,7 @@ export default function LessonPage({
         <header className="flex items-center justify-between mb-6">
           <div>
             <h1 className="text-lg md:text-xl font-semibold text-gray-900 dark:text-gray-100">
-              {course}
+              {singleLesson.title}
             </h1>
             <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
               {title}
@@ -101,6 +120,7 @@ export default function LessonPage({
           </div>
 
           <div className="flex items-center gap-3">
+            {/* Dark Mode Button */}
             <button
               onClick={toggleTheme}
               className="flex items-center gap-2 px-3 py-1.5 rounded-md border dark:border-gray-700 text-sm bg-white dark:bg-gray-800 shadow-sm"
@@ -130,13 +150,6 @@ export default function LessonPage({
                 )}
               </div>
             </button>
-
-            <button
-              className="px-4 py-2 rounded-md text-white text-sm shadow"
-              style={{ backgroundColor: primary }}
-            >
-              Enroll
-            </button>
           </div>
         </header>
 
@@ -145,6 +158,8 @@ export default function LessonPage({
             <article className="bg-white dark:bg-gray-800 rounded-2xl shadow p-4 md:p-6">
               <div className="relative w-full rounded-lg overflow-hidden bg-black">
                 {/* responsive 16:9 */}
+
+                {/* Video Frame */}
                 <div
                   className="relative w-full"
                   style={{ paddingTop: "56.25%" }}
@@ -152,7 +167,7 @@ export default function LessonPage({
                   {isYoutube ? (
                     <iframe
                       title="lesson-video"
-                      src={videoSrc}
+                      src={videoURL}
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                       className="absolute inset-0 w-full h-full"
@@ -161,7 +176,7 @@ export default function LessonPage({
                   ) : (
                     <video
                       ref={videoRef}
-                      src={videoSrc}
+                      src={videoURL}
                       poster={thumbnail}
                       controls
                       playsInline
@@ -170,12 +185,15 @@ export default function LessonPage({
                   )}
                 </div>
 
-                <div className="absolute left-4 top-4 bg-white/10 text-white text-xs rounded-full px-3 py-1 backdrop-blur">
-                  <span className="text-xs font-medium">{course}</span>
-                </div>
+                {/* <div className="absolute left-4 top-4 bg-white/10 text-white text-xs rounded-full px-3 py-1 backdrop-blur">
+                  <span className="text-xs font-medium">
+                    {singleLesson.title}
+                  </span>
+                </div> */}
               </div>
 
-              <div className="mt-4 md:flex md:items-start md:justify-between">
+              {/*  */}
+              <div className="mt-6 md:flex md:items-start md:justify-between">
                 <div>
                   <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
                     {title}
@@ -201,7 +219,9 @@ export default function LessonPage({
                   </button>
                 </div>
               </div>
+            </article>
 
+            <article className="bg-white dark:bg-gray-800 rounded-2xl shadow p-4 md:p-6 mt-4">
               {/* progress */}
               <div className="mt-4">
                 <div className="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded-full overflow-hidden">
@@ -215,6 +235,7 @@ export default function LessonPage({
                 </div>
               </div>
 
+              {/* Lesson Details */}
               <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="md:col-span-2">
                   <div className="flex items-center justify-between">
@@ -275,6 +296,7 @@ export default function LessonPage({
                 </aside>
               </div>
 
+              {/* Reivew Section */}
               <section className="mt-6">
                 <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100">
                   Discussion
@@ -329,26 +351,11 @@ export default function LessonPage({
             </article>
           </main>
 
+          {/* Rgiht Sidebar */}
           <aside className="lg:col-span-1">
             <div className="sticky top-6 space-y-4">
               <div className="bg-white dark:bg-gray-800 p-4 rounded-2xl shadow">
-                <div className="flex items-center gap-3">
-                  <img
-                    src={instructor.avatar}
-                    alt={instructor.name}
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-                  <div>
-                    <div className="font-medium text-gray-900 dark:text-gray-100">
-                      {instructor.name}
-                    </div>
-                    <div className="text-sm text-gray-500 dark:text-gray-300">
-                      {instructor.bio}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-4 text-sm">
+                <div className=" text-sm">
                   <div className="flex items-center justify-between">
                     <div className="text-gray-500 dark:text-gray-300">
                       Course progress
@@ -371,8 +378,8 @@ export default function LessonPage({
                   Lessons
                 </h4>
                 <ul className="mt-3 space-y-2 max-h-[50vh] overflow-auto">
-                  {(lessons.length
-                    ? lessons
+                  {(curriculum.length
+                    ? curriculum
                     : Array.from({ length: 6 }).map((_, i) => ({
                         id: i + 1,
                         title: `Lesson ${i + 1}`,
@@ -402,6 +409,25 @@ export default function LessonPage({
                     </li>
                   ))}
                 </ul>
+              </div>
+
+              {/* Instructor  */}
+              <div className="bg-white dark:bg-gray-800 p-4 rounded-2xl shadow">
+                <div className="flex items-center gap-3">
+                  <img
+                    src={instructor.avatar}
+                    alt={instructor.name}
+                    className="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div>
+                    <div className="font-medium text-gray-900 dark:text-gray-100">
+                      {instructor.name}
+                    </div>
+                    <div className="text-sm text-gray-500 dark:text-gray-300">
+                      {instructor.title}
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <div className="bg-white dark:bg-gray-800 p-4 rounded-2xl shadow text-sm text-gray-700 dark:text-gray-300">

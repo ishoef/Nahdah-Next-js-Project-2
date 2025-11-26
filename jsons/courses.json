@@ -174,7 +174,7 @@
       "slug": "arabic-grammar-nahw-fundamentals",
       "title": "Arabic Grammar Fundamentals (Nahw)",
       "shortDescription": "Master the essential rules of Arabic syntax (النحو) — from sentence structure to case endings — designed for beginners and early intermediate students.",
-      "fullDescription": "This <strong>practical beginner-to-intermediate</strong> course on Nahw (Arabic grammar) teaches you how Arabic sentences are built and how words relate to each other. The course covers:Basic sentence types (nominal & verbal),Case endings and how to recognise them in reading,Verb conjugation basics and verb-subject agreement,Important particles, idafa (possessive constructions), and common syntactic patternsBy the end of the course you'll be able to parse simple and medium-complexity Arabic sentences from classical and Qur'anic texts and write grammatically correct sentences with confidence.",
+      "fullDescription": "This practical beginner-to-intermediate course on Nahw (Arabic grammar) teaches you how Arabic sentences are built and how words relate to each other. The course covers:Basic sentence types (nominal & verbal),Case endings and how to recognise them in reading,Verb conjugation basics and verb-subject agreement,Important particles, idafa (possessive constructions), and common syntactic patternsBy the end of the course you'll be able to parse simple and medium-complexity Arabic sentences from classical and Qur'anic texts and write grammatically correct sentences with confidence.",
       "category": "Islamic Knowledge",
       "subcategory": "Arabic Language",
       "level": "Beginner",
@@ -3390,6 +3390,258 @@
         {
           "title": "Milestone 12: Final Project & Personal Growth Plan",
           "lessons": ["cb-38", "cb-39"]
+        }
+      ]
+    },
+    {
+      "_id": "13",
+      "slug": "basic-arabic-for-beginners",
+      "title": "Basic Arabic for Beginners",
+      "shortDescription": "Learn the fundamentals of Arabic grammar (النحو) — from sentence structure to essential case endings — designed for beginners.",
+      "fullDescription": "This beginner-friendly course teaches students the essential rules of Arabic syntax (Nahw). Covering nominal and verbal sentences, case endings, verb conjugation, pronouns, and key particles, learners will gain confidence in reading, writing, and parsing Arabic sentences. With practical examples from classical texts and the Qur'an, students will strengthen both their linguistic and analytical skills.",
+      "category": "Islamic Knowledge",
+      "subcategory": "Arabic Language",
+      "level": "Beginner",
+      "duration": "6 weeks",
+      "language": "Arabic & Bengali",
+      "thumbnail": "https://images.unsplash.com/photo-1611131922192-9e1d9f483900?w=600&auto=format&fit=crop&q=60",
+      "price": 0,
+      "currency": "$",
+      "students": 0,
+      "rating": 0,
+      "type": "Islamic",
+      "instructor": {
+        "name": "Md. Ismail Nayef Azhari",
+        "title": "PhD in Arabic Language at Al-Azhar University",
+        "bio": "Professor of Arabic grammar with extensive teaching experience in Nahw and Qur’anic syntax.",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=500&auto=format&fit=crop"
+      },
+      "lastUpdated": "November 2025",
+      "whatYouLearn": [
+        "Foundations of Arabic grammar (Nahw)",
+        "Understanding nominal & verbal sentences",
+        "Case endings (Nominative, Accusative, Genitive)",
+        "Verb conjugation and subject-verb agreement",
+        "Use of pronouns and key particles",
+        "Practical examples from Qur'an and classical texts"
+      ],
+      "requirements": [
+        "No prior knowledge of Arabic required",
+        "Commitment to weekly lessons",
+        "Access to Arabic texts or Quran for practice"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download of course materials",
+        "Discussion forum access"
+      ],
+      "features": [
+        "6 weeks of structured lessons",
+        "22 video lectures with subtitles",
+        "Downloadable PDF resources",
+        "Weekly quizzes and exercises",
+        "Discussion forum with instructor support",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline viewing capability"
+      ],
+      "curriculum": [
+        {
+          "id": "bafl-1",
+          "title": "Introduction to Arabic Grammar",
+          "durationSeconds": 300,
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/otWPYQe42S8?si=Srh-z-TGJTxnnxAJ"
+        },
+        {
+          "id": "bafl-2",
+          "title": "Arabic Script & Pronunciation",
+          "durationSeconds": 320,
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/XvIp6pSxgDM?si=zygfLIYCrf2vIS7k"
+        },
+        {
+          "id": "bafl-3",
+          "title": "Nominal Sentences Structure",
+          "durationSeconds": 350,
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/kAoaYmobxdo?si=_IEALfP3NbpNq1la"
+        },
+        {
+          "id": "bafl-4",
+          "title": "Verbal Sentences Structure",
+          "durationSeconds": 370,
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-5",
+          "title": "Case Endings Overview",
+          "durationSeconds": 400,
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-6",
+          "title": "Nominative & Accusative Cases",
+          "durationSeconds": 420,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-7",
+          "title": "Genitive Case & Idafa",
+          "durationSeconds": 440,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-8",
+          "title": "Verb Conjugation Basics",
+          "durationSeconds": 450,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-9",
+          "title": "Subject & Predicate Overview",
+          "durationSeconds": 460,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-10",
+          "title": "Pronouns & Particles",
+          "durationSeconds": 470,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-11",
+          "title": "Adjectives & Agreement",
+          "durationSeconds": 480,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-12",
+          "title": "Prepositions & Usage",
+          "durationSeconds": 490,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-13",
+          "title": "Numbers & Plurals",
+          "durationSeconds": 500,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-14",
+          "title": "Constructing Complex Sentences",
+          "durationSeconds": 510,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-15",
+          "title": "Common Syntax Errors & Practice",
+          "durationSeconds": 520,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-16",
+          "title": "Applied Grammar: Qur'anic Examples",
+          "durationSeconds": 530,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-17",
+          "title": "Negation & Question Formation",
+          "durationSeconds": 540,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-18",
+          "title": "Particles of Emphasis & Restriction",
+          "durationSeconds": 550,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-19",
+          "title": "Review: Case Endings & Agreement",
+          "durationSeconds": 560,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-20",
+          "title": "Final Practice: Sentence Construction",
+          "durationSeconds": 570,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-21",
+          "title": "Final Revision & Key Points",
+          "durationSeconds": 580,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        },
+        {
+          "id": "bafl-22",
+          "title": "Course Conclusion & Next Steps",
+          "durationSeconds": 600,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co"
+        }
+      ],
+      "outline": [
+        {
+          "title": "Milestone 1: Introduction & Script",
+          "lessons": ["bafl-1", "bafl-2"]
+        },
+        {
+          "title": "Milestone 2: Sentence Types Basics",
+          "lessons": ["bafl-3", "bafl-4"]
+        },
+        {
+          "title": "Milestone 3: Case Endings & Idafa",
+          "lessons": ["bafl-5", "bafl-6", "bafl-7"]
+        },
+        {
+          "title": "Milestone 4: Verb & Agreement",
+          "lessons": ["bafl-8", "bafl-9", "bafl-10"]
+        },
+        {
+          "title": "Milestone 5: Adjectives & Prepositions",
+          "lessons": ["bafl-11", "bafl-12"]
+        },
+        {
+          "title": "Milestone 6: Numbers & Complex Sentences",
+          "lessons": ["bafl-13", "bafl-14"]
+        },
+        {
+          "title": "Milestone 7: Practice & Applied Grammar",
+          "lessons": ["bafl-15", "bafl-16"]
+        },
+        {
+          "title": "Milestone 8: Negation & Particles",
+          "lessons": ["bafl-17", "bafl-18"]
+        },
+        {
+          "title": "Milestone 9: Revision & Final Practice",
+          "lessons": ["bafl-19", "bafl-20"]
+        },
+        {
+          "title": "Milestone 10: Course Conclusion",
+          "lessons": ["bafl-21", "bafl-22"]
         }
       ]
     }

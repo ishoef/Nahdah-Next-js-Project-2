@@ -97,7 +97,7 @@ export default function CourseCard({ course }) {
             >
               {price === 0 || price === "Free"
                 ? "Free"
-                : `${currency} ${price}`}
+                : `${currency} ${price.toLocaleString()}`}
             </span>
 
             <Button

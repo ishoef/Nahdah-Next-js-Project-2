@@ -14,8 +14,8 @@ export function generateStaticParams() {
 export default async function CourseDetails({ params }) {
   const allCourses = allData.allCourses;
   // const course = demoCourse;
-  const { id } = await params;
-  const course = allCourses.find((c) => c._id === id);
+  const { courseId } = await params;
+  const course = allCourses.find((c) => c._id === courseId);
 
   const {
     title,
