@@ -7,7 +7,7 @@ import TabsSection from "@/components/courseDetails-components/TabsSection";
 
 export function generateStaticParams() {
   return allData.allCourses.map((course) => ({
-    id: course._id,
+    courseId: course._id,
   }));
 }
 
@@ -59,11 +59,11 @@ export default async function CourseDetails({ params }) {
               </span>
             </div>
 
-            <h1 className="text-3xl md:text-5xl font-serif font-bold leading-tight">
+            <h1 className="text-3xl md:text-5xl  font-bold leading-tight">
               {title}
             </h1>
             <p className="mt-4 max-w-2xl text-sm md:text-base text-white/90">
-              {fullDescription}
+              {shortDescription}
             </p>
 
             <div className="mt-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center">

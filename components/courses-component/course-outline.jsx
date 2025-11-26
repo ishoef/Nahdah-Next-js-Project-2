@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React, { useState } from "react";
 
 export default function CourseOutline({ course }) {
@@ -18,7 +19,7 @@ export default function CourseOutline({ course }) {
       {course.outline?.map((section, index) => (
         <div
           key={index}
-          className="bg-white dark:bg-gray-800 shadow rounded-xl overflow-hidden border-l-4 border-[#206380] dark:border-blue-400 py-4 sm:py-3"
+          className="bg-white dark:bg-slate-900 shadow rounded-xl overflow-hidden border-l-4 border-[#206380] dark:border-blue-400 py-4 sm:py-3"
         >
           {/* Milestone Header */}
           <button
@@ -54,7 +55,7 @@ export default function CourseOutline({ course }) {
                     key={lesson.id}
                     className="flex justify-between items-center border p-4 rounded "
                   >
-                    <span>{lesson.title}</span>
+                    <Link href={`/courses/${course._id}/lessons/${lesson.id}`}>{lesson.title}</Link>
                     {lesson.freePreview && (
                       <span className="text-xs sm:text-sm text-green-600 font-medium">
                         (Free Preview)
