@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section
       className="relative overflow-hidden 
-      bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 
+      bg-gradient-to-br from-nhd-300 via-nhd-100 to-nhd-300 
       dark:from-gray-900 dark:via-gray-800 dark:to-gray-900
       py-14 sm:py-10 md:py-12 lg:py-22 transition-colors duration-500"
     >
@@ -45,7 +45,7 @@ const Hero = () => {
 
             {/* Title */}
             <h1
-              className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-5xl 
+              className=" text-2xl sm:text-4xl md:text-5xl lg:text-5xl 
               font-bold text-gray-900 dark:text-white mb-6 
               leading-snug sm:leading-tight text-center lg:text-left"
             >

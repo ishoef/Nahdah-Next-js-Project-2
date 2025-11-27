@@ -53,13 +53,14 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "l-1",
           "title": "Introduction to Surah Al-Baqarah",
           "durationSeconds": 420,
           "freePreview": true,
-          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC?rel=0"
         },
         {
           "id": "l-2",
@@ -222,6 +223,7 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "nahw-l-1",
@@ -580,6 +582,7 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "hb-l-1",
@@ -938,6 +941,7 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "rnl-1",
@@ -1266,6 +1270,7 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "gdf-1",
@@ -1622,6 +1627,7 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "dme-1",
@@ -1977,6 +1983,7 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "ux-1",
@@ -2110,6 +2117,7 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "py-1",
@@ -2243,6 +2251,7 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "gd-1",
@@ -2377,6 +2386,7 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "n-1",
@@ -2625,6 +2635,7 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "ys-1",
@@ -3050,6 +3061,7 @@
         "Lifetime access to course materials",
         "Offline download capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "cb-1",
@@ -3446,6 +3458,7 @@
         "Lifetime access to course materials",
         "Offline viewing capability"
       ],
+      "milestoneCurriculum": true,
       "curriculum": [
         {
           "id": "bafl-1",
@@ -3642,6 +3655,377 @@
         {
           "title": "Milestone 10: Course Conclusion",
           "lessons": ["bafl-21", "bafl-22"]
+        }
+      ]
+    },
+    {
+      "_id": "13",
+      "slug": "tafsir-surah-al-Mayedah",
+      "title": "Tafsir Al-Qur'an: Surah Al-Baqarah",
+      "shortDescription": "A comprehensive, verse-by-verse study of Surah Al-Baqarah, exploring classical Tafsir, spiritual lessons, and practical applications.",
+      "fullDescription": "This comprehensive intermediate Tafsir course guides students through Surah Al-Baqarah, the longest chapter of the Qur'an. Each session combines classical commentary, linguistic analysis, and practical reflection. We examine the historical context (asbāb an-nuzūl), connect verses to fiqh and ethics where applicable, and highlight linguistic subtleties that unlock deeper meanings. Lessons feature verse-by-verse reading, explanations from major classical Tafsir sources, contemporary perspectives to address modern questions, and short practice exercises to strengthen retention. Students who finish the course will gain not only knowledge of the Surah's themes and rulings but also improved Quranic comprehension and the skills to approach other chapters with critical understanding and reverence.",
+      "category": "Islamic Knowledge",
+      "subcategory": "Quran & Tafsir",
+      "level": "Intermediate",
+      "language": "Arabic & English",
+      "thumbnail": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?w=600&auto=format&fit=crop&q=60",
+      "price": 0,
+      "currency": "$",
+      "students": 3200,
+      "rating": 4.6,
+      "type": "Islamic",
+      "duration": "6 weeks",
+      "instructor": {
+        "name": "Sheikh Ahmad Al-Mansour",
+        "title": "PhD in Quranic Studies",
+        "bio": "Renowned Qur’an teacher and scholar with over 20 years of experience in Tafsir and Islamic education.",
+        "avatar": "https://images.unsplash.com/photo-1632922267756-9b71242b1592?w=500&auto=format&fit=crop&q=60"
+      },
+      "lastUpdated": "January 2025",
+      "whatYouLearn": [
+        "Detailed verse-by-verse explanation of Surah Al-Baqarah",
+        "Historical context and reasons for revelation (Asbab al-Nuzul)",
+        "Classical and contemporary tafsir perspectives",
+        "Practical applications of Quranic teachings",
+        "Arabic language insights and linguistic analysis",
+        "Connection between verses and Islamic jurisprudence"
+      ],
+      "requirements": [
+        "Basic understanding of Islam and Quranic Arabic (helpful but not required)",
+        "Commitment to weekly lessons and assignments",
+        "Access to a Quran (physical or digital)"
+      ],
+      "extraValues": [
+        "Lifetime access",
+        "Certificate of completion",
+        "Offline download",
+        "Discussion forum access"
+      ],
+      "features": [
+        "12 weeks of structured learning",
+        "40+ video lectures with subtitles",
+        "Downloadable PDF notes and resources",
+        "Weekly quizzes and assignments",
+        "Discussion forum with instructor",
+        "Certificate of completion",
+        "Lifetime access to course materials",
+        "Offline download capability"
+      ],
+      "milestoneCurriculum": true,
+      "curriculum": [
+        {
+          "id": "l-1",
+          "title": "Introduction to Surah Al-Baqarah",
+          "durationSeconds": 420,
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-2",
+          "title": "Virtues & Themes of the Surah",
+          "durationSeconds": 480,
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-3",
+          "title": "Overview of Makki & Madani Revelations",
+          "durationSeconds": 360,
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-4",
+          "title": "Tafsir of Verses 1–5: Qualities of the Believers",
+          "durationSeconds": 620,
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-5",
+          "title": "Tafsir of Verses 6–16: Traits of the Hypocrites",
+          "durationSeconds": 650,
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-6",
+          "title": "Tafsir of Verses 17–20: Parables of Hypocrisy",
+          "durationSeconds": 540,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-7",
+          "title": "Tafsir of Verses 21–29: Call to Worship",
+          "durationSeconds": 580,
+          "freePreview": true,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-8",
+          "title": "Tafsir of Verses 30–39: Story of Adam (AS)",
+          "durationSeconds": 600,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-9",
+          "title": "Tafsir of Verses 40–46: Reminder to Bani Isra'il",
+          "durationSeconds": 550,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-10",
+          "title": "Tafsir of Verses 47–59: Blessings and Warnings to Bani Isra'il",
+          "durationSeconds": 640,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-11",
+          "title": "Tafsir of Verses 60–74: The Cow Incident",
+          "durationSeconds": 660,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-12",
+          "title": "Tafsir of Verses 75–86: Breaking the Covenant & Altering Scripture",
+          "durationSeconds": 700,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        },
+        {
+          "id": "l-36",
+          "title": "Conclusion, Summary & Life Lessons",
+          "durationSeconds": 700,
+          "freePreview": false,
+          "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
+        }
+      ],
+      "outline": [
+        {
+          "title": "Milestone 1: Introduction",
+          "lessons": ["l-1", "l-2", "l-3"]
+        },
+        {
+          "title": "Milestone 2: Believers, Disbelievers & Hypocrites",
+          "lessons": ["l-4", "l-5", "l-6"]
+        },
+        {
+          "title": "Milestone 3: Story of Adam & Early Reminders",
+          "lessons": ["l-7", "l-8", "l-9"]
+        },
+        {
+          "title": "Milestone 4: Lessons from Bani Isra'il",
+          "lessons": ["l-10", "l-11", "l-12"]
+        },
+        {
+          "title": "Milestone 5: Final Reflection & Conclusion",
+          "lessons": ["l-36"]
+        }
+      ],
+      "missions": [
+        {
+          "id": "mission-0",
+          "courseId": "1",
+          "title": "Milestone 1: Introduction",
+          "duration": "21 m",
+          "completed": 3,
+          "total": 3,
+          "modules": [
+            {
+              "id": "m0-0",
+              "title": "Milestone 1: Introduction Module",
+              "duration": "21 m",
+              "completed": 3,
+              "total": 3,
+              "lessons": [
+                {
+                  "id": "l-1",
+                  "title": "Introduction to Surah Al-Baqarah",
+                  "durationSeconds": 420,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                },
+                {
+                  "id": "l-2",
+                  "title": "Virtues & Themes of the Surah",
+                  "durationSeconds": 480,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                },
+                {
+                  "id": "l-3",
+                  "title": "Overview of Makki & Madani Revelations",
+                  "durationSeconds": 360,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-1",
+          "courseId": "1",
+          "title": "Milestone 2: Believers, Disbelievers & Hypocrites",
+          "duration": "28 m",
+          "completed": 3,
+          "total": 3,
+          "modules": [
+            {
+              "id": "m1-0",
+              "title": "Milestone 2: Believers, Disbelievers & Hypocrites Module",
+              "duration": "28 m",
+              "completed": 3,
+              "total": 3,
+              "lessons": [
+                {
+                  "id": "l-4",
+                  "title": "Tafsir of Verses 1–5: Qualities of the Believers",
+                  "durationSeconds": 620,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                },
+                {
+                  "id": "l-5",
+                  "title": "Tafsir of Verses 6–16: Traits of the Hypocrites",
+                  "durationSeconds": 650,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                },
+                {
+                  "id": "l-6",
+                  "title": "Tafsir of Verses 17–20: Parables of Hypocrisy",
+                  "durationSeconds": 540,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-2",
+          "courseId": "1",
+          "title": "Milestone 3: Story of Adam & Early Reminders",
+          "duration": "29 m",
+          "completed": 2,
+          "total": 3,
+          "modules": [
+            {
+              "id": "m2-0",
+              "title": "Milestone 3: Story of Adam & Early Reminders Module",
+              "duration": "29 m",
+              "completed": 2,
+              "total": 3,
+              "lessons": [
+                {
+                  "id": "l-7",
+                  "title": "Tafsir of Verses 21–29: Call to Worship",
+                  "durationSeconds": 580,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                },
+                {
+                  "id": "l-8",
+                  "title": "Tafsir of Verses 30–39: Story of Adam (AS)",
+                  "durationSeconds": 600,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                },
+                {
+                  "id": "l-9",
+                  "title": "Tafsir of Verses 40–46: Reminder to Bani Isra'il",
+                  "durationSeconds": 550,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-3",
+          "courseId": "1",
+          "title": "Milestone 4: Lessons from Bani Isra'il",
+          "duration": "33 m",
+          "completed": 0,
+          "total": 3,
+          "modules": [
+            {
+              "id": "m3-0",
+              "title": "Milestone 4: Lessons from Bani Isra'il Module",
+              "duration": "33 m",
+              "completed": 0,
+              "total": 3,
+              "lessons": [
+                {
+                  "id": "l-10",
+                  "title": "Tafsir of Verses 47–59: Blessings and Warnings to Bani Isra'il",
+                  "durationSeconds": 640,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                },
+                {
+                  "id": "l-11",
+                  "title": "Tafsir of Verses 60–74: The Cow Incident",
+                  "durationSeconds": 660,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                },
+                {
+                  "id": "l-12",
+                  "title": "Tafsir of Verses 75–86: Breaking the Covenant & Altering Scripture",
+                  "durationSeconds": 700,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-4",
+          "courseId": "1",
+          "title": "Milestone 5: Final Reflection & Conclusion",
+          "duration": "11 m",
+          "completed": 0,
+          "total": 1,
+          "modules": [
+            {
+              "id": "m4-0",
+              "title": "Milestone 5: Final Reflection & Conclusion Module",
+              "duration": "11 m",
+              "completed": 0,
+              "total": 1,
+              "lessons": [
+                {
+                  "id": "l-36",
+                  "title": "Conclusion, Summary & Life Lessons",
+                  "durationSeconds": 700,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

@@ -101,7 +101,7 @@ export default async function CourseDetails({ params }) {
               </div>
             </div>
 
-            <div className="p-4 border rounded-2xl shadow-sm w-fit mt-5 bg-white dark:bg-slate-900 hover:shadow-md transition">
+            <div className="p-4 border rounded-2xl shadow-sm w-full sm:w-fit mt-5 bg-white dark:bg-slate-900 hover:shadow-md transition">
               <div className="flex items-center gap-4">
                 {/* Instructor Image */}
                 <div className="w-16 h-16 rounded-full border overflow-hidden flex items-center justify-center bg-[#effbfc] dark:bg-slate-100">

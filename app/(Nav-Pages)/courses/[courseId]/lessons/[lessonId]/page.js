@@ -2,6 +2,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import allData from "@/jsons/courses.json";
 import { useParams } from "next/navigation";
+import MileStoneSidebar from "@/components/courseDetails-components/milestoneCurriculum";
+import CustomVideoFrame from "@/components/VideoPlayer/CustomVideoPlayer";
 
 export default function LessonPage() {
   const params = useParams();
@@ -52,18 +54,18 @@ export default function LessonPage() {
     { id: 1, user: "Fatima", text: "Great explanation!", time: "2h ago" },
   ]);
   const [commentText, setCommentText] = useState("");
-  const [isDark, setIsDark] = useState(false);
+  // const [isDark, setIsDark] = useState(false);
   const videoRef = useRef(null);
 
-  useEffect(() => {
-    // read saved theme
-    const saved =
-      typeof window !== "undefined" && localStorage.getItem("lesson_theme");
-    if (saved === "dark") {
-      document.documentElement.classList.add("dark");
-      setIsDark(true);
-    }
-  }, []);
+  // useEffect(() => {
+  //   // read saved theme
+  //   const saved =
+  //     typeof window !== "undefined" && localStorage.getItem("lesson_theme");
+  //   if (saved === "dark") {
+  //     document.documentElement.classList.add("dark");
+  //     setIsDark(true);
+  //   }
+  // }, []);
 
   // only attach to real <video> elements (not iframe/YT)
   useEffect(() => {
@@ -92,17 +94,17 @@ export default function LessonPage() {
     setCommentText("");
   }
 
-  function toggleTheme() {
-    const next = !isDark;
-    setIsDark(next);
-    if (next) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("lesson_theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("lesson_theme", "light");
-    }
-  }
+  // function toggleTheme() {
+  //   const next = !isDark;
+  //   setIsDark(next);
+  //   if (next) {
+  //     document.documentElement.classList.add("dark");
+  //     localStorage.setItem("lesson_theme", "dark");
+  //   } else {
+  //     document.documentElement.classList.remove("dark");
+  //     localStorage.setItem("lesson_theme", "light");
+  //   }
+  // }
 
   const isYoutube = /youtube\.com|youtu\.be/.test(videoURL);
 
@@ -121,7 +123,7 @@ export default function LessonPage() {
 
           <div className="flex items-center gap-3">
             {/* Dark Mode Button */}
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="flex items-center gap-2 px-3 py-1.5 rounded-md border dark:border-gray-700 text-sm bg-white dark:bg-gray-800 shadow-sm"
             >
@@ -149,18 +151,18 @@ export default function LessonPage() {
                   </svg>
                 )}
               </div>
-            </button>
+            </button> */}
           </div>
         </header>
 
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
           <main className="lg:col-span-3">
             <article className="bg-white dark:bg-gray-800 rounded-2xl shadow p-4 md:p-6">
               <div className="relative w-full rounded-lg overflow-hidden bg-black">
                 {/* responsive 16:9 */}
 
                 {/* Video Frame */}
-                <div
+                {/* <div
                   className="relative w-full"
                   style={{ paddingTop: "56.25%" }}
                 >
@@ -183,7 +185,9 @@ export default function LessonPage() {
                       className="absolute inset-0 w-full h-full bg-black"
                     />
                   )}
-                </div>
+                </div> */}
+
+                <CustomVideoFrame isYoutube={true} videoUrl={videoURL} />
 
                 {/* <div className="absolute left-4 top-4 bg-white/10 text-white text-xs rounded-full px-3 py-1 backdrop-blur">
                   <span className="text-xs font-medium">
@@ -373,7 +377,7 @@ export default function LessonPage() {
                 </div>
               </div>
 
-              <div className="bg-white dark:bg-gray-800 p-4 rounded-2xl shadow">
+              {/* <div className="bg-white dark:bg-gray-800 p-4 rounded-2xl shadow">
                 <h4 className="font-medium text-gray-900 dark:text-gray-100">
                   Lessons
                 </h4>
@@ -409,7 +413,9 @@ export default function LessonPage() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
+
+              <MileStoneSidebar />
 
               {/* Instructor  */}
               <div className="bg-white dark:bg-gray-800 p-4 rounded-2xl shadow">
