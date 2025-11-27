@@ -137,3 +137,87 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(32, 99 128, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(32 99 128, 0.9);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(32, 99 128, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(32 99 128, 0.9);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(32, 99 128, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(32 99 128, 0.9);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+@layer utilities {
+  .delay-0 {
+    animation-delay: 0ms;
+  }
+  @layer utilities {
+    .delay-100 {
+      animation-delay: 100ms;
+    }
+  }
+  @layer utilities {
+    .delay-200 {
+      animation-delay: 200ms;
+    }
+  }
+  @layer utilities {
+    .delay-300 {
+      animation-delay: 300ms;
+    }
+  }
+}

@@ -1,13 +1,14 @@
 "use client";
 
 import ThemeToggle from "@/app/theme-toggle";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from "./ui/button";
 import CustomLink from "./CustomLink";
 import NetworkStatus from "./NetworkStatus";
 import { usePathname, useRouter } from "next/navigation";
+import { Heart } from "lucide-react";
 
 const navItems = [
   { name: "Islamic Knowledge", href: "/islamic-knowledge" },
@@ -32,6 +33,10 @@ const Header = () => {
     alert("clciked log out");
   };
 
+  useEffect(() => {
+    setDrawerOpen(false);
+  }, [pathname]);
+
   return (
     <header className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-300">
       <NetworkStatus />
@@ -52,7 +57,11 @@ const Header = () => {
 
         {/* Right Section */}
         <div className="flex items-center gap-2 sm:gap-3 lg:gap-4">
-          <ThemeToggle />
+          <Link href={"/donate"}>
+            <Button className={"cursor-pointer"}>
+              <Heart /> Donate
+            </Button>
+          </Link>
 
           {/* Desktop Login/Profile */}
           {session ? (
@@ -68,6 +77,8 @@ const Header = () => {
               <Link href="/login">Login</Link>
             </Button>
           )}
+
+          <ThemeToggle />
 
           {/* Mobile Drawer Toggle */}
           <button
