@@ -3091,7 +3091,6 @@
           "freePreview": false,
           "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
-
         {
           "id": "cb-5",
           "title": "Sincerity (Ikhlas) for Allah",
@@ -3120,7 +3119,6 @@
           "freePreview": false,
           "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
-
         {
           "id": "cb-9",
           "title": "Truthfulness & Trust",
@@ -3149,7 +3147,6 @@
           "freePreview": false,
           "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
-
         {
           "id": "cb-13",
           "title": "Cleanliness & Personal Hygiene",
@@ -3178,7 +3175,6 @@
           "freePreview": false,
           "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
-
         {
           "id": "cb-17",
           "title": "Avoiding Haram Friendships",
@@ -3207,7 +3203,6 @@
           "freePreview": false,
           "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
-
         {
           "id": "cb-21",
           "title": "Avoiding Sins & Bad Habits",
@@ -3236,7 +3231,6 @@
           "freePreview": false,
           "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
-
         {
           "id": "cb-25",
           "title": "Understanding Emotional Triggers",
@@ -3265,7 +3259,6 @@
           "freePreview": false,
           "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
-
         {
           "id": "cb-29",
           "title": "Confidence Without Arrogance",
@@ -3294,7 +3287,6 @@
           "freePreview": false,
           "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
-
         {
           "id": "cb-33",
           "title": "Digital Manners & Online Behavior",
@@ -3323,7 +3315,6 @@
           "freePreview": false,
           "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         },
-
         {
           "id": "cb-37",
           "title": "Helping Others & Volunteering",
@@ -3353,7 +3344,6 @@
           "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC"
         }
       ],
-
       "outline": [
         {
           "title": "Milestone 1: Foundations of Islamic Character",
@@ -3402,6 +3392,518 @@
         {
           "title": "Milestone 12: Final Project & Personal Growth Plan",
           "lessons": ["cb-38", "cb-39"]
+        }
+      ],
+      "missions": [
+        {
+          "id": "mission-1",
+          "courseId": "12",
+          "title": "Milestone 1: Foundations of Islamic Character",
+          "duration": "36 m",
+          "completed": 3,
+          "total": 4,
+          "modules": [
+            {
+              "id": "m-1-0",
+              "title": "Milestone 1: Foundations of Islamic Character Module",
+              "duration": "36 m",
+              "completed": 3,
+              "total": 4,
+              "lessons": [
+                {
+                  "id": "cb-1",
+                  "title": "Why Character Matters in Islam",
+                  "durationSeconds": 500,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-2",
+                  "title": "Akhlaq of the Prophet ﷺ",
+                  "durationSeconds": 540,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-3",
+                  "title": "What Shapes Youth Character?",
+                  "durationSeconds": 520,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-4",
+                  "title": "Heart Purification Basics",
+                  "durationSeconds": 600,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-2",
+          "courseId": "12",
+          "title": "Milestone 2: Purification of the Heart",
+          "duration": "41 m",
+          "completed": 0,
+          "total": 4,
+          "modules": [
+            {
+              "id": "m-2-0",
+              "title": "Milestone 2: Purification of the Heart Module",
+              "duration": "41 m",
+              "completed": 0,
+              "total": 4,
+              "lessons": [
+                {
+                  "id": "cb-5",
+                  "title": "Sincerity (Ikhlas) for Allah",
+                  "durationSeconds": 580,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-6",
+                  "title": "Avoiding Showing Off (Riya)",
+                  "durationSeconds": 610,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-7",
+                  "title": "Controlling Ego & Pride",
+                  "durationSeconds": 630,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-8",
+                  "title": "Humility Like the Sahabah",
+                  "durationSeconds": 650,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-3",
+          "courseId": "12",
+          "title": "Milestone 3: Truthfulness & Self-Control",
+          "duration": "42 m",
+          "completed": 0,
+          "total": 4,
+          "modules": [
+            {
+              "id": "m-3-0",
+              "title": "Milestone 3: Truthfulness & Self-Control Module",
+              "duration": "42 m",
+              "completed": 0,
+              "total": 4,
+              "lessons": [
+                {
+                  "id": "cb-9",
+                  "title": "Truthfulness & Trust",
+                  "durationSeconds": 620,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-10",
+                  "title": "Keeping Promises & Integrity",
+                  "durationSeconds": 600,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-11",
+                  "title": "Self-Control in Difficult Times",
+                  "durationSeconds": 640,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-12",
+                  "title": "Dealing with Anger As a Muslim",
+                  "durationSeconds": 680,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-4",
+          "courseId": "12",
+          "title": "Milestone 4: Manners & Etiquette",
+          "duration": "40 m",
+          "completed": 0,
+          "total": 4,
+          "modules": [
+            {
+              "id": "m-4-0",
+              "title": "Milestone 4: Manners & Etiquette Module",
+              "duration": "40 m",
+              "completed": 0,
+              "total": 4,
+              "lessons": [
+                {
+                  "id": "cb-13",
+                  "title": "Cleanliness & Personal Hygiene",
+                  "durationSeconds": 575,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-14",
+                  "title": "Manners with Parents",
+                  "durationSeconds": 600,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-15",
+                  "title": "Manners with Elders & Teachers",
+                  "durationSeconds": 620,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-16",
+                  "title": "Respect, Kindness & Mercy",
+                  "durationSeconds": 630,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-5",
+          "courseId": "12",
+          "title": "Milestone 5: Friendships & Social Manners",
+          "duration": "43 m",
+          "completed": 0,
+          "total": 4,
+          "modules": [
+            {
+              "id": "m-5-0",
+              "title": "Milestone 5: Friendships & Social Manners Module",
+              "duration": "43 m",
+              "completed": 0,
+              "total": 4,
+              "lessons": [
+                {
+                  "id": "cb-17",
+                  "title": "Avoiding Haram Friendships",
+                  "durationSeconds": 650,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-18",
+                  "title": "Dealing with Peer Pressure",
+                  "durationSeconds": 700,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-19",
+                  "title": "Etiquettes of Islamic Brotherhood",
+                  "durationSeconds": 620,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-20",
+                  "title": "Healthy & Productive Social Circles",
+                  "durationSeconds": 640,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-6",
+          "courseId": "12",
+          "title": "Milestone 6: Discipline & Willpower",
+          "duration": "47 m",
+          "completed": 0,
+          "total": 4,
+          "modules": [
+            {
+              "id": "m-6-0",
+              "title": "Milestone 6: Discipline & Willpower Module",
+              "duration": "47 m",
+              "completed": 0,
+              "total": 4,
+              "lessons": [
+                {
+                  "id": "cb-21",
+                  "title": "Avoiding Sins & Bad Habits",
+                  "durationSeconds": 690,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-22",
+                  "title": "Controlling Desires",
+                  "durationSeconds": 710,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-23",
+                  "title": "Building Consistency in Good Deeds",
+                  "durationSeconds": 680,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-24",
+                  "title": "Willpower & Discipline for Youth",
+                  "durationSeconds": 720,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-7",
+          "courseId": "12",
+          "title": "Milestone 7: Emotional Strength & Stability",
+          "duration": "41 m",
+          "completed": 0,
+          "total": 4,
+          "modules": [
+            {
+              "id": "m-7-0",
+              "title": "Milestone 7: Emotional Strength & Stability Module",
+              "duration": "41 m",
+              "completed": 0,
+              "total": 4,
+              "lessons": [
+                {
+                  "id": "cb-25",
+                  "title": "Understanding Emotional Triggers",
+                  "durationSeconds": 600,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-26",
+                  "title": "Islamic Coping Skills",
+                  "durationSeconds": 640,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-27",
+                  "title": "Managing Stress as a Student",
+                  "durationSeconds": 610,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-28",
+                  "title": "Building Emotional Strength",
+                  "durationSeconds": 650,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-8",
+          "courseId": "12",
+          "title": "Milestone 8: Confidence & Leadership",
+          "duration": "47 m",
+          "completed": 0,
+          "total": 4,
+          "modules": [
+            {
+              "id": "m-8-0",
+              "title": "Milestone 8: Confidence & Leadership Module",
+              "duration": "47 m",
+              "completed": 0,
+              "total": 4,
+              "lessons": [
+                {
+                  "id": "cb-29",
+                  "title": "Confidence Without Arrogance",
+                  "durationSeconds": 620,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-30",
+                  "title": "Communication Manners",
+                  "durationSeconds": 640,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-31",
+                  "title": "Public Speaking for Youth",
+                  "durationSeconds": 700,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-32",
+                  "title": "Leadership Through Good Character",
+                  "durationSeconds": 720,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-9",
+          "courseId": "12",
+          "title": "Milestone 9: Digital Manners & Online Safety",
+          "duration": "44 m",
+          "completed": 0,
+          "total": 4,
+          "modules": [
+            {
+              "id": "m-9-0",
+              "title": "Milestone 9: Digital Manners & Online Safety Module",
+              "duration": "44 m",
+              "completed": 0,
+              "total": 4,
+              "lessons": [
+                {
+                  "id": "cb-33",
+                  "title": "Digital Manners & Online Behavior",
+                  "durationSeconds": 680,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-34",
+                  "title": "Using Social Media With Purpose",
+                  "durationSeconds": 630,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-35",
+                  "title": "Protecting Yourself Online",
+                  "durationSeconds": 610,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-36",
+                  "title": "Avoiding Fitnah on the Internet",
+                  "durationSeconds": 690,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-10",
+          "courseId": "12",
+          "title": "Milestone 10: Community Service & Leadership",
+          "duration": "46 m",
+          "completed": 0,
+          "total": 4,
+          "modules": [
+            {
+              "id": "m-10-0",
+              "title": "Milestone 10: Community Service & Leadership Module",
+              "duration": "46 m",
+              "completed": 0,
+              "total": 4,
+              "lessons": [
+                {
+                  "id": "cb-37",
+                  "title": "Helping Others & Volunteering",
+                  "durationSeconds": 620,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-38",
+                  "title": "Community Leadership for Youth",
+                  "durationSeconds": 700,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-39",
+                  "title": "Dawah With Good Manners",
+                  "durationSeconds": 720,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                },
+                {
+                  "id": "cb-40",
+                  "title": "Creating Positive Change",
+                  "durationSeconds": 680,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co?si=JLZAIr2stgjBw4WC",
+                  "courseId": "12"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3656,10 +4158,378 @@
           "title": "Milestone 10: Course Conclusion",
           "lessons": ["bafl-21", "bafl-22"]
         }
+      ],
+      "missions": [
+        {
+          "id": "mission-1",
+          "courseId": "13",
+          "title": "Milestone 1: Introduction & Script",
+          "duration": "10 m",
+          "completed": 2,
+          "total": 2,
+          "modules": [
+            {
+              "id": "m-1-0",
+              "title": "Milestone 1: Introduction & Script Module",
+              "duration": "10 m",
+              "completed": 2,
+              "total": 2,
+              "lessons": [
+                {
+                  "id": "bafl-1",
+                  "title": "Introduction to Arabic Grammar",
+                  "durationSeconds": 300,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/otWPYQe42S8?si=Srh-z-TGJTxnnxAJ",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-2",
+                  "title": "Arabic Script & Pronunciation",
+                  "durationSeconds": 320,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/XvIp6pSxgDM?si=zygfLIYCrf2vIS7k",
+                  "courseId": "13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-2",
+          "courseId": "13",
+          "title": "Milestone 2: Sentence Types Basics",
+          "duration": "12 m",
+          "completed": 2,
+          "total": 2,
+          "modules": [
+            {
+              "id": "m-2-0",
+              "title": "Milestone 2: Sentence Types Basics Module",
+              "duration": "12 m",
+              "completed": 2,
+              "total": 2,
+              "lessons": [
+                {
+                  "id": "bafl-3",
+                  "title": "Nominal Sentences Structure",
+                  "durationSeconds": 350,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/kAoaYmobxdo?si=_IEALfP3NbpNq1la",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-4",
+                  "title": "Verbal Sentences Structure",
+                  "durationSeconds": 370,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-3",
+          "courseId": "13",
+          "title": "Milestone 3: Case Endings & Idafa",
+          "duration": "21 m",
+          "completed": 1,
+          "total": 3,
+          "modules": [
+            {
+              "id": "m-3-0",
+              "title": "Milestone 3: Case Endings & Idafa Module",
+              "duration": "21 m",
+              "completed": 1,
+              "total": 3,
+              "lessons": [
+                {
+                  "id": "bafl-5",
+                  "title": "Case Endings Overview",
+                  "durationSeconds": 400,
+                  "freePreview": true,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-6",
+                  "title": "Nominative & Accusative Cases",
+                  "durationSeconds": 420,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-7",
+                  "title": "Genitive Case & Idafa",
+                  "durationSeconds": 440,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-4",
+          "courseId": "13",
+          "title": "Milestone 4: Verb & Agreement",
+          "duration": "23 m",
+          "completed": 0,
+          "total": 3,
+          "modules": [
+            {
+              "id": "m-4-0",
+              "title": "Milestone 4: Verb & Agreement Module",
+              "duration": "23 m",
+              "completed": 0,
+              "total": 3,
+              "lessons": [
+                {
+                  "id": "bafl-8",
+                  "title": "Verb Conjugation Basics",
+                  "durationSeconds": 450,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-9",
+                  "title": "Subject & Predicate Overview",
+                  "durationSeconds": 460,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-10",
+                  "title": "Pronouns & Particles",
+                  "durationSeconds": 470,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-5",
+          "courseId": "13",
+          "title": "Milestone 5: Adjectives & Prepositions",
+          "duration": "16 m",
+          "completed": 0,
+          "total": 2,
+          "modules": [
+            {
+              "id": "m-5-0",
+              "title": "Milestone 5: Adjectives & Prepositions Module",
+              "duration": "16 m",
+              "completed": 0,
+              "total": 2,
+              "lessons": [
+                {
+                  "id": "bafl-11",
+                  "title": "Adjectives & Agreement",
+                  "durationSeconds": 480,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-12",
+                  "title": "Prepositions & Usage",
+                  "durationSeconds": 490,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-6",
+          "courseId": "13",
+          "title": "Milestone 6: Numbers & Complex Sentences",
+          "duration": "16 m",
+          "completed": 0,
+          "total": 2,
+          "modules": [
+            {
+              "id": "m-6-0",
+              "title": "Milestone 6: Numbers & Complex Sentences Module",
+              "duration": "16 m",
+              "completed": 0,
+              "total": 2,
+              "lessons": [
+                {
+                  "id": "bafl-13",
+                  "title": "Numbers & Plurals",
+                  "durationSeconds": 500,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-14",
+                  "title": "Constructing Complex Sentences",
+                  "durationSeconds": 510,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-7",
+          "courseId": "13",
+          "title": "Milestone 7: Practice & Applied Grammar",
+          "duration": "17 m",
+          "completed": 0,
+          "total": 2,
+          "modules": [
+            {
+              "id": "m-7-0",
+              "title": "Milestone 7: Practice & Applied Grammar Module",
+              "duration": "17 m",
+              "completed": 0,
+              "total": 2,
+              "lessons": [
+                {
+                  "id": "bafl-15",
+                  "title": "Common Syntax Errors & Practice",
+                  "durationSeconds": 520,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-16",
+                  "title": "Applied Grammar: Qur'anic Examples",
+                  "durationSeconds": 530,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-8",
+          "courseId": "13",
+          "title": "Milestone 8: Negation & Particles",
+          "duration": "18 m",
+          "completed": 0,
+          "total": 2,
+          "modules": [
+            {
+              "id": "m-8-0",
+              "title": "Milestone 8: Negation & Particles Module",
+              "duration": "18 m",
+              "completed": 0,
+              "total": 2,
+              "lessons": [
+                {
+                  "id": "bafl-17",
+                  "title": "Negation & Question Formation",
+                  "durationSeconds": 540,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-18",
+                  "title": "Particles of Emphasis & Restriction",
+                  "durationSeconds": 550,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-9",
+          "courseId": "13",
+          "title": "Milestone 9: Revision & Final Practice",
+          "duration": "18 m",
+          "completed": 0,
+          "total": 2,
+          "modules": [
+            {
+              "id": "m-9-0",
+              "title": "Milestone 9: Revision & Final Practice Module",
+              "duration": "18 m",
+              "completed": 0,
+              "total": 2,
+              "lessons": [
+                {
+                  "id": "bafl-19",
+                  "title": "Review: Case Endings & Agreement",
+                  "durationSeconds": 560,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-20",
+                  "title": "Final Practice: Sentence Construction",
+                  "durationSeconds": 570,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mission-10",
+          "courseId": "13",
+          "title": "Milestone 10: Course Conclusion",
+          "duration": "19 m",
+          "completed": 0,
+          "total": 2,
+          "modules": [
+            {
+              "id": "m-10-0",
+              "title": "Milestone 10: Course Conclusion Module",
+              "duration": "19 m",
+              "completed": 0,
+              "total": 2,
+              "lessons": [
+                {
+                  "id": "bafl-21",
+                  "title": "Final Revision & Key Points",
+                  "durationSeconds": 580,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                },
+                {
+                  "id": "bafl-22",
+                  "title": "Course Conclusion & Next Steps",
+                  "durationSeconds": 600,
+                  "freePreview": false,
+                  "videoUrl": "https://www.youtube.com/embed/1A1jPupL5Co",
+                  "courseId": "13"
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "_id": "13",
+      "_id": "14",
       "slug": "tafsir-surah-al-Mayedah",
       "title": "Tafsir Al-Qur'an: Surah Al-Baqarah",
       "shortDescription": "A comprehensive, verse-by-verse study of Surah Al-Baqarah, exploring classical Tafsir, spiritual lessons, and practical applications.",

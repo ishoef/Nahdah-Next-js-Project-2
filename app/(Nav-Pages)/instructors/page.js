@@ -1,11 +1,11 @@
-import TeachersSection from "@/components/home-components/our-teachers";
+import TeachersGrid from "@/components/teachers-components/teachersGrid";
 import React from "react";
 
 const Page = () => {
   return (
-    <>
-      <TeachersSection />
-    </>
+    <div>
+      <TeachersGrid />
+    </div>
   );
 };
 

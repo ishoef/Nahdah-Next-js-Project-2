@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Mohammad Imran",
+    "title": "Associate Professor of Hadith",
+    "tagline": "Empowering minds in Islamic Studies",
+    "department": "Islamic Studies",
+    "profileImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800",
+    "email": "imran@example.edu",
+    "phone": "+1 (555) 000-0000",
+    "stats": { "students": 500, "courses": 3, "experience": 22 },
+    "rating": 4.9,
+    "years": 22,
+    "about": "Dr. Mohammad Imran has over two decades of experience teaching Hadith, Tafsir and classical Arabic. He supervises postgraduate research, publishes on hadith methodology, and runs community mentorship programmes focused on applied scholarship and student development.",
+    "bio": "20+ years teaching Hadith, Tafsir, and classical Arabic. Passionate about student mentorship and research. Supervises MA theses and regularly gives public seminars on hadith authentication.",
+    "philosophy": {
+      "title": "Islamic Studies Teaching Philosophy",
+      "content": "I believe education in Islamic Studies should focus on:\n• Accessibility First: making knowledge available to all\n• Practical Application: real-world implementation of skills\n• Continuous Innovation: keeping up with latest research and methods\n• Student-Centric Design: prioritizing student engagement and success"
+    },
+    "specialties": ["Ṣaḥīḥ al-Bukhārī", "Tafsir", "Arabic Grammar"],
+    "credentials": [
+      { "title": "PhD in Hadith Studies", "institute": "Al-Azhar University" },
+      { "title": "M.A. Tafsir & Exegesis", "institute": "Cairo University" }
+    ],
+    "courses": [
+      {
+        "title": "Ṣaḥīḥ al-Bukhārī",
+        "rating": 4.9,
+        "students": 120,
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Tafsir",
+        "rating": 4.9,
+        "students": 100,
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Arabic Grammar",
+        "rating": 4.9,
+        "students": 80,
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Ali H.",
+        "rating": 5,
+        "comment": "Excellent instructor, very clear and engaging!"
+      },
+      {
+        "name": "Fatima S.",
+        "rating": 4.9,
+        "comment": "Learned so much, highly recommended."
+      }
+    ],
+    "social": { "linkedin": "#", "twitter": "#", "website": "#" }
+  },
+  {
+    "id": "2",
+    "name": "Ustadhah Ayesha Rahman",
+    "title": "Senior Lecturer — Arabic Language",
+    "tagline": "Empowering minds in Languages",
+    "department": "Languages",
+    "profileImage": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800",
+    "email": "ayesha@example.edu",
+    "phone": "+1 (555) 000-0000",
+    "stats": { "students": 400, "courses": 3, "experience": 12 },
+    "rating": 4.8,
+    "years": 12,
+    "about": "Ustadhah Ayesha specializes in Arabic morphology (sarf) and syntax (nahw) with extensive experience designing adult reading and fluency programmes. Her classes emphasize reading practice, communicative drills and carefully scaffolded grammar exercises.",
+    "bio": "Specialist in Arabic morphology and pedagogy. Loves designing interactive reading courses for adults. Has developed modular curriculum for intermediate-to-advanced learners and leads teacher-training workshops.",
+    "philosophy": {
+      "title": "Languages Teaching Philosophy",
+      "content": "I believe education in Languages should focus on:\n• Accessibility First: making knowledge available to all\n• Practical Application: real-world implementation of skills\n• Continuous Innovation: keeping up with latest research and methods\n• Student-Centric Design: prioritizing student engagement and success"
+    },
+    "specialties": ["Nahw (Grammar)", "Sarf (Morphology)", "Reading Practice"],
+    "credentials": [
+      {
+        "title": "M.A. Arabic Pedagogy",
+        "institute": "International Islamic University"
+      },
+      {
+        "title": "Certified Language Trainer",
+        "institute": "British Council (Train-the-Trainer)"
+      }
+    ],
+    "courses": [
+      {
+        "title": "Nahw (Grammar)",
+        "rating": 4.8,
+        "students": 120,
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Sarf (Morphology)",
+        "rating": 4.8,
+        "students": 100,
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Reading Practice",
+        "rating": 4.8,
+        "students": 80,
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Aisha R.",
+        "rating": 4.9,
+        "comment": "Fantastic teaching methods!"
+      },
+      {
+        "name": "Hassan K.",
+        "rating": 4.8,
+        "comment": "Very patient and knowledgeable."
+      }
+    ],
+    "social": { "linkedin": "#", "twitter": "#", "website": "#" }
+  },
+  {
+    "id": "3",
+    "name": "Prof. Khalid Hasan",
+    "title": "Professor — Fiqh & Usul",
+    "tagline": "Empowering minds in Jurisprudence",
+    "department": "Jurisprudence",
+    "profileImage": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800",
+    "email": "khalid@example.edu",
+    "phone": "+1 (555) 000-0000",
+    "stats": { "students": 600, "courses": 3, "experience": 30 },
+    "rating": 5.0,
+    "years": 30,
+    "about": "Professor Khalid is a noted researcher in comparative fiqh and usul al-fiqh. He directs community legal education initiatives and publishes comparative jurisprudence research that bridges classical doctrine with contemporary issues.",
+    "bio": "Researcher of comparative fiqh with deep interest in community-led legal education. Supervises research projects that examine modern applications of classical rulings and comparative methodologies.",
+    "philosophy": {
+      "title": "Jurisprudence Teaching Philosophy",
+      "content": "I believe education in Jurisprudence should focus on:\n• Accessibility First: making knowledge available to all\n• Practical Application: real-world implementation of skills\n• Continuous Innovation: keeping up with latest research and methods\n• Student-Centric Design: prioritizing student engagement and success"
+    },
+    "specialties": ["Fiqh", "Usul al-Fiqh", "Comparative Jurisprudence"],
+    "credentials": [
+      {
+        "title": "PhD in Islamic Jurisprudence",
+        "institute": "University of Medina"
+      },
+      {
+        "title": "Visiting Scholar",
+        "institute": "Oxford Centre for Islamic Studies"
+      }
+    ],
+    "courses": [
+      {
+        "title": "Fiqh",
+        "rating": 5.0,
+        "students": 200,
+        "image": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Usul al-Fiqh",
+        "rating": 5.0,
+        "students": 180,
+        "image": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Comparative Jurisprudence",
+        "rating": 5.0,
+        "students": 150,
+        "image": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      }
+    ],
+    "reviews": [
+      { "name": "Omar L.", "rating": 5, "comment": "Outstanding expertise!" },
+      {
+        "name": "Sara M.",
+        "rating": 4.9,
+        "comment": "Highly insightful lectures."
+      }
+    ],
+    "social": { "linkedin": "#", "twitter": "#", "website": "#" }
+  },
+  {
+    "id": "4",
+    "name": "Dr. Noor Fatima",
+    "title": "Lecturer — Islamic History",
+    "tagline": "Empowering minds in History",
+    "department": "History",
+    "profileImage": "https://images.unsplash.com/photo-1531123414780-fb0d0b3b8b5a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800",
+    "email": "noor@example.edu",
+    "phone": "+1 (555) 000-0000",
+    "stats": { "students": 350, "courses": 3, "experience": 9 },
+    "rating": 4.7,
+    "years": 9,
+    "about": "Dr. Noor Fatima researches early Islamic civilization and highlights female scholarship across Islamic history. She authors books and organizes research seminars aimed at bringing historical narratives into contemporary study.",
+    "bio": "Author and educator focusing on early Islamic civilization and female scholarship. Teaches source criticism, historiography and research methods tailored for undergraduate and postgraduate students.",
+    "philosophy": {
+      "title": "History Teaching Philosophy",
+      "content": "I believe education in History should focus on:\n• Accessibility First: making knowledge available to all\n• Practical Application: real-world implementation of skills\n• Continuous Innovation: keeping up with latest research and methods\n• Student-Centric Design: prioritizing student engagement and success"
+    },
+    "specialties": ["Islamic History", "Biographies", "Research Methods"],
+    "credentials": [
+      {
+        "title": "PhD in Islamic History",
+        "institute": "University of Cambridge"
+      },
+      { "title": "Published Author", "institute": "Various Academic Presses" }
+    ],
+    "courses": [
+      {
+        "title": "Islamic History",
+        "rating": 4.7,
+        "students": 100,
+        "image": "https://images.unsplash.com/photo-1531123414780-fb0d0b3b8b5a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Biographies",
+        "rating": 4.7,
+        "students": 80,
+        "image": "https://images.unsplash.com/photo-1531123414780-fb0d0b3b8b5a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Research Methods",
+        "rating": 4.7,
+        "students": 70,
+        "image": "https://images.unsplash.com/photo-1531123414780-fb0d0b3b8b5a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      }
+    ],
+    "reviews": [
+      { "name": "Leila N.", "rating": 4.8, "comment": "Very inspiring!" },
+      {
+        "name": "Yusuf A.",
+        "rating": 4.7,
+        "comment": "Learned a lot from her."
+      }
+    ],
+    "social": { "linkedin": "#", "twitter": "#", "website": "#" }
+  },
+  {
+    "id": "5",
+    "name": "Sheikh Abdullah Al-Rashid",
+    "title": "Senior Instructor — Qur'an Memorization",
+    "tagline": "Empowering minds in Islamic Studies",
+    "department": "Islamic Studies",
+    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800",
+    "email": "abdullah@example.edu",
+    "phone": "+1 (555) 000-0000",
+    "stats": { "students": 400, "courses": 3, "experience": 15 },
+    "rating": 4.9,
+    "years": 15,
+    "about": "Sheikh Abdullah specializes in tajweed and memorization pedagogy. He has trained many huffaz using incremental memorization techniques and focuses on preserving correct recitation and melodic rhythm.",
+    "bio": "Specializing in Quranic memorization techniques and classical Arabic with 15 years experience. Runs memorization cohorts and tajweed clinics for learners of all ages.",
+    "philosophy": {
+      "title": "Qur'an Memorization Philosophy",
+      "content": "I believe education in Islamic Studies should focus on:\n• Accessibility First: making knowledge available to all\n• Practical Application: real-world implementation of skills\n• Continuous Innovation: keeping up with latest research and methods\n• Student-Centric Design: prioritizing student engagement and success"
+    },
+    "specialties": ["Qur'an", "Tajweed", "Memorization Techniques"],
+    "credentials": [
+      { "title": "Ijazah in Qira'at", "institute": "Traditional Chain" },
+      { "title": "Certificate in Pedagogy", "institute": "Local Institute" }
+    ],
+    "courses": [
+      {
+        "title": "Qur'an",
+        "rating": 4.9,
+        "students": 150,
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Tajweed",
+        "rating": 4.9,
+        "students": 130,
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Memorization Techniques",
+        "rating": 4.9,
+        "students": 120,
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      }
+    ],
+    "reviews": [
+      { "name": "Hadi M.", "rating": 5, "comment": "Exceptional teacher!" },
+      { "name": "Amira S.", "rating": 4.9, "comment": "Highly recommended!" }
+    ],
+    "social": { "linkedin": "#", "twitter": "#", "website": "#" }
+  },
+  {
+    "id": "6",
+    "name": "Dr. Hana Al-Mansouri",
+    "title": "Lecturer — Islamic Law",
+    "tagline": "Empowering minds in Jurisprudence",
+    "department": "Jurisprudence",
+    "profileImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800",
+    "email": "hana@example.edu",
+    "phone": "+1 (555) 000-0000",
+    "stats": { "students": 300, "courses": 3, "experience": 11 },
+    "rating": 4.8,
+    "years": 11,
+    "about": "Dr. Hana researches contemporary fiqh and legal applications, focusing on adapting classical rulings to modern contexts. She teaches case-based courses that prepare students to apply jurisprudence principles practically.",
+    "bio": "Expert in contemporary Islamic law applications and modern fiqh challenges. Teaches applied fiqh, regulatory frameworks and conducts workshops for legal practitioners.",
+    "philosophy": {
+      "title": "Islamic Law Teaching Philosophy",
+      "content": "I believe education in Jurisprudence should focus on:\n• Accessibility First: making knowledge available to all\n• Practical Application: real-world implementation of skills\n• Continuous Innovation: keeping up with latest research and methods\n• Student-Centric Design: prioritizing student engagement and success"
+    },
+    "specialties": ["Contemporary Fiqh", "Islamic Law", "Legal Applications"],
+    "credentials": [
+      {
+        "title": "PhD in Islamic Law",
+        "institute": "International Islamic University"
+      },
+      { "title": "Advisor — Legal Reform", "institute": "Policy Lab" }
+    ],
+    "courses": [
+      {
+        "title": "Contemporary Fiqh",
+        "rating": 4.8,
+        "students": 90,
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Islamic Law",
+        "rating": 4.8,
+        "students": 80,
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      },
+      {
+        "title": "Legal Applications",
+        "rating": 4.8,
+        "students": 70,
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=800"
+      }
+    ],
+    "reviews": [
+      { "name": "Khalid S.", "rating": 4.9, "comment": "Very knowledgeable!" },
+      {
+        "name": "Nadia T.",
+        "rating": 4.8,
+        "comment": "Excellent explanations."
+      }
+    ],
+    "social": { "linkedin": "#", "twitter": "#", "website": "#" }
+  }
+]
