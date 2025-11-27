@@ -286,15 +286,15 @@ export default function SingleInstructorPage() {
             {/* Card Preview */}
             <div className="lg:col-span-2">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                {/* Desktop / Tablet layout (md+) */}
                 <div
                   ref={containerRef}
-                  className="relative w-full"
-                  style={{ aspectRatio: "16/9" }}
+                  className="hidden md:block relative w-full aspect-[16/9]"
                 >
                   {/* Card Background */}
                   <div className="absolute inset-0 bg-gradient-to-r from-[#206380] to-[#1a4d66] dark:from-[#0f3a4d] dark:to-[#0a2a3a]"></div>
 
-                  {/* Profile Image */}
+                  {/* Profile Image (desktop) */}
                   <div className="absolute left-6 sm:left-8 top-1/2 -translate-y-1/2 w-24 sm:w-32 md:w-40 h-24 sm:h-32 md:h-40 rounded-xl overflow-hidden ring-4 ring-white/30 shadow-xl">
                     <Image
                       src={
@@ -307,13 +307,13 @@ export default function SingleInstructorPage() {
                     />
                   </div>
 
-                  {/* Text Content */}
-                  <div className="absolute right-6 sm:right-8 top-1/2 -translate-y-1/2 left-44 sm:left-56 md:left-64 space-y-2">
+                  {/* Text Content (desktop) */}
+                  <div className="absolute right-6 sm:right-8 top-1/2 -translate-y-1/2 left-[180px] sm:left-[220px] md:left-[260px] space-y-2">
                     <div>
-                      <h3 className="text-xl sm:text-3xl md:text-4xl font-bold text-white mb-1">
+                      <h3 className="text-lg sm:text-3xl md:text-4xl font-semibold sm:font-bold text-white mb-1">
                         {instructor.name}
                       </h3>
-                      <p className="text-sm sm:text-lg font-semibold text-blue-200 dark:text-cyan-300">
+                      <p className="text-sm sm:text-lg sm:font-semibold text-blue-200 dark:text-cyan-300">
                         {instructor.title}
                       </p>
                       <p className="text-xs sm:text-sm text-blue-100 dark:text-gray-300 mt-1">
@@ -335,6 +335,47 @@ export default function SingleInstructorPage() {
                     </div>
                   </div>
                 </div>
+
+                {/* Mobile layout (sm and below) - stacked, accessible */}
+                <div className="block md:hidden bg-gradient-to-r from-[#206380] to-[#1a4d66] dark:from-[#0f3a4d] dark:to-[#0a2a3a] p-4 sm:p-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-20 h-20 rounded-lg overflow-hidden ring-4 ring-white/20 shadow-lg flex-shrink-0">
+                      <Image
+                        src={
+                          instructor.profileImage ||
+                          "/placeholder.svg?height=160&width=160&query=instructor profile"
+                        }
+                        alt={instructor.name}
+                        width={160}
+                        height={160}
+                        className="object-cover w-full h-full"
+                      />
+                    </div>
+
+                    <div className="flex-1 min-w-0">
+                      <h3 className="text-base font-semibold text-white line-clamp-2">
+                        {instructor.name}
+                      </h3>
+                      <p className="text-xs text-blue-100 mt-1">
+                        {instructor.title}
+                      </p>
+                      <p className="text-xs text-blue-100/90 mt-1 line-clamp-2">
+                        {instructor.tagline}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-between items-center mt-6 border-t border-white/20 pt-3 text-xs text-blue-100/90 space-y-2">
+                    <div className="flex items-center gap-2">
+                      <FaEnvelope size={14} className="text-white" />
+                      <span className="truncate">{instructor.email}</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <FaPhone size={14} className="text-white" />
+                      <span>{instructor.phone}</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -342,7 +383,7 @@ export default function SingleInstructorPage() {
             <div className="flex flex-col justify-center gap-4">
               <button
                 onClick={downloadCard}
-                className="flex items-center justify-center gap-2 px-6 py-3 bg-[#206380] dark:bg-cyan-600 text-white font-semibold rounded-xl hover:bg-[#1a4d66] dark:hover:bg-cyan-500 transition-all duration-300 shadow-md hover:shadow-lg w-full"
+                className="cursor-pointer flex items-center justify-center gap-2 px-6 py-3 bg-[#206380] dark:bg-cyan-600 text-white font-semibold rounded-xl hover:bg-[#1a4d66] dark:hover:bg-cyan-500 transition-all duration-300 shadow-md hover:shadow-lg w-full"
               >
                 <FaDownload size={16} />
                 Download Card

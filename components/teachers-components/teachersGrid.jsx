@@ -87,7 +87,7 @@ export default function TeachersGrid() {
 
           <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
             <div className="relative">
-              <label className="block text-sm font-medium text-foreground dark:text-gray-300 mb-2">
+              <label className="hidden sm:block text-sm font-medium text-foreground dark:text-gray-300 mb-2">
                 Category
               </label>
               <select
@@ -101,11 +101,11 @@ export default function TeachersGrid() {
                   </option>
                 ))}
               </select>
-              <ChevronDown className="absolute right-3 top-9 w-4 h-4 text-muted-foreground dark:text-gray-500 pointer-events-none" />
+              <ChevronDown className="absolute right-3 top-4 sm:top-10 w-4 h-4 text-muted-foreground dark:text-gray-500 pointer-events-none" />
             </div>
 
             <div className="relative">
-              <label className="block text-sm font-medium text-foreground dark:text-gray-300 mb-2">
+              <label className="hidden sm:block text-sm font-medium text-foreground dark:text-gray-300 mb-2">
                 Teaching Subject
               </label>
               <select
@@ -119,7 +119,7 @@ export default function TeachersGrid() {
                   </option>
                 ))}
               </select>
-              <ChevronDown className="absolute right-3 top-9 w-4 h-4 text-muted-foreground dark:text-gray-500 pointer-events-none" />
+              <ChevronDown className="absolute right-3 top-4 sm:top-10 w-4 h-4 text-muted-foreground dark:text-gray-500 pointer-events-none" />
             </div>
           </div>
         </div>
