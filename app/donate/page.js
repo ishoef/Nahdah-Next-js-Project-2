@@ -1,7 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { Heart, TrendingUp, Users, Award, Share2, Check } from "lucide-react";
+import {
+  Heart,
+  TrendingUp,
+  Users,
+  Award,
+  Share2,
+  Check,
+  Sparkles,
+} from "lucide-react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 const runningCampaigns = [
   {
@@ -102,7 +112,7 @@ export default function DonationSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-[#206380] to-blue-600 mb-6 mx-auto">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-nhd-700 mb-6 mx-auto">
             <Heart className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-slate-900 dark:text-white mb-4 text-balance">
@@ -389,6 +399,32 @@ export default function DonationSection() {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* Final CTA */}
+        <div className="bg-gradient-to-br from-nhd-700 via-nhd-800 to-nhd-700 rounded-2xl shadow-2xl p-8 sm:p-12 text-center text-white mb-12">
+          <Sparkles className="w-12 h-12 mx-auto mb-4" />
+          <h2 className="text-2xl sm:text-3xl font-bold mb-3">
+            Be Part of the Islamic Education Revolution
+          </h2>
+          <p className="text-sm sm:text-base opacity-95 mb-6 max-w-2xl mx-auto">
+            Your generous support directly transforms lives, empowers scholars,
+            and builds thriving communities of authentic Islamic knowledge.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+            <Link
+              href={"/impact"}
+              className="px-6 py-3 bg-white text-[#206380] font-semibold rounded-md hover:bg-slate-100 transition-transform transform hover:scale-102"
+            >
+              See Our Impact
+            </Link>
+          </div>
+
+          <p className="mt-6 text-white/90 text-xs font-semibold">
+            ✓ 100% Transparent • ✓ Tax-Deductible • ✓ Islamic Compliant
+            (Shariah-Approved)
+          </p>
         </div>
       </div>
     </div>

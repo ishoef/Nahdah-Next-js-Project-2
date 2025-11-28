@@ -58,7 +58,7 @@ const Header = () => {
         {/* Right Section */}
         <div className="flex items-center gap-2 sm:gap-3 lg:gap-4">
           <Link href={"/donate"}>
-            <Button className={"cursor-pointer"}>
+            <Button className={"cursor-pointer dark:text-white"}>
               <Heart /> Donate
             </Button>
           </Link>

@@ -1,5 +1,6 @@
 "use client";
 
+import TimelineSection from "@/components/impact-components/TimelineSection";
 import {
   Heart,
   Users,
@@ -157,7 +158,8 @@ const successStories = [
     role: "Quranic Scholar & Teacher",
     impact: "Teaching 50+ students",
     rating: 5,
-    image: "/muslim-teacher-islamic.jpg",
+    image:
+      "https://images.unsplash.com/photo-1712249238970-27d98e5a1bc0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGlzbGFtaWMlMjBzY2llbmNlc3xlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     name: "Ayesha Karim",
@@ -166,7 +168,8 @@ const successStories = [
     role: "Islamic Studies Graduate",
     impact: "Now mentoring women",
     rating: 5,
-    image: "/muslim-woman-scholar.jpg",
+    image:
+      "https://plus.unsplash.com/premium_photo-1723924897550-1d88bf11e9c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXNsYW1pYyUyMHNjaWVuY2VzfGVufDB8fDB8fHww",
   },
   {
     name: "Ahmed Hassan",
@@ -175,7 +178,8 @@ const successStories = [
     role: "Religious Scholar",
     impact: "Advisory board member",
     rating: 5,
-    image: "/islamic-scholar-portrait.jpg",
+    image:
+      "https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWR2aXNvcnl8ZW58MHx8MHx8fDA%3D",
   },
 ];
 
@@ -198,35 +202,6 @@ const upcomingInitiatives = [
     fundingGoal: "$200,000",
     icon: Heart,
     beneficiaries: "500+ orphans",
-  },
-];
-
-const timelineEvents = [
-  {
-    year: "2020",
-    milestone: "Founded An-Nahdah Academy",
-    description:
-      "Started with vision to democratize Islamic education globally",
-  },
-  {
-    year: "2021",
-    milestone: "First 100 Scholarships",
-    description: "Supported first batch of Quranic scholars",
-  },
-  {
-    year: "2022",
-    milestone: "Women's Wing Launched",
-    description: "Empowered 500+ Muslim women in Islamic sciences",
-  },
-  {
-    year: "2023",
-    milestone: "$1M+ Raised",
-    description: "Reached international donor network",
-  },
-  {
-    year: "2024",
-    milestone: "15,000+ Lives Impacted",
-    description: "Expanded to 89 countries and communities",
   },
 ];
 
@@ -275,7 +250,7 @@ export default function ImpactPage() {
           {/* toned down sizes for better responsiveness */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-extrabold mb-4 text-slate-900 dark:text-white leading-tight">
             Our{" "}
-            <span className="bg-gradient-to-r from-[#206380] via-blue-600 to-emerald-500 bg-clip-text text-transparent">
+            <span className="bg-nhd-700 bg-clip-text text-transparent">
               Impact
             </span>{" "}
             on Islamic Education
@@ -288,19 +263,21 @@ export default function ImpactPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-            <button
-              className="px-6 sm:px-8 py-3 sm:py-4 bg-[#206380] text-white font-semibold rounded-lg hover:bg-[#1a4d63] transition-transform transform hover:scale-102 shadow-md inline-flex items-center gap-2"
+            <Link
+              href={"/donate"}
+              className="px-6 sm:px-8 py-3 sm:py-4 bg-[#206380] text-white font-semibold rounded-lg hover:bg-[#1a4d63] transition-transform transform hover:scale-102 shadow-md inline-flex items-center justify-center gap-2"
               aria-label="Support Our Mission"
             >
               Support Our Mission
               <ChevronRight className="w-4 h-4" />
-            </button>
-            <button
+            </Link>
+            <a
+              href="#story"
               className="px-6 sm:px-8 py-3 sm:py-4 bg-white dark:bg-slate-800 text-[#206380] dark:text-blue-400 font-semibold rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors border-2 border-[#206380]/10"
               aria-label="Watch Our Story"
             >
               Watch Our Story
-            </button>
+            </a>
           </div>
         </div>
 
@@ -578,56 +555,7 @@ export default function ImpactPage() {
         </div>
 
         {/* Timeline & Upcoming */}
-        <div className="mb-16">
-          <div className="text-center mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-2">
-              Our Growing Journey
-            </h2>
-            <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-              From a small vision to a global movement transforming Islamic
-              education.
-            </p>
-          </div>
-
-          <div className="relative">
-            <div className="absolute left-6 sm:left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-[#206380] via-emerald-500/40 to-[#206380] rounded-full sm:-translate-x-1/2" />
-
-            <div className="space-y-10 sm:space-y-14">
-              {timelineEvents.map((event, idx) => (
-                <div
-                  key={idx}
-                  className={`flex gap-6 sm:gap-0 ${
-                    idx % 2 === 0 ? "sm:flex-row-reverse" : ""
-                  }`}
-                >
-                  <div
-                    className={`flex-1 px-4 sm:px-0 ${
-                      idx % 2 === 0 ? "sm:text-right" : ""
-                    }`}
-                  >
-                    <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-xl transition-all">
-                      <p className="text-[#206380] font-semibold text-lg mb-1">
-                        {event.year}
-                      </p>
-                      <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2">
-                        {event.milestone}
-                      </h3>
-                      <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-                        {event.description}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex justify-center">
-                    <div className="w-4 h-4 bg-gradient-to-br from-[#206380] to-emerald-500 rounded-full border-3 border-white dark:border-slate-900 shadow-md" />
-                  </div>
-
-                  <div className="flex-1 hidden sm:block" />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+        <TimelineSection />
 
         {/* Upcoming Initiatives */}
         <div className="mb-20">
@@ -713,7 +641,7 @@ export default function ImpactPage() {
         </div>
 
         {/* Final CTA */}
-        <div className="bg-gradient-to-r from-[#206380] via-blue-600 to-emerald-500 rounded-2xl shadow-2xl p-8 sm:p-12 text-center text-white mb-12">
+        <div className="bg-gradient-to-br from-nhd-700 via-nhd-800 to-nhd-700 rounded-2xl shadow-2xl p-8 sm:p-12 text-center text-white mb-12">
           <Sparkles className="w-12 h-12 mx-auto mb-4" />
           <h2 className="text-2xl sm:text-3xl font-bold mb-3">
             Be Part of the Islamic Education Revolution
@@ -724,7 +652,10 @@ export default function ImpactPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-            <Link href={"/donate"} className="px-6 py-3 bg-white text-[#206380] font-semibold rounded-md hover:bg-slate-100 transition-transform transform hover:scale-102">
+            <Link
+              href={"/donate"}
+              className="px-6 py-3 bg-white text-[#206380] font-semibold rounded-md hover:bg-slate-100 transition-transform transform hover:scale-102"
+            >
               Donate Now
             </Link>
             <button className="px-6 py-3 bg-white/20 text-white font-semibold rounded-md hover:bg-white/30 transition-colors border border-white/30">
