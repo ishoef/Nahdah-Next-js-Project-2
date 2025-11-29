@@ -7,7 +7,7 @@ import FAQ from "@/components/home-components/faq";
 import NewsSection from "@/components/home-components/news";
 import FounderSection from "@/components/home-components/founder";
 import CooSection from "@/components/home-components/coo";
-import CourseFeatures from "@/components/home-components/course-feature";
+import CourseFeatures from "@/components/home-components/learningMaterials";
 import CourseShowcase from "@/components/home-components/course-showcase";
 import TeachersSection from "@/components/home-components/our-teachers";
 import JoinOurCommunity from "@/components/home-components/JoinOurCommunity";

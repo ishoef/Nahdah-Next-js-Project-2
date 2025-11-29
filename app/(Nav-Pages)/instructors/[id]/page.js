@@ -11,7 +11,6 @@ export function generateStaticParams() {
 
 export default async function SingleInstructorPage({ params }) {
   const { id } = await params;
-  console.log(id);
   const instructor = instructors.find((instruc) => instruc.id === id);
 
   if (!instructor) {

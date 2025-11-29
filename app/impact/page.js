@@ -509,9 +509,9 @@ export default function ImpactPage() {
             {successStories.map((story, idx) => (
               <div
                 key={idx}
-                className="group bg-white dark:bg-slate-800 rounded-2xl shadow-md hover:shadow-xl transition-all p-6 hover:scale-102 transform flex flex-col"
+                className="group bg-white dark:bg-slate-800 rounded-2xl shadow-md hover:shadow-xl transition-all p-4 hover:scale-102 transform flex flex-col"
               >
-                <div className="mb-4 relative h-40 rounded-xl overflow-hidden">
+                <div className="mb-4 relative h-48 rounded-xl overflow-hidden">
                   <img
                     src={story.image || "/placeholder.svg"}
                     alt={story.name}

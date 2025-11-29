@@ -43,10 +43,10 @@ export default function CourseShowcase() {
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
               {[
-                { title: "Aqidah", img: "/public/Icons/icon-192x192.png" },
-                { title: "Tafsir", img: "/public/Icons/icon-192x192.png" },
-                { title: "Hadith", img: "/public/Icons/icon-192x192.png" },
-                { title: "Fiqh", img: "/public/Icons/icon-192x192.png" },
+                { title: "Aqidah", img: "/Icons/icon-512x512.png" },
+                { title: "Tafsir", img: "/Icons/icon-512x512.png" },
+                { title: "Hadith", img: "/Icons/icon-512x512.png" },
+                { title: "Fiqh", img: "/Icons/icon-512x512.png" },
               ].map((item, i) => (
                 <div
                   key={i}
