@@ -1,18 +1,19 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { FaArrowLeft } from "react-icons/fa";
+import { ChevronLeft } from "lucide-react";
 
-export default function GoBackButton({ label = "Go Back" }) {
+export default function GoBackButton() {
   const router = useRouter();
 
   return (
     <button
       onClick={() => router.back()}
-      className="flex items-center gap-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-100 px-4 py-2 rounded-lg font-medium transition-colors duration-200"
+      className="flex items-center gap-1 text-primary hover:text-primary/80 transition-colors duration-200 font-medium text-sm"
+      aria-label="Go back"
     >
-      <FaArrowLeft />
-      <span>{label}</span>
+      <ChevronLeft size={20} />
+      <span>Back</span>
     </button>
   );
 }

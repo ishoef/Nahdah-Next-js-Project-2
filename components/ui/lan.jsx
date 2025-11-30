@@ -1,30 +1,53 @@
 "use client";
+
 import { useState } from "react";
+import { Globe } from "lucide-react";
 
 export default function LanguageToggle() {
+  const [language, setLanguage] = useState("en");
+  const [isOpen, setIsOpen] = useState(false);
+
   const languages = [
-    { code: "en", label: "English", text: "Hello, welcome to our website!" },
-    { code: "bn", label: "বাংলা", text: "হ্যালো, আমাদের ওয়েবসাইটে স্বাগতম!" },
-    { code: "ar", label: "العربية", text: "مرحباً، أهلاً بك في موقعنا!" },
+    { code: "en", name: "English" },
+    { code: "es", name: "Español" },
+    { code: "fr", name: "Français" },
+    { code: "de", name: "Deutsch" },
   ];
 
-  const [index, setIndex] = useState(0);
-
-  const handleToggle = () => {
-    setIndex((prevIndex) => (prevIndex + 1) % languages.length);
+  const handleLanguageChange = (code) => {
+    setLanguage(code);
+    setIsOpen(false);
+    // TODO: Implement actual language switching logic
   };
 
   return (
-    <>
-      {/* <div className="text-xl font-semibold transition-all duration-300">
-        {languages[index].text}
-      </div> */}
+    <div className="relative">
       <button
-        onClick={handleToggle}
-        className="cursor-pointer bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-all duration-200"
+        onClick={() => setIsOpen(!isOpen)}
+        className="p-2 rounded-lg hover:bg-muted transition-colors duration-200 flex items-center gap-2"
+        aria-label="Toggle language"
       >
-        {languages[(index + 1) % languages.length].label}
+        <Globe size={20} />
+        <span className="text-sm font-medium uppercase">{language}</span>
       </button>
-    </>
+
+      {isOpen && (
+        <div className="absolute right-0 mt-2 w-40 bg-card border border-border rounded-lg shadow-lg z-50">
+          {languages.map((lang) => (
+            <button
+              key={lang.code}
+              onClick={() => handleLanguageChange(lang.code)}
+              className={`w-full text-left px-4 py-2 text-sm transition-colors duration-200 ${
+                language === lang.code
+                  ? "bg-primary text-primary-foreground font-semibold"
+                  : "text-foreground hover:bg-muted"
+              }`}
+            >
+              {lang.name}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
   );
 }

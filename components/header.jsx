@@ -19,23 +19,28 @@ const navItems = [
 ];
 
 const Header = () => {
+  // --- hooks (must always run, in same order) ---
   const [drawerOpen, setDrawerOpen] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
+
+  // any other hooks should go here as well
+
+  // derived values / non-hooks
   const session = false;
-  if (pathname.includes("login") || pathname.includes("register")) return null;
 
-  const handleLogout = async () => {
-    // await clientSignOut();
-    // router.push("/");
-    // setDrawerOpen(false);
-
-    alert("clciked log out");
-  };
-
+  // useEffect must be called unconditionally
   useEffect(() => {
     setDrawerOpen(false);
   }, [pathname]);
+
+  // now it's safe to early-return based on pathname
+  if (pathname?.includes("login") || pathname?.includes("register"))
+    return null;
+
+  const handleLogout = async () => {
+    alert("clicked log out");
+  };
 
   return (
     <header className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-300">
@@ -66,7 +71,6 @@ const Header = () => {
           {/* Desktop Login/Profile */}
           {session ? (
             <div className="hidden md:flex">
-              {/* <ProfilePhoto /> */}
               <p>P</p>
             </div>
           ) : (
